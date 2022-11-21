@@ -1,12 +1,12 @@
-baseURL = "/"
-relativeURLs = true
+baseurl = "https://mmellet.gitpages.huma-num.fr/FRA3825_2023/"
 title = "FRA3825"
 theme = "book"
+
+removePathAccents=true
 
 [params]
   BookMenuBundle = "/menu"
   BookTheme = "light"
-
 
 [outputFormats]
   [outputFormats.print]
@@ -24,3 +24,11 @@ theme = "book"
     [markup.goldmark.renderer]
      footnoteReturnLinkContents = "&uarr;"
       unsafe = true
+
+rssLimit = 200
+copyright = "2021 Margot Mellet CC BY-NC-SA"
+languageCode = "en-us"
+
+[author]
+	name = "Margot Mellet"
+	email = "margot.mellet@umontreal.ca"

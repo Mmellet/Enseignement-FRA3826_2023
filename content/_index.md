@@ -3,7 +3,7 @@ Bienvenue sur le site du cours **FRA3825|Pratiques de l'édition numérique**.
 
 Le cours se déroule officiellement le marid de 16h à 18h59 du 10 janvier au 11 avril. 
 
-Le plan du cours (*le véritable*) est disponible [ici](https://mmellet.github.io/FRA3825_2023/FRA3825_2023.pdf).
+Le plan du cours (*le véritable*) est disponible [ici]().
 
 Cet espace rassemble les différents éléments du cours : 
 

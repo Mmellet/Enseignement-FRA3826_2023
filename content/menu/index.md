@@ -2,7 +2,6 @@
 headless: true
 ---
 
-- **[Séances]({{< relref "/seances" >}})**
 - **[Modalités]({{< relref "/modalites" >}})**
 - **[Ressources]({{< relref "/documentation" >}})**
 - **<a href="https://demo.hedgedoc.org/" target="blank">Index des notes</a>**
