@@ -1,12 +1,12 @@
 baseurl = "/"
+relativeURLs = true
 title = "FRA3825"
 theme = "book"
 
-removePathAccents=true
-
 [params]
-
+  BookMenuBundle = "/menu"
   BookTheme = "light"
+
 
 [outputFormats]
   [outputFormats.print]
@@ -25,8 +25,7 @@ removePathAccents=true
      footnoteReturnLinkContents = "&uarr;"
       unsafe = true
 
-rssLimit = 200
-copyright = "2021 Margot Mellet CC BY-NC-SA"
+copyright = "2023 Margot Mellet CC BY-NC-SA"
 languageCode = "en-us"
 
 [author]
