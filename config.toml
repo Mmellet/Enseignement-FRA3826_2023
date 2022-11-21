@@ -5,7 +5,7 @@ theme = "book"
 removePathAccents=true
 
 [params]
-  BookMenuBundle = "/menu"
+
   BookTheme = "light"
 
 [outputFormats]
