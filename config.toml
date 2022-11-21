@@ -1,0 +1,26 @@
+baseURL = "/"
+relativeURLs = true
+title = "FRA3825"
+theme = "book"
+
+[params]
+  BookMenuBundle = "/menu"
+  BookTheme = "light"
+
+
+[outputFormats]
+  [outputFormats.print]
+    mediaType = "text/html" # normal
+    rel = "print" # rapport
+    baseName = "print" # /print dans l'URL
+
+[permalinks]
+  pages = "/:filename"
+  docs = "/seances/:title"
+
+[markup]
+  [markup.goldmark]
+    typographer = true
+    [markup.goldmark.renderer]
+     footnoteReturnLinkContents = "&uarr;"
+      unsafe = true
