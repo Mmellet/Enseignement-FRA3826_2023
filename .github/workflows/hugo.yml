@@ -39,7 +39,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodules: recursive
+          submodules: true
+          fetch-depth: 0  
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
