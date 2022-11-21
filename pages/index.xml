@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on FRA3825</title>
+    <link>/pages/</link>
+    <description>Recent content in Pages on FRA3825</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>margot.mellet@umontreal.ca (Margot Mellet)</managingEditor>
+    <webMaster>margot.mellet@umontreal.ca (Margot Mellet)</webMaster><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>/credits/</guid>
+      <description>Ce site a été réalisé avec les instances suivantes :
+Hugo et le theme Book créé par Alex Shpak (version 0.68) le script de la bannière du site provient du Montserrat créé par Claire Larsen et les outils :
+VsCodium Github </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>/test/</guid>
+      <description>lecture</description>
+    </item>
+    
+    <item>
+      <title>Bibliographie</title>
+      <link>/bibliographie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>/bibliographie/</guid>
+      <description> Bibliographie du cours # </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>/contact/</guid>
+      <description>Contact # margot.mellet@umontreal.ca
+Université de Montréal, Pavillon Lionel Groulx, 8e étage
+Local C8041, 3150, Rue Jean-Brillant, Montréal (QC) H3T 1N8 Canada
+mardi, jeudi</description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>/documentation/</guid>
+      <description>Ressources # Cette page référence les documentations utiles au cours dont des vidéos explicatives sur l&amp;rsquo;usage des outils.
+Hypothesis # Zotero # ouvrir dans mon navigateur HedgeDoc # HedgeDoc est un espace pour l&amp;rsquo;écriture collaborative et synchrone.
+Cet espace se structure selon 2 espaces :
+Espace d&amp;rsquo;édition # C&amp;rsquo;est dans cet espace que vous pourrez éditer.
+L&amp;rsquo;édition d&amp;rsquo;une note peut être effectuée via l&amp;rsquo;éditeur visuel :
+ou directement en Markdown dans le texte.</description>
+    </item>
+    
+    <item>
+      <title>Lectures</title>
+      <link>/lectures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>/lectures/</guid>
+      <description>Lectures &amp;amp; annotations hebdomadaires # Bibliographie Zotero pour Lectures &amp;amp; annotations
+Séance 2 # L&amp;rsquo;image du texte pour une théorie de l&amp;rsquo;énonciation éditoriale (Souchier 1998) Bug de CAPTCHA : si vous ne parvenez pas à ouvrir l&amp;rsquo;article pour l&amp;rsquo;annoter, lisez-le ici en prenant en note vos commentaires, remarques, questions.
+OU
+Ajoutez l&amp;rsquo;extension hypothesis dans Chrome (ou Google Chromium) : https://web.hypothes.is/help/installing-the-chrome-extension/
+Une fois installée, vous aurez à cliquer sur l&amp;rsquo;article dans chrome : https://www.</description>
+    </item>
+    
+    <item>
+      <title>Modalités d&#39;évaluation</title>
+      <link>/modalites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>margot.mellet@umontreal.ca (Margot Mellet)</author>
+      <guid>/modalites/</guid>
+      <description> Modalités d&amp;rsquo;évaluation # Les modalités d&amp;rsquo;évaluation sont également disponibles dans la présentation du cours d&amp;rsquo;introduction ici.
+Exercices de prise en main = 20 % **** Travail de mi-session = 30 % Travail final = 50 % **** : Proposition du projet d&amp;rsquo;écriture **** : Publication Participation # Prise de note collaborative avec Hedgedoc en Markdown : Index des notes Examen de mi-session # Examen final # </description>
+    </item>
+    
+  </channel>
+</rss>
