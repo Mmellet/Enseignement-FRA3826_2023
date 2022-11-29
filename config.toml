@@ -1,5 +1,5 @@
 baseurl = "https://mmellet.github.io/FRA3825_2023/"
-relativeURLs = true
+#relativeURLs = true
 title = "FRA3825"
 theme = "book"
 
