@@ -8,27 +8,27 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 
 -------------------------
 
-
+<!--
 ## Hypothesis 
 
 <iframe src="https://mmellet.github.io/fra3825_2023/videos/Hypothesis.mp4" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 -------------------------
 -------------------------
-
+-->
 
 ## Zotero 
 
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/CompteRendu.html" title="description" height="500" width="800" ></iframe>
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Zotero.html" title="description" height="500" width="800" ></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/CompteRendu.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Zotero.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
 -------------------------
 -------------------------
 
-
+<!--
 ## HedgeDoc 
 
 [HedgeDoc](https://docs.hedgedoc.org/) est un espace pour l'écriture collaborative et synchrone. 

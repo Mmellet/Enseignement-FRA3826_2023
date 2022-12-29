@@ -8,6 +8,6 @@ title: Contact
 
 Université de Montréal, Pavillon Lionel Groulx, 8<sup>e</sup> étage
 
-Local C8041, 3150, Rue Jean-Brillant, Montréal (QC) H3T 1N8 Canada
+Local C8041, 3150, Rue Jean-Brillant, Montréal
 
-mardi, jeudi
+mardi (autres jours sur rendez-vous)

@@ -4,21 +4,27 @@ title: Modalités d'évaluation
 
 # Modalités d'évaluation
 
-*Les modalités d'évaluation sont également disponibles dans la présentation du cours d'introduction [ici](https://mmellet.github.io/fra3825_2023/seances/seance1/#pr%c3%a9sentation-des-modalit%c3%a9s-d%c3%a9valuation).*
+*Les modalités d'évaluation sont également disponibles dans la présentation du cours d'introduction [ici]().*
 
-- Exercices de prise en main = 20 %
-- **** [Travail de mi-session](https://mmellet.github.io/fra3825_2023/modalites/#examen-de-mi-session) = 30 %
+- Ateliers (évaluation continue) = 20 %
+- [Travail de mi-session](https://mmellet.github.io/fra3825_2023/modalites/#examen-de-mi-session) = 30 %
 - [Travail final](https://mmellet.github.io/fra3825_2023/modalites/#examen-final) = 50 %
-  - **** : Proposition du projet d'écriture
-  - **** : Publication
 
-## Participation 
+## Ateliers 
 
-- Prise de note collaborative avec [Hedgedoc](https://mmellet.github.io/fra3825_2023/documentation/hedgedoc) en [Markdown](https://mmellet.github.io/fra3825_2023/documentation/markdown) : [Index des notes](https://demo.hedgedoc.org/sl_ISH8hSDSCQ9TUQEDzQg#)
+1. Zotero - 24 janvier
+2. Stylo - 31 janvier
+3. Écriture Web - 7 février
+4. Github - 14 février
+5. Projet Github - 21 février
+6. Terminal - 7 mars
+7. Hugo - 14 mars
+8. Programmation - 21 mars
 
 
 ## Examen de mi-session 
 
+*descriptif à venir*
 <!--
 <iframe src="https://mmellet.github.io/fra3825_2023/slides/CompteRendu.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
@@ -29,6 +35,7 @@ title: Modalités d'évaluation
 
 ## Examen final 
 
+*descriptif à venir*
 <!--
 <iframe src="https://mmellet.github.io/fra3825_2023/slides/Poster.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
