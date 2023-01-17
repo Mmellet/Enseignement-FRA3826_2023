@@ -1,0 +1,716 @@
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>FRA3825- Pratiques de l'édition numérique - H2023</title>
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+	<style>
+		* {
+			box-sizing: border-box
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
+
+		/* Hide the images by default */
+		.mySlides {
+			display: none;
+		}
+
+		/* Next & previous buttons */
+		.prev,
+		.next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			margin-top: -22px;
+			padding: 16px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+
+		/* Caption text */
+		.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+		}
+
+		.active,
+		.dot:hover {
+			background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		@keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+
+			.prev,
+			.next,
+			.text {
+				font-size: 11px
+			}
+		}
+	</style>
+
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="reveal">
+		<div class="slides">
+
+			<div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
+			<section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+				<div id="fondop" style="position:inherit;top: -50px;left: -50px;">
+					<sup>FRA3825</sup>
+				</div>
+
+				<div id="fondop2" class="fragment">
+					<p>
+						<h2> Pratiques de l'édition numérique</h2>
+					</p>
+				</div>
+				<div id="fondop2" class="fragment">
+					<p>
+						<h6>17 Janvier - Séance 2</h6>Qu'est ce que l'éditon numérique ?
+					</p>
+				</div>
+			</section>
+
+			<section data-background-image="img1/hum.jpg" data-background-size="1600px">
+				<div id="fondop2" class="fragment">
+					<h5>Architectures numériques</h5>
+				</div>
+			</section>
+
+			<section data-background-image="img1/analogique.jpg" data-background-size="1000px"
+				data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+					<h5>Numérique / Analogique</h5>
+					<ul>
+						<li class="fragment">analogique : prendre la donnée comme un ensemble continu</li>
+						<li class="fragment">numérique : prendre la donnée comme un ensemble discontinu</li>
+					</ul>
+					<p class="fragment"><b>Comprendre une réalité complexe par la Modélisation avec un autre système de
+							données</b></p>
+				</div>
+			</section>
+
+
+			<section data-background-image="img1/boulier.webp" data-background-size="1500px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>1. Machine Analogique</h6>
+
+					<p class="fragment">Utilisation de mesures physiques continues</p>
+
+
+				</div>
+
+			</section>
+
+			<section data-background-image="img1/mecanism.webp" data-background-size="1500px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>Machine d'Anticythère</h6>
+
+					<ul>
+						<li class="fragment">Premier calculateur analogique</li>
+						<li class="fragment">2 000 ans d'âge</li>
+						<li class="fragment">Astrologie par analogie</li>
+					</ul>
+
+					<p class="fragment"><b>Génération des calculateurs mécaniques</b></p>
+				</div>
+
+			</section>
+			<section data-background-image="img1/schickard.jpg" data-background-size="1000px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>Machine de Schickard</h6>
+
+					<ul>
+						<li class="fragment">Wilhem Schickard, 1623</li>
+						<li class="fragment">Horloge calculatrice</li>
+						<li class="fragment">Prototype détruit, plan conservé</li>
+					</ul>
+
+					<p class="fragment">autre calculatrice : <i>Pascaline</i> 1642</p>
+				</div>
+
+			</section>
+
+			<section data-background-image="img1/programme.webp" data-background-size="1000px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>2. Machine Programmable</h6>
+
+					<p class="fragment">Modification/Précision des requêtes à la machine</p>
+				</div>
+
+			</section>
+
+			<section data-background-image="img1/bouchon.jpg" data-background-size="1200px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>Métier à tisser semi-automatique</h6>
+
+					<ul>
+
+						<li class="fragment">1725 - Basile Bouchon</li>
+						<li class="fragment">Ruban remplacé par des cartes perforées</li>
+						<li class="fragment">1801 - Jacquard : métier à tisser programmable</li>
+					</ul>
+
+					<p class="fragment"><b>Principe de la carte perforée</b></p>
+				</div>
+
+			</section>
+
+
+			<section data-background-image="img1/bouchon.jpg" data-background-size="1200px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>Machine différentielle</h6>
+
+					<ul>
+
+						<li class="fragment">1834 - Charles Babbage</li>
+						<li class="fragment">Adaptation de la machine de Jacquard aux principes de calcul de la Pascaline</li>
+						<li class="fragment">1843 - Ada Lovelace - Premier programme de cartes perforées</li>
+					</ul>
+
+					<p class="fragment">Génération des machines analytiques<p>
+				</div>
+
+			</section>
+
+			<section data-background-image="img1/tabulating.jpeg" data-background-size="1200px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>Hollerith Desk</h6>
+
+					<ul>
+
+						<li class="fragment">1890 - Herman Hollerith</li>
+						<li class="fragment">Lecture des cartes perforées</li>
+						<li class="fragment">Création de <i>Tabulating Machine Company</i> ou <i>International Business Machines</i></li>
+					</ul>
+
+					<p class="fragment">Commercialisation d'une technique en expansion<p>
+				</div>
+
+			</section>
+			<section data-background-image="img1/turing.png" data-background-size="1200px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>3. Machine de Turing</h6>
+
+
+					<p class="fragment">Modèle théorique de nos machines actuelles<p>
+				</div>
+
+			</section>
+			<section data-background-image="img1/mark.jpg" data-background-size="1600px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>MARK I</h6>
+
+					<ul>
+
+						<li class="fragment">1943 - Eckert & Mauchly (IBM)</li>
+						<li class="fragment">5 tonnes, 8 m. sur 51 m.</li>
+						<li class="fragment">Machine Militaire</li>
+					</ul>
+
+					<p class="fragment">Génération des calculateurs universels : ENIAC (1945), ABC (1937), Colossus (1943)<p>
+				</div>
+
+			</section>
+			<section data-background-image="img1/hyper.webp" data-background-size="1400px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>De la machine, au calculateur à l'ordinateur</h6>
+
+					<ul>
+
+						<li class="fragment">1955 - « ordinateur » IBM</li>
+						<li class="fragment">Ordonner pluôt que calculer</li>
+					</ul>
+
+					<p class="fragment">Marketing IBM passé dans le domaine public<p>
+				</div>
+			</section>
+			<section data-background-image="img1/turing.jpg" data-background-size="1000px"
+			data-background-color="#f1eded">
+			<div id="fondop2" class="fragment">
+				<h6>Modèle de Turing/Machine universelle</h6>
+
+				<ul>
+
+					<li class="fragment"><a href="https://turingarchive.kings.cam.ac.uk/publications-lectures-and-talks-amtb/amt-b-19">1935 - <i>Computing Machinery and Intelligence</i></a> - </li>
+					<li class="fragment">Modèle théorique  & Instrument conceptuel</li>
+					<li class="fragment">Mécanisation de l'intelligence</li>
+				</ul>
+
+				<p class="fragment">Tester <a href="https://interstices.info/comment-fonctionne-une-machine-de-turing/">la machine</a><p>
+			</div>
+
+		</section>
+
+
+			<section data-background-image="img1/enigma..jpg" data-background-size="1100px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+					<h5><i>Enigma</i></h5>
+					<ul>
+						<li class="fragment">Machine à chiffrement (1919 Koch)</li>
+						<li class="fragment">10(et 15 zéros) possibilités</li>
+					</ul>
+					<p class="fragment">Cryptologie & Savoir</p>
+				</div>
+			</section>
+
+			<section data-background-image="img1/oracle.png" data-background-size="1300px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+					<h5>Oracle Machine</h5>
+					
+					<p class="fragment">Machine de Turing + Boîte noire</p>
+				</div>
+			</section>
+
+
+			<section data-background-image="img1/schema.png" data-background-size="1300px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+					<h5>Modèle John von Neumann</h5>
+					<ul>
+						<li class="fragment">Programme enregistré</li>
+						<li class="fragment">Corps technique : unité centrale, périphérique</li>
+					</ul>
+					<p class="fragment">Principe de nos ordinateurs modernes</p>
+				</div>
+			</section>
+
+			<section data-background-image="img1/hyper.webp" data-background-size="1300px">
+				<div id="fondop2" class="fragment">
+					<h5>Numérique</h5>
+					<ul>
+
+						<li class="fragment">Représenter le monde par des nombres</li>
+						<li class="fragment">Valeurs binaires : 0, 1</li>
+						<li class="fragment">Modélisation & programmation</li>
+					</ul>
+
+					<p class="fragment"><b>Système de représentation</b></p>
+				</div>
+			</section>
+
+			<section data-background-image="img1/nelson.jpeg" data-background-size="1300px">
+				<div id="fondop2" class="fragment">
+<h5>Le numérique connecté</h5>
+
+<p>Internet / Web</p>
+
+			</div>
+			</section>
+			<section data-background="img1/pont.jpg" data-background-size="1600px">
+
+				<div id="fondop2" class="fragment">
+					<h3>Origine(s) d'Internet </h3>
+					<ul>
+<li class="fragment">Télécommunication : un émetteur, un média de transmission, un récepteur</li>
+						<li class="fragment">Pluridimensionnel & Interconnection</li>
+					
+
+					</ul>
+
+				</div>
+			</section>
+
+
+			<section data-background="img1/arpanet.png" data-background-size="1300px">
+
+				<div id="fondop2" class="fragment">
+					<h3>Arpanet</h3>
+					<ul>
+
+						<li class="fragment">1964 - Communication de données par paquets, Paul Baran</li>
+							<li class="fragment">1966 - <i>Advanced Research Projects Agency Network</i>, Robert Taylor
+							</li>
+						</ul>
+						</div>
+						</section>
+							<section data-background="img1/arpanet.png" data-background-size="1300px">
+
+								<div id="fondop2" class="fragment">
+									<h3>Arpanet</h3>
+									<ul>
+						<li class="fragment"> Connexion de 4 universités : UCLA, SRI, UCSB, Université d'Utah</li>
+						<li class="fragment">Échange ouvert & Commutation de paquets</li>
+						<li class="fragment">1969 : première connexion</li>
+
+					</ul><p class="fragment">Entre Défence militaire & Communication scientifique</p>
+						
+				</div>
+			</section>
+			
+
+
+<section data-background="img1/nelson.jpeg" data-background-size="1400px">
+
+<div id="fondop2" class="fragment">
+	<h3>Protocoles TCP/IP</h3>
+		<ul>
+
+			<li class="fragment">Protocole IP ou Internet Protocol : attribue une adresse unique, donnée machine</li>
+			<li class="fragment">Protocole TCP ou Transmission Control Protocol : établit la connexion entre les deux machines</li>
+
+</ul>
+<p class="fragment"> <b>
+Piliers d'Internet</b></p>
+
+</div>
+</section>
+
+
+<section data-background="img1/web.jpg" data-background-size="1400px">
+
+<div id="fondop2" class="fragment">
+	<h3>Multiplication des réseaux</h3>
+		<ul>
+			<li class="fragment"> Minitel (1978), Ethernet (1980), Usenet (1980), AlohaNet, etc. </li>
+			<li class="fragment">Guerre des navigateurs : Microsoft, Windows 1995 </li>
+
+			</ul>
+			<p class="fragment"><b><i>Inter-networking</i></b>
+
+</b></p>
+		</div>
+		</section>
+
+<section data-background-image="img1/web.jpg" data-background-size="1500px">
+				<div id="fondop2" class="fragment">
+<h5>Réseaux des réseaux</h5>
+<ul>
+
+<li class="fragment">1983 : Arpanet adopte TCP & IP </li>
+<li class="fragment">branche militaire MILNET / branche civile, universitaire et scientifique INTERNET</li>
+
+</ul>
+<p class="fragment"><b>Monopole</b></p>
+
+			</div>
+			</section>
+
+			<section data-background-image="img1/hyper.webp" data-background-size="1300px">
+				<div id="fondop2" class="fragment">
+<h5>Le Web</h5>
+
+
+			</div>
+			</section>
+			<section data-background="img1/bush.jpg" data-background-size="1100px">
+
+				<div id="fondop" class="fragment">
+					<h3>Origine d'une idée</h3>
+						<ul>
+				<li class="fragment"><i>Mundaneum</i> de Paul Otlet : Projet de Réseau Documentaire Universel</li>
+
+			</ul>
+		<p class="fragment">Indexer les savoirs du monde</p>
+		
+			</div>
+			</section>
+
+
+<section data-background-image="img1/tbl.jpeg" data-background-size="1200px" data-background-color="#fff">
+<div id="fondop2" class="fragment">
+	<h5><i>Le </i>World Wide Web - 1991</h5>
+			<ul>
+<li class="fragment">Tim Berners-Lee & Robert Caillau : projet du CERN</li>
+
+		<li class="fragment"><i>HyperText Transfer Protocol</i> ou HTTP</li>
+		
+
+			<li class="fragment">URL & HTML</li>
+	</ul>
+	<p class="fragment">1994 : explosion du Web avec le navigateur Mosaic</p>
+</div>
+</section>
+
+
+<section data-background="img1/web.jpg" data-background-size="1100px">
+
+<div id="fondop" class="fragment">
+	<h3>Web(s)</h3>
+	<ul>
+		<li class="fragment">Web 1.0 : Web de lecture et statique
+		</li>
+		<li class="fragment">Web 2.0 : Web social et collaboratif</li>
+		<li class="fragment">Web 3.0 : Web sémantique ou Web des objets</li>
+	</ul>
+</div>
+</section>
+
+
+<section data-background="img1/iceberg.png" data-background-size="900px">
+
+<div id="fondop2" class="fragment">
+	<h3>Web profond</h3>
+
+		<ul>
+			<li class="fragment">Contenu sélectif</li>
+			<li class="fragment">Web non indexé</li>
+			<li class="fragment">99 % du Web</li>
+			<li class="fragment">≠ <b>dark</b> web</li>
+</ul>
+
+</ul>
+
+</div>
+</section>
+
+
+
+
+			<section data-background-image="img1/hyper.webp" data-background-size="1300px"
+				data-background-color="#f1eded">
+				<div id="fondop2" class="fragment">
+					<h6>Édition numérique</h6>
+
+					<ul>
+
+						<li class="fragment">Réinventions, renégociations, agencements</li>
+						<li class="fragment">Tout est édition numérique ?</li>
+						<li class="fragment">Participe d'un média culturel</li>
+					</ul>
+
+
+					<p class="fragment">Édition du numérique</p>
+				</div>
+
+
+			</section>
+
+
+			<section data-background-image="img1/Main.png" data-background-size="1800px"
+			data-background-color="#f1eded">
+			<div id="fondop2" class="fragment">
+				<h5>Pour la semaine prochaine</h5>
+
+				<ul>
+
+					<li class="fragment"><a href="https://www.zotero.org/user/register/">Créer Compte Zotero</a><sup>en ligne</sup></li>
+					<li class="fragment"><a href="https://www.zotero.org/download/">Installer Zotero</a><sup>local</sup></li>
+					<li class="fragment"><a href="https://www.zotero.org/download/">Plugin navigateur</a><sup>en ligne</sup></li>
+				</ul>
+
+
+		</div>
+
+
+		</section>
+
+
+
+
+
+		</div>
+
+
+
+
+
+	</div>
+
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [{
+					src: 'lib/js/classList.js',
+					condition: function () {
+						return !document.body.classList;
+					}
+				},
+				{
+					src: 'plugin/markdown/marked.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/markdown/markdown.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					condition: function () {
+						return !!document.querySelector('pre code');
+					},
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				},
+				{
+					src: 'plugin/zoom-js/zoom.js',
+					async: true
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				}
+			]
+		});
+
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+	</script>
+
+</body>
+
+</html>

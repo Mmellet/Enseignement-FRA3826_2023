@@ -1,0 +1,575 @@
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>FRA3825- Pratiques de l'édition numérique - H2023</title>
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+	<style>
+		* {
+			box-sizing: border-box
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
+
+		/* Hide the images by default */
+		.mySlides {
+			display: none;
+		}
+
+		/* Next & previous buttons */
+		.prev,
+		.next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			margin-top: -22px;
+			padding: 16px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+
+		/* Caption text */
+		.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+		}
+
+		.active,
+		.dot:hover {
+			background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		@keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+
+			.prev,
+			.next,
+			.text {
+				font-size: 11px
+			}
+		}
+	</style>
+
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="reveal">
+		<div class="slides">
+
+			<div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
+			<section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+				<div id="fondop" style="position:inherit;top: -50px;left: -50px;">
+					<sup>FRA3825</sup>
+				</div>
+
+				<div id="fondop2" class="fragment">
+					<p>
+						<h2> Pratiques de l'édition numérique</h2>
+					</p>
+				</div>
+				<div id="fondop2" class="fragment">
+					<p>
+						<h6>17 Janvier - Séance 2</h6>Qu'est ce que l'éditon numérique ?
+					</p>
+				</div>
+			</section>
+
+			<section data-background-image="img1/curseur.jpg" data-background-size="1600px"
+				data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+					<h5>Index de la séance</h5>
+					<ol class="fragment">
+						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-2-1.html#/2">Édition, entre
+								ruptures & continuités</a></li>
+						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-2-2.html#/">Architecture numérique</a></li>
+					</ol>
+				</div>
+			</section>
+
+			<section data-background-image="img1/hyper.webp" data-background-size="1800px">
+				<div id="fondop2" class="fragment">
+					<h5>Édition entre ruptures & continuités</h5>
+				</div>
+			</section>
+
+			<section data-background-image="img1/hyper.webp" data-background-size="1800px">
+				<div id="fondop2" class="fragment">
+					<ul>
+						<li class="fragment">
+							<i>Editio</i> : Publier, produire, <i>donner hors de</i> (Ier - IIe siècle ap. JC.)</li>
+						<li class="fragment">1679 : synonyme d'impression</li>
+					</ul>
+					<p class="fragment"><b>Structuration d'une information à partir du travail d'un support pour en
+							faire un média</b></p>
+				</div>
+			</section>
+
+
+			<section data-background-image="img1/hyper.webp" data-background-size="1800px">
+				<div id="fondop2">
+					<h5>Lignes du temps : <span style="color: purple;">support</span> / <span
+							style="color: green;">mécanique</span></h5>
+					<table style="font-size:16px;">
+						<tr border="1px">
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="fragment" data-fragment-index="1" style="font-size:20; color: purple;">
+								<b>I<sup>er</sup> siècle avant J.C.</b> </br> Volumen au Codex</td>
+							<td class="fragment" data-fragment-index="2" style="font-size:20; color: purple;">
+								<b>I<sup>er</sup> siècle après J.C.</b> </br> Papyrus au Parchemin</td>
+							<td class="fragment" data-fragment-index="3" style="font-size:20; color: purple;">
+								<b>751-1250</b> </br> Parchemin au Papier</td>
+							<td class="fragment" data-fragment-index="4" style="font-size:20; color: green">
+								<b>XIV<sup>e</sup></b> </br> Xylographie</td>
+							<td class="fragment" data-fragment-index="5" style="font-size:20; color: green"><b>1450</b>
+								</br>Imprimerie Gutenberg</td>
+							<td class="fragment" data-fragment-index="7" style="font-size:20; color: green"><b>1883</b>
+								</br> composition de plomb à la photogravure par T. & R. Annan à Glasgow</td>
+							<td class="fragment" data-fragment-index="8" style="font-size:20; color: green"><b>fin
+									XX<sup>e</sup></b> </br> Impression numérique</td>
+						</tr>
+					</table>
+				</div>
+			</section>
+
+
+			<section data-background="img1/moine.jpeg" data-background-size="1600px">
+				<div id="fondop2" class="fragment">
+					<h6>Édition monastique</h6>
+					<ul>
+						<li class="fragment">Édition manuscrite - <i>Print on demand</i></li>
+						<li class="fragment">XII<sup>e</sup> : Déplacement vers les centres urbains</li>
+						<li class="fragment">XV<sup>e</sup> : Xylographie</li>
+					</ul>
+					<p class="fragment"><b>Ouvrir le savoir</b></p>
+				</div>
+			</section>
+
+			<section data-background="img1/gutenberg.jpeg" data-background-size="1200px">
+				<div id="fondop2" class="fragment">
+					<h6>La Galaxie Gutenberg</h6>
+					<ul>
+						<li class="fragment">1450 : Presse à bras + Gravure + Caratères mobiles</li>
+						<li class="fragment">1456 : Bible B42</li>
+						<li class="fragment">Circulation des idées (Humanisme & Réforme)</li>
+						<li class="fragment">Dépot Légal du 28 décembre 1537</li>
+					</ul>
+					<p class="fragment"><b>Enjeux de Savoir / Pouvoir
+						</b></p>
+				</div>
+			</section>
+
+			<section data-background="img1/rotative.png" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+					<h6>Révolution industrielle</h6>
+					<ul>
+						<li class="fragment">Développement des lieux d'enseignement</i></li>
+						<li class="fragment">Pâte à papier</li>
+						<li class="fragment">Premières maisons d'édition (Dunod, Colin, Hachette, Larousse)</li>
+					</ul>
+				</div>
+			</section>
+
+			<section data-background-image="img1/mimeo.webp" data-background-size="1200px">
+				<div id="fondop2" class="fragment">
+					<h6>Automatiser l'édition</h6>
+					<ul>
+						<li class="fragment">Miméographe ou duplicateur à pochoir</li>
+						<li class="fragment">Création de communautés d'édition comme contre-pouvoir</li>
+					</ul>
+					<p class="fragment"><b>Machines de transition à une démocratisation</b></p>
+				</div>
+			</section>
+
+			<section data-background-image="img1/futurism.png" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+					<h6>Éditions Avant-gardistes</h6>
+					<ul>
+						<li class="fragment">Futurisme italien (Filippo Tommaso Marinetti) - rupture radicale avec le
+							passé</li>
+						<li class="fragment">Dadaïsme - identité éditoriale par villes</li>
+						<li class="fragment">Surréalisme - détournement d'une identité éditoriale conservatrice</li>
+						<li class="fragment">Le livre comme « une unité de systèmes acoustique et optique » (El Lissitzky)
+						</li>
+					</ul>
+					<p class="fragment">Exploration de modèles alternatifs</p>
+				</div>
+			</section>
+
+			<section data-background-image="img1/pao.png" data-background-size="1500px">
+				<div id="fondop2" class="fragment">
+					<h6>(R)évolution digitale</h6>
+					<ul>
+						<li class="fragment">PAO (Publication Assistée par Ordinateur)
+							+
+							ordinateur
+							+
+							imprimante
+							= <i class="fragment">bedroom génération</i></li>
+						<li class="fragment">Crise du papier & recul de la production</li>
+					</ul>
+					<p class="fragment"><b>Recherche d'un nouveau modèle
+						</b></p>
+				</div>
+			</section>
+
+			<section data-background-image="img1/edito.jpg" data-background-size="1800px">
+				<div id="fondop2" class="fragment">
+					<h6>Le numérique comme alternative</h6>
+					<ul>
+						<li class="fragment">Réduction du coût</li>
+						<li class="fragment">Meilleure conservation + Gain d'espace</li>
+						<li class="fragment">Facilité de mises à jour</li>
+						<li class="fragment">Commodité de consultation, de navigation</li>
+						<li class="fragment">Enrichissement hypertextuel & multimédial</li>
+					</ul>
+				</div>
+			</section>
+
+			<section data-background-image="img1/offset.jpg" data-background-size="1500px">
+				<div id="fondop2" class="fragment">
+					<h6>2 techniques actuelles</h6>
+					<ul>
+						<li class="fragment">Offset - presse pour grand tirage, grand format</li>
+						<li class="fragment">Numérique - jet d'encre, laser ou 3d</li>
+					</ul>
+				</div>
+			</section>
+
+
+			<section data-background-image="img1/hyper.webp" data-background-size="1800px">
+				<div id="fondop2" class="fragment">
+					<h6>Changement de paradigme</h6>
+					<ol>
+						<li class="fragment">Nombreux changements de supports et modèles de structuration</li>
+						<li class="fragment">L'imprimé, un modèle parmi d'autres
+						</li>
+						<li class="fragment">La culture perdure</li>
+					</ol>
+					<p class="fragment"><b>Édition : un processus de médiation en mouvement</b></p>
+				</div>
+			</section>
+
+			<section data-background="img1/projet.png">
+				<div id="fondop2" class="fragment">
+					<h6>Le Projet Gutenberg</h6>
+					<ul>
+						<li class="fragment">Juillet 1971 : Michael Hart, <i>Materials Research Lab</i>, <i>The United
+								States Declaration of Independance</i></li>
+						<li class="fragment">60 000 livres numériques</li>
+						<li class="fragment">Automatisation de la numérisation</li>
+					</ul>
+					<p class="fragment">Proposition d'un modèle éditorial</p>
+				</div>
+			</section>
+
+			<section data-background-image="img1/hn.jpg" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+					<h6>Numérisation</h6>
+					<ul>
+						<li>Conversion sur support numérique de textes imprimés </li>
+						<li>Mode image : qualité visuelle de l'original</li>
+						<li>Mode texte relève : efficacité, malléabilité du produit final</li>
+						</ol>
+					</ul>
+				</div>
+			</section>
+
+			<section data-background="img1/babel.png" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+					<h6>Rêve de la bibliothèque universelle</h6>
+					« L’univers (que d’autres appellent la Bibliothèque) se compose d’un nombre indéfini, et peut-être
+					infini, de galeries hexagonales, avec au centre de vastes puits d’aération bordés par des
+					balustrades basses. »
+					(<a href="https://www.oeuvresouvertes.net/spip.php?article1017">Borges, 1941</a>)
+				</div>
+			</section>
+
+			<section data-background="img1/babel.png" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+					<h6>Réalité<b>s</b> de la bibliothèque universelle</h6>
+					<ul>
+						<li class="fragment">Wikipédia</li>
+						<li class="fragment">GoogleBooks</li>
+						<li class="fragment">Amazon</li>
+						<li class="fragment">... et d'autres librairies moins officielles</li>
+					</ul>
+				</div>
+			</section>
+
+
+			<section data-background-image="img1/hybride.jpg" data-background-size="1500px">
+				<div id="fondop2" class="fragment">
+					<h6>Édition électronique / numérique / en réseau</h6>
+					<ol>
+						<li class="fragment">électronique : la numérisation de textes non nativement numériques
+						</li>
+						<li class="fragment">numérique : les textes nativement numériques</li>
+						<li class="fragment">en réseau : pratiques de communication
+					</ol>
+					<p class="fragment">(<a
+							href="https://www.cairn.info/l-edition-electronique--9782707157294.htm">Dacos & Mounier,
+							2010</a>)
+				</div>
+			</section>
+
+			<section data-background="img1/guedon.jpg" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+					<h6>Édition électronique / numérique / en réseau</h6>
+					<p class="fragment">« L'édition électronique, ce n'est ni plus ni moins que le contenu des réseaux
+						électroniques. En effet, éditer c'est faire paraître, c'est publier. Publier, c'est rendre
+						public, c'est mettre un message dans une forme telle que l'on puisse y avoir accès à certaines
+						conditions. Tout fichier numérisé est donc susceptible de jouer un rôle de communication (texte,
+						image, son, etc.) »
+					</p>
+					<p class="fragment">(Guédon, <i>L'édition savante et l'autoroute électronique</i>, 1994)</p>
+			</section>
+
+			<section data-background="img1/guedon.jpg" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+					<h6>Édition électronique / numérique / en réseau</h6>
+						<p class="fragment">« l'édition électronique concerne la conception et la diffusion de produits
+							culturels et informationnels qui se déclinent sur des supports fixes ou sont diffusés sur
+							réseau »
+						</p>
+						<p class="fragment">(<a href="http://bbf.enssib.fr/consulter/bbf-2005-04-0104-014">Vieira,
+								2004</a>)</p>
+				</div>
+			</section>
+
+			<section data-background="img1/ludovico.jpg" data-background-size="700px">
+				<div id="fondop" class="fragment">
+					<h4>Rupture / Continuité</h4>
+					<p class="fragment">« tout nouveau médium prétend toujours posséder des caractéristiques supérieures
+						à celles du document imprimé, et se trouver ainsi en situation de le supplanter »
+						(<a href="https://editions-b42.com/produit/post-digital-print/">Ludovico, 2016</a>)</p>
+				</div>
+			</section>
+
+			<section data-background="img1/edito.jpg" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+					<h3>Rupture / Continuité</h3>
+					<ul>
+						<li>Entre le Codex & Volumen</li>
+						<li><i>Libro unitario</i> selon la version</li>
+						<li>Matérialité en réseau
+						<li>
+							<a href="https://www.youtube.com/watch?v=wQ-Gp6XOE7A/">le Syndrome "et d'un seul coup ils se
+								sont retrouvé avec Sartre dans les mains"</a></li>
+					</ul>
+				</div>
+			</section>
+
+			<section data-background-image="img1/hyper.webp" data-background-size="1800px">
+				<div id="fondop2" class="fragment">
+					<h4>Édition numérique</h4>
+					<p class="fragment">Dernier état d'un processus long de mécanisation, automatisation &
+							démocratisation</p>
+				</div>
+			</section>
+
+		</div>
+	</div>
+
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [{
+					src: 'lib/js/classList.js',
+					condition: function () {
+						return !document.body.classList;
+					}
+				},
+				{
+					src: 'plugin/markdown/marked.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/markdown/markdown.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					condition: function () {
+						return !!document.querySelector('pre code');
+					},
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				},
+				{
+					src: 'plugin/zoom-js/zoom.js',
+					async: true
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				}
+			]
+		});
+
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+	</script>
+
+</body>
+
+</html>

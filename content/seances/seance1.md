@@ -3,9 +3,9 @@ title: "Séance 1"
 date: 2023-01-10
 ---
 
-# Séance du 10 janvier
+# Séance du 10 janvier : Introduction
 
-[Bibliographie liée](https://www.zotero.org/groups/4276254/fra3825-a2023/collections/8ESJWCC3)
+[Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/2GPSZJET)
 
 ## Présentation du cours
 
