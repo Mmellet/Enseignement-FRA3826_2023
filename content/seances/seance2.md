@@ -10,17 +10,17 @@ date: 2023-01-17
 
 ## Édition : entre ruptures et continuités
 
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/Seance-2-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-2-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/Seance-2-1.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-2-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
 ## Architectures numériques
 
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/Seance-2-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-2-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/Seance-2-2.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-2-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
