@@ -1,0 +1,690 @@
+
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>FRA3825 - Théories de l'édition numérique</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		
+<style> 
+
+code{
+    background-color: honeydew;
+}
+
+.pre{
+    background-color: honeydew;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+	
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+	<div class="slides"> <div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
+    <section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+        <div id="fondop" style="position:inherit;top: -50px;left: -50px;">
+            <sup>FRA3825</sup>
+        </div>
+
+        <div id="fondop2" class="fragment">
+            <p>
+                <h2> Pratiques de l'édition numérique</h2>
+            </p>
+        </div>
+        <div id="fondop2" class="fragment">
+            <p>
+                <h6>Atelier 1</h6> Zotero
+            </p>
+        </div>
+    </section>
+
+    <section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+
+        <div id="fondop2" class="fragment">
+            <p>
+                <h6>Bibliographie structurée</h6>
+
+                <ul>
+                    <li class="fragment">Ensemble de données</li>
+                    <li class="fragment">2 niveaux : citation & bibliographie</li>
+                    
+                    </ul>
+            </p>
+        </div>
+    </section>
+
+    <section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+
+        <div id="fondop2" class="fragment">
+            <p>
+                <h6>Style bibliographique</h6>
+
+                <ul>
+                    <li class="fragment">Ensemble de règles pour la mise en forme de données</li>
+                    <li class="fragment">Pratiques, communités disciplines</li>
+                    <li class="fragment"><a href="https://www.zotero.org/styles">Répertoire des styles</a></li>
+                    </ul>
+            </p>
+        </div>
+    </section>
+
+
+    <section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+
+        <div id="fondop2" class="fragment">
+            <p>
+                <h6>Exemple</h6>   
+    <ul>  
+        <li style="font-size: large;">  
+            Merzeau, L. (2013). Éditorialisation collaborative d’un événement. <i>Communication et organisation. Revue scientifique francophone en Communication organisationnelle, 43</i>, Article 43. 
+[APA 7th - anglophone]
+            </br></li> 
+            <li style="font-size: large;">   
+                Merzeau, L. (2013). Éditorialisation collaborative d’un événement. <i>Communication et organisation. Revue scientifique francophone en Communication organisationnelle</i>, (43), 105-22. 
+                [APA 7th - UdeM francophone]
+</br></li> 
+<li style="font-size: large;"> 
+    Merzeau, Louise. "Éditorialisation collaborative d’un événement." <i>Communication et organisation. Revue scientifique francophone en Communication organisationnelle</i>, no 43, June 2013, pp. 105-22. [Modern Language Association 9th edition]
+</br></li> 
+<li style="font-size: large;"> 
+    Merzeau, Louise. 2013. "Éditorialisation collaborative d’un événement." <i>Communication et organisation. Revue scientifique francophone en Communication organisationnelle</i>, no 43 (June): 105-22. [Chicago Manual of Style 17th edition]
+</br></li> 
+<li style="font-size: large;"> 
+    MERZEAU, Louise, « Éditorialisation collaborative d’un événement », <i>Communication et organisation. Revue scientifique francophone en Communication organisationnelle</i>, Presses universitaires de Bordeaux, juin 2013, p. 105‑122. [Lettres et Sciences Humaines]
+</li></ul> 
+            
+        </div>
+    </section>
+
+    <section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+
+        <div id="fondop2" class="fragment">
+            
+                <h6>Composition de la donnée</h6>
+
+                  <span style="color:turquoise">Merzeau</span> , <span style="color: blue;">L.</span> (<span style="color: violet;">2013</span>). <span style="color: orange;">Éditorialisation collaborative d’un événement.</span> <span style="color: red;"><i>Communication et organisation. Revue scientifique francophone en Communication organisationnelle</i></span>, (<span style="color: rgb(255, 196, 0)">43</span>), <span style="color: green;">105-22</span>. 
+                  </span> 
+            
+        </div>
+    </section>
+
+    <section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+
+        <div id="fondop2" class="fragment">
+            
+                <h6>Structuration de la donnée</h6>
+
+                  <pre style="background-color: green;"><code>&lt;div id=&quot;merzeau_editorialisation_2013&quot;&gt;
+                    &lt;dt&gt;Merzeau (2013)&lt;/dt&gt;
+                    &lt;dd&gt;&lt;span itemscope itemtype=&quot;https://schema.org/Article&quot; data-type=&quot;article&quot;&gt;
+                        &lt;span itemprop=&quot;author&quot; itemscope itemtype=&quot;https://schema.org/Person&quot;&gt;
+                            &lt;span itemprop=&quot;familyName&quot;&gt;Merzeau&lt;/span&gt;,
+                            &lt;meta itemprop=&quot;givenName&quot; content=&quot;Louise&quot; /&gt; L.&lt;/span&gt;
+                            (&lt;span itemprop=&quot;datePublished&quot;&gt;2013&lt;/span&gt;).
+                            &lt;span itemprop=&quot;name&quot;&gt;
+                                "Éditorialisation collaborative d'un événement"
+                            &lt;/span&gt;.
+                        &lt;meta itemprop=&quot;journal&quot; &lt;i&gt;Communication et organisation. Revue scientifique francophone en Communication organisationnelle&lt;/i&gt;
+                       &lt;/span&gt;.
+                        &lt;/span&gt;
+                    &lt;/dd&gt;
+                &lt;/div&gt;
+                </code></pre>
+            
+        </div>
+    </section>
+
+
+<section data-background-color="#fff"
+data-background-image="img1/z.svg"
+data-background-size="1200px"
+
+data-transition="linear"
+data-transition-speed="fast">
+                <div id="fondop2" class="fragment">
+
+                  <h6>Zotero</h6>
+<ul>
+<li class="fragment"><i>Zotero digital research platform</i> : 2005 - Dan Cohen</li>
+<li class="fragment">2006 - Sean Takats</li>
+</ul>
+
+                  </div>
+                  </section>
+
+<section data-background-color="#fff"
+                        data-background-image="img1/z.svg"
+                        data-background-size="1200px"
+                  
+                        data-transition="linear"
+                        data-transition-speed="fast">
+                                        <div id="fondop2" class="fragment">
+                  
+                                          <h6>Zotero</h6>
+                  <ul>
+                  <li class="fragment">Logiciel/service en ligne de gestion de références gratuit, libre et open source</li>
+                  <li class="fragment"><a href="https://www.zotero.org/user/register" target="_blank">Compte en ligne</a> / <a href="https://www.zotero.org/download/" target="_blank">Standalone</a> (local)</li>
+                 </ul>
+    
+                  
+                  <p class="fragment"><b>Structuration des références</b></p>
+                                          </div>
+                                          </section>
+                                          <section data-background-image="img1/z.svg" data-background-size="1600px">
+                                            <div id="fondop2" class="fragment">
+                                        <h6>Bases de données compatibles</h6>
+                                        <ul>
+                                        
+                                            <li class="fragment"><a href="">Sudoc</a></li>
+                                            <li class="fragment"><a href="">Gallica</a></li>
+                                                <li class="fragment"><a href="">OpenEdition, revues.org, Hypothèses</a></li>
+                                                    <li class="fragment"><a href="">Érudit</a></li>
+                                                        <li class="fragment"><a href="">Internet Archive</a></li>
+                                                        <li class="fragment"><a href="https://papyrus.bib.umontreal.ca/">Papyrus</a></li>
+                                                            <li class="fragment"><a href="">Cairn.info</a></li>
+                                        
+                                            </ul>
+                                        </div>
+                                        </section>
+
+                                          <section data-background-color="#fff"
+                                          data-background-image="img1/z.svg"
+                                          data-background-size="1200px"
+                                          
+                                          data-transition="linear"
+                                          data-transition-speed="fast">
+                                                          <div id="fondop2" class="fragment">
+                                                            <h6>Fonctionnalités</h6>
+                                                            <ul>
+                                                                <li class="fragment">collecter : collecter des références bibliographiques en ligne et les conserver</li>
+                                                                <li class="fragment">
+                                                                organiser : organiser ses références en collections et sous-collections, et en attribuant des tags et des marqueurs</li>
+                                                                <li class="fragment">
+                                                                citer : citer ses références facilement et les exporter/intégrer dynamiquement dans des documents</li>
+                                                                <li class="fragment">
+                                                                synchroniser : synchroniser ses références avec un compte en ligne</li>
+                                                                <li class="fragment">
+                                                                collaborer : échanger ses références avec d’autres utilisateurs</li>
+                                                            
+                                                                </ul>
+                                                            </div>
+                                                            </section>  
+                                                            <section data-background-image="img1/z.svg" data-background-size="1600px">
+                                                                <div id="fondop2" class="fragment">
+                                                            <h6>Autres fonctionnalités</h6>
+                                                            <ul>
+                                                                <li class="fragment">dans colonne de gauche, « Mes collections » ou « Ma bibliothèque », il est possible de créer plusieurs collections (et sous-collections)
+                                                                    </li>
+                                                                    <li class="fragment">
+                                                                        les tags et les marqueurs servent à ajouter des informations de description 
+                                                                        </li>
+                                                                        <li class="fragment">
+                                                                le champ note permet de saisir du texte libre lié à une référence précise</li>
+                                                                
+                                                                </ul>
+                                                            </div>
+                                                            </section>
+                                                            <section data-background-color="#fff"
+                                          data-background-image="img1/Main.png"
+                                          data-background-size="1200px"
+                                          
+                                          data-transition="linear"
+                                          data-transition-speed="fast">
+                                                          <div id="fondop2" class="fragment">
+                                          
+                                                            <h6>Prise en main</h6>
+                                         <p class="fragment">Casilli, A. A. (2019). <i>En attendant les robots: enquête sur le travail du clic</i>. Éditions du Seuil. 
+                                        </p>
+                                          
+                                                            </div>
+                                                            </section>  <section data-background-color="#fff"
+                                                            data-background-image="img1/z.svg"
+                                                            data-background-size="1200px"
+                                                            
+                                                            data-transition="linear"
+                                                            data-transition-speed="fast">
+                                                                            <div id="fondop2" class="fragment">
+                                                            
+                                                                              <h6>Utilisation manuelle</h6>
+                                                            <ul>
+                                                            <li class="fragment">    ouvrir le logiciel (Zotero Standalone) ou la version en ligne
+                                                                </li>
+                                                            <li class="fragment">créer une nouvelle référence</li>
+                                                            <li class="fragment">ajouter les informations dans chacun des champs correspondants (auteur, date, titre, édition)
+                                                    </li>
+                                                            </ul>
+                                                            
+                                                                              </div>
+                                                                              </section>  
+                                                            <section data-background-color="#fff"
+                                                            data-background-image="img1/z.svg"
+                                                            data-background-size="1200px"
+                                                            
+                                                            data-transition="linear"
+                                                            data-transition-speed="fast">
+                                                                            <div id="fondop2" class="fragment">
+                                                            
+                                                                              <h6>Utilisation agile</h6>
+                                                            <ul>
+                                                            <li class="fragment">    ouvrir le logiciel (Zotero Standalone)
+                                                                </li>
+                                                            <li class="fragment">rechercher un document sur le web</li>
+                                                            <li class="fragment">enregistrer la référence via l’extension du navigateur
+                                                    </li>
+                                                            <li class="fragment">vérifier dans le logiciel si la référence convient (et si elle est placée au bon endroit)
+                                                            </li>
+                                                            <li class="fragment">compléter les informations</li>
+                                                            </ul>
+                                                            
+                                                                              </div>
+                                                                              </section> 
+                                                                              <section data-background-color="#fff"
+                                                            data-background-image="img1/z.svg"
+                                                            data-background-size="1200px"
+                                                            
+                                                            data-transition="linear"
+                                                            data-transition-speed="fast">
+                                                                            <div id="fondop2" class="fragment">
+                                                            
+                                                                              <h6>Utilisation magique</h6>
+                                                            <ul>
+                                                            <li class="fragment">    ouvrir le logiciel (Zotero Standalone) ou version en ligne                                                                 </li>
+                                                            <li class="fragment">cliquer sur « Ajouter un élément par son identifiant » dans la barre d’outils Zotero</li>
+                                                            <li class="fragment">tapez le numéro d’identification (ISBN - 978-2021401882)</li>
+                                                            </ul>
+                                                            
+                                                                              </div>
+                                                                              </section>    
+                                                                              <section data-background-color="#fff"
+                                                            data-background-image="img1/z.svg"
+                                                            data-background-size="1200px"
+                                                            
+                                                            data-transition="linear"
+                                                            data-transition-speed="fast">
+                                                                            <div id="fondop2" class="fragment">
+                                                            
+                                                                              <h6>Groupe</h6>
+                                                            <ul>
+                                                            <li class="fragment">pour partager, ouvrir, afficher des références</li>
+                                                            <li class="fragment">collaboration & rôles</li>
+                                                            <li class="fragment">public, ou semi-public, privé
+                                                    </li>
+                                                            </ul>
+                                                            
+                                                                              </div>
+                                                                              </section>  
+                                                                              <section data-background-color="#fff"
+				  data-background-image="img1/z.svg"
+				  data-background-size="1600px"
+				  
+				  data-transition="linear"
+				  data-transition-speed="fast">
+								  <div id="fondop2" class="fragment">
+				  
+									<h6>Exercice</h6>
+				  <ul>
+					<li class="fragment">créer 1 référence à la main : un livre de votre choix (titre, auteur·trice, maison d’édition, lieu, date, langue, ISBN)</li>
+                    <li class="fragment">créer une collection personnelle</li>
+                    <li class="fragment">importer 3 références avec le connecteur Zotero dans votre collection</li>
+                    <li class="fragment">rejoignez le groupe zotero du cours : <a href="https://www.zotero.org/groups/4823133/fra3825-2023">FRA3825-2023</a></li>
+                   </ul>
+				  
+									</div>
+									</section>
+
+                                    <section data-background-color="#fff"
+                                    data-background-image="img1/z.svg"
+                                    data-background-size="1600px"
+                                    
+                                    data-transition="linear"
+                                    data-transition-speed="fast">
+                                                    <div id="fondop2" class="fragment">
+                                    
+                                                      <h6>dans Atelier1</h6>
+                                    <ul>
+                                    <li class="fragment">intégrer 4 références par Identifier : un article, un livre, un chapitre et une thèse dans la collection "Atelier1"</li>
+                                      <li class="fragment">créer un tag et assigner lui 2 références</li>
+                                      <li class="fragment">modifier la référence ajoutée par une autre personne</li>
+
+                                      <li class="fragment">lier une référence à un tag créé par une autre personne</li>
+                                      </ul>
+                                    
+                                                      </div>
+                                                      </section>
+
+                                                    </section>
+                                                    <section data-background-color="#fff"
+                                  data-background-image="img1/Main.png"
+                                  data-background-size="1600px"
+                                  
+                                  data-transition="linear"
+                                  data-transition-speed="fast">
+                                                  <div id="fondop2" class="fragment">
+                                  
+                                                    <h6>Export</h6>
+                                
+                                  
+                                                    </div>
+                                                    </section> 
+
+<section data-background-color="#fff"
+data-background-image="img1/Main.png"
+data-background-size="1600px"
+
+data-transition="linear"
+data-transition-speed="fast">
+                <div id="fondop2" class="fragment">
+
+                  <h6>BibteX</h6>
+<ul>
+    <li class="fragment">logiciel et format pour la gestion de références bibliographiques : 1985 pour LaTeX</li>
+                                                              
+<li class="fragment"><code>@typeDocument{identifiant, balise = valeur<b>,</b>}
+</code></li>
+
+</ul>
+
+
+<p class="fragment"><b>Standard</b></p>
+                  </div>
+                  </section>
+
+                  <section data-background-color="#fff"
+data-background-image="img1/z.svg"
+data-background-size="1600px"
+
+data-transition="linear"
+data-transition-speed="fast">
+                <div id="fondop2" class="fragment">
+
+                  <h6>BetterBibTeX</h6>
+<ul>
+    <li class="fragment"><a href="https://retorque.re/zotero-better-bibtex/installation/">Extension Zotero</a></li>
+                                                              
+<li class="fragment">ajout clef bibtex, formats d'export, export dynamique</li>
+
+</ul>
+
+                  </div>
+                  </section>
+
+                  <section data-background-color="#fff"
+data-background-image="img1/z.svg"
+data-background-size="1200px"
+
+data-transition="linear"
+data-transition-speed="fast">
+                <div id="fondop2" class="fragment">
+
+                  <h6>Exercice</h6>
+<ul>
+    <li class="fragment">créez une collection avec plusieurs références que vous exportez au format BetterBibTeX avec l’option « Garder à jour »</li>                                                            
+<li class="fragment">ajouter une référence à cette collection</li>
+<li class="fragment">ouvrir le fichier .bib</li>
+
+</ul>
+<p class="fragment">Export dynamique</p>
+                  </div>
+                  </section>
+
+                  <section data-background-color="#fff"
+data-background-image="img1/z.svg"
+data-background-size="1200px"
+
+data-transition="linear"
+data-transition-speed="fast">
+                <div id="fondop2" class="fragment">
+
+                  <h6>Pour les futurs collaboratifs</h6>
+<p class="fragment">dans la collection Atelier1 : vérouiller la clef Better Bibtex d'une citation pour conserver le format bibtex de votre référence</p>
+
+<p class="fragment">Gestion du collaboratif</p>
+                  </div>
+                  </section>
+
+                  <section data-background-color="#fff"
+data-background-image="img1/z.svg"
+data-background-size="1200px"
+
+data-transition="linear"
+data-transition-speed="fast">
+                <div id="fondop2" class="fragment">
+
+                  <h6>Liens utiles</h6>
+<ul>
+<li class="fragment"><a href="https://zbib.org/" target="_blank">Zbib</a> </li>
+
+</ul>
+
+                  </div>
+                  </section>
+
+
+                  <section data-background-image="img1/Main.png" data-background-size="1800px"
+			data-background-color="#f1eded">
+			<div id="fondop2" class="fragment">
+				<h5>Vers la bibliométrie</h5>
+
+				<ul>
+
+					<li class="fragment">Projet de recherche : <a href="http://gtr.digitaltextualities.ca/play">Graph Ta Recherche</a> - 2022 CRCEN</li>
+				<li class="fragment">Outils plus perfomants : <a href="https://www.vosviewer.com/">VOSviewer</a> & <a href="http://papermachines.org/">Paper Machines</a></li>
+                </ul>
+
+<p class="fragment">Réflexion sur la visualisation des données</p>
+		</div>
+
+
+		</section>
+
+                  <section data-background-image="img1/Main.png" data-background-size="1800px"
+			data-background-color="#f1eded">
+			<div id="fondop2" class="fragment">
+				<h5>Pour la semaine prochaine</h5>
+
+				<ul>
+
+					<li class="fragment"><a href="https://stylo.huma-num.fr/">Créer Compte Stylo </a><sup>en ligne</sup> : de préférence avec HumaNum</li>
+				</ul>
+
+
+		</div>
+
+
+		</section>
+                                        </div>
+
+
+
+
+
+                                      </div>
+                                  
+                                  
+                                      <script src="lib/js/head.min.js"></script>
+                                      <script src="js/reveal.js"></script>
+                                  
+                                      <script>
+                                  
+                                        // Full list of configuration options available at:
+                                        // https://github.com/hakimel/reveal.js#configuration
+                                        Reveal.initialize({
+                                          controls: true,
+                                          progress: true,
+                                          history: true,
+                                          center: true,
+                                  
+                                          transition: 'slide', // none/fade/slide/convex/concave/zoom
+                                  
+                                          // Optional reveal.js plugins
+                                          dependencies: [
+                                            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                                            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                                            { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+                                            { src: 'plugin/zoom-js/zoom.js', async: true },
+                                            { src: 'plugin/notes/notes.js', async: true }
+                                          ]
+                                        });
+                                  
+                                        var link = document.createElement( 'link' );
+                                        link.rel = 'stylesheet';
+                                        link.type = 'text/css';
+                                        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+                                        document.getElementsByTagName( 'head' )[0].appendChild( link );
+                                  
+                                  var slideIndex = 1;
+                                  showSlides(slideIndex);
+                                  
+                                  function plusSlides(n) {
+                                    showSlides(slideIndex += n);
+                                  }
+                                  
+                                  function currentSlide(n) {
+                                    showSlides(slideIndex = n);
+                                  }
+                                  
+                                  function showSlides(n) {
+                                    var i;
+                                    var slides = document.getElementsByClassName("mySlides");
+                                    var dots = document.getElementsByClassName("dot");
+                                    if (n > slides.length) {slideIndex = 1}
+                                    if (n < 1) {slideIndex = slides.length}
+                                    for (i = 0; i < slides.length; i++) {
+                                        slides[i].style.display = "none"; 
+                                    }
+                                    for (i = 0; i < dots.length; i++) {
+                                        dots[i].className = dots[i].className.replace(" active", "");
+                                    }
+                                    slides[slideIndex-1].style.display = "block"; 
+                                    dots[slideIndex-1].className += " active";
+                                  }
+                                  
+                                      </script>
+                                  
+                                    </body>
+                                  </html>
+                                  
