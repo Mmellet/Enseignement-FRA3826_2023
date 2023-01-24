@@ -1,19 +1,46 @@
 --- 
 title: "Séance 3"
-date: 2023-09-17
+date: 2023-01-24
 ---
 
 
-# Séance du 17 septembre
+# Séance du 24 septembre : Édition savante & Structuration des données
 
-[Bibliographie liée](https://www.zotero.org/groups/4276254/fra3825-a2023/collections/RV4ZQU9V)
+[Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/RDDUMA4X)
 
-[Prise de note collaborative](https://demo.hedgedoc.org/Mz4bm2ZZS2GMWHJyE3CAbw#)
+## Édition savante
 
-## Qu'est ce que l'édition numérique ? (volet II)
-
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/Seance-3-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/Seance-3-1.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-1.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+## Éditorialisation
+
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-2.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+
+## Structuration des données
+
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-3.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-3.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+
+## Atelier 1 : Zotero
+
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
