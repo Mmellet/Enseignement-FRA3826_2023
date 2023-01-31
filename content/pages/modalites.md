@@ -12,8 +12,8 @@ title: Modalités d'évaluation
 
 ## Ateliers 
 
-1. Zotero - 24 janvier
-2. Stylo - 31 janvier
+1. [Zotero](https://mmellet.github.io/FRA3825_2023/seances/seance3/#atelier-1--zotero) - 24 janvier
+2. [Stylo](https://mmellet.github.io/FRA3825_2023/seances/seance4/#atelier-2--stylo) - 31 janvier
 3. Écriture Web - 7 février
 4. Github - 14 février
 5. Projet Github - 21 février

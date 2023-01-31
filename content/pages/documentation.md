@@ -70,7 +70,7 @@ L'index pour les prises de notes collaboratives se trouve [ici](https://demo.hed
 
 -------------------------
 -------------------------
-
+-->
 
 ## Markdown
 
@@ -122,6 +122,11 @@ Voici mon texte[^1]
 ```
 ![Légende](https://tonpetitlook.com/wp-content/uploads/2017/05/nouveau-chaton-nouveau-defi-430442.png)
 ```
+
+### Tutoriel
+
+<a href="https://www.arthurperret.fr/tutomd/" target="blank">Traduction en ligne par Arthur Perret</a>
+					
 
 -------------------------
 -------------------------
