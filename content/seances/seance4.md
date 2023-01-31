@@ -1,35 +1,35 @@
 --- 
 title: "Séance 4"
-date: 2023-09-24
+date: 2023-01-31
 ---
 
-# Séance du 24 septembre
+# Séance du 31 janvier : Formats & Écriture sémantique
 
-[Bibliographie liée](https://www.zotero.org/groups/4276254/fra3825-a2023/collections/77I6T7EM)
+[Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/2I3B983R)
 
-[Prise de note collaborative](https://demo.hedgedoc.org/RVBdU0VPQieWWvMIBygmIA#)
+## Enjeux & problématiques des formats
 
-## Le numérique connecté
-
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/Seance-4-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-4-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/Seance-4-1.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-4-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
-## Poétique Hypertexte
+## Écriture sémantique
 
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/Seance-4-2.html" title="description" height="500" width="800" ></iframe>
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-4-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/Seance-4-2.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-4-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
 
-## Littérature hypertextuelle
+## Atelier 2 : Stylo
 
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/Seance-4-3.html" title="description" height="500" width="800" ></iframe>
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/Seance-4-3.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
