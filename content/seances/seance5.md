@@ -1,6 +1,6 @@
 --- 
 title: "Séance 5"
-date: 2023-02-06
+date: 2023-02-07
 ---
 
 # Séance du 7 Février : Écriture Web
@@ -18,7 +18,7 @@ date: 2023-02-06
 </div>
 
 
-## Enjeux & problématiques des formats
+## Web & Hypertextes
 
 <iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-5-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
