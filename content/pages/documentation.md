@@ -141,3 +141,7 @@ Voici mon texte[^1]
 
 -------------------------
 
+## Hypothesis 
+
+- [Tips pour des annotations réussies](https://web.hypothes.is/annotation-tips-for-students/)
+
