@@ -1,51 +1,55 @@
 --- 
 title: "Séance 6"
-date: 2023-10-08
+date: 2023-02-14
 ---
 
-# Séance du 8 octobre
+# Séance du 14 Février : Chaînes éditoriales & modulaires
 
-[Bibliographie liée](https://www.zotero.org/groups/4276254/fra3825-a2023/collections/V4HB87WB)
+[Bibliographie liée](hhttps://www.zotero.org/groups/4823133/fra3825-2023/collections/7EP3Q33Z)
 
-[Prise de note collaborative](https://demo.hedgedoc.org/C8ARcHnwT-GTPA4k8wmuYw#)
 
-## Humanités Numériques
+## Bonnes pratiques d'édition
 
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/Seance-6-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/Seance-6-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-## Humanisme numérique & Éditorialisation
-
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/Seance-6-2.html" title="description" height="500" width="800" ></iframe>
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-6-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/Seance-6-2.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-6-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
+## Chaînes modulaires 
 
-## Zotero
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-6-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/Zotero.html" title="description" height="500" width="800" ></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/Zotero.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-6-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
+## Versions & Git
 
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-6-3.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
-## Compte-rendu
-
-<iframe src="https://mmellet.github.io/fra3825_2023/slides/CompteRendu.html" title="description" height="500" width="800" ></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/fra3825_2023/slides/CompteRendu.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-6-3.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
-À annoter pour la semaine prochaine : 
 
-- <a href="https://via.hypothes.is/https://books.openedition.org/pum/312?lang=fr">Chapitre 1. La fonction éditoriale et ses défis
-Patrick Poirier et Pascal Genêt </a>
+## Atelier 4 : Initiation Git
 
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-4.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-4.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+
+## Stylo & HTML
+
+[Atelier Stylo](https://mmellet.github.io/FRA3825_2023/seances/seance4/#atelier-2--stylo)
+
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2-3.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2-3.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>

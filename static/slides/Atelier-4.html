@@ -1,0 +1,423 @@
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>FRA3825 - Théories de l'édition numérique</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+    <style>
+        code {
+            background-color: honeydew;
+        }
+
+        .pre {
+            background-color: honeydew;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px
+            }
+        }
+    </style>
+
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <div class="slides">
+            <div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
+            <section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+                <div id="fondop" style="position:inherit;top: -50px;left: -50px;">
+                    <sup>FRA3825</sup>
+                </div>
+
+                <div id="fondop2" class="fragment">
+                    <p>
+                        <h2> Pratiques de l'édition numérique</h2>
+                    </p>
+                </div>
+                <div id="fondop2" class="fragment">
+                    <p>
+                        <h6>Atelier 4</h6> Initiation à Git
+                    </p>
+                </div>
+            </section>
+
+
+            <section data-background-image="img1/Main.png" data-background-size="1800px">
+                <div id="fondop2" class="fragment">
+                    <h6>En ligne</h6>
+
+
+
+                </div>
+            </section>
+
+            <section data-background-image="img1/git_cours.png" data-background-size="1400px">
+                <div id="fondop2" class="fragment">
+                    <h6>GitHub du cours <p><a href="https://github.com/Mmellet/FRA3825_2023"
+                                target="blank">FRA3825_2023</a></p>
+                    </h6>
+
+
+
+                </div>
+            </section>
+
+            <section data-background-image="img1/git_cours.png" data-background-color="#f1eded"
+                data-background-size="1600px">
+                <div id="fondop2" class="fragment">
+                    <h6>Exercice 1 : explorations d'un projet GitLab</h6>
+                    <ul>
+                        <li class="fragment">visitez les différentes versions : la <a
+                                href="https://mmellet.github.io/FRA3825_2023/" target="blank">version
+                                Web</a> et le <a href="https://github.com/Mmellet/FRA3825_2023"
+                                target="blank">repository</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section data-background-image="img1/git_repo.png" data-background-color="#f1eded" data-background-size="1600px">
+                <div id="fondop2" class="fragment">
+                    <h6>Exercice 2 : Analyse de la structure</h6>
+                    <ul>
+                        <li class="fragment">naviguez dans le dépôt et cherchez : le dossier des contenus, le dossier
+                            des médias, les configurations du site</li>
+                        <li class="fragment">observez les paramètres de la publication (fichier <code>config</code>)
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section data-background-image="img1/Main.png" data-background-size="1800px">
+                <div id="fondop2" class="fragment">
+                    <h6>En local</h6>
+
+
+
+                </div>
+            </section>
+
+            <section data-background-image="img1/git.jpg" data-background-size="1400px">
+                <div id="fondop2" class="fragment">
+                    <h6><a href="https://gitlab.com/antilivre/gitterature/" target="blank">Gittérature</a></h6>
+
+
+
+                </div>
+            </section>
+
+            <section data-background-image="img1/Main.png" data-background-color="#f1eded" data-background-size="1800px">
+                <div id="fondop2" class="fragment">
+                    <h6>Préalable : Accès au Terminal</h6>
+                    <ul>
+
+                        <li class="fragment">Mac/Linux : chercher "Terminal" (ou CTRL/Cmd + Alt + T)</li>
+                        <li class="fragment">Windows : ouvrir Menu, chercher "Command Prompt" ou "Power Shell" <i>sinon</i> suivre les instructions <a href="https://blog.ineat-group.com/2020/02/utiliser-le-terminal-bash-natif-dans-windows-10/">ici</a> ou <a href="https://korben.info/installer-shell-bash-linux-windows-10.html">là</a></li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section data-background-image="img1/Main.png" data-background-color="#f1eded" data-background-size="1800px">
+                <div id="fondop2" class="fragment">
+                    <h6>Terminal : Commandes de base</h6>
+                    <ul>
+
+                        <li class="fragment">Où l'on est : <code>pwd</code></li>
+                        <li class="fragment">Liste des fichiers : <code>ls</code> ou <code>ll</code></li>
+                        <li class="fragment">Ouvrir un dossier : <code>cd <i>chemin</i></code>/</li>
+                        <li class="fragment">Afficher le contenu : <code>cat <i>nom_fichier.extension</i></code></li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section data-background-image="img1/git.jpg" data-background-color="#f1eded" data-background-size="1600px">
+                <div id="fondop2" class="fragment">
+                    <h6>Exercice 1 : Cloner en local la Gittérature</h6>
+                    <ul>
+                        <li class="fragment">Dans le terminal, à l'endroit que vous souhaitez : <textarea>git clone https://gitlab.com/antilivre/gitterature/</textarea></li>
+                        <li class="fragment">Ouvrir le dossier "gitterature" : <code>cd gitterature</code></li>
+
+                    </ul>
+                </div>
+            </section>
+
+
+            <section data-background-image="img1/Main.png" data-background-color="#f1eded" data-background-size="1800px">
+                <div id="fondop2" class="fragment">
+                    <h6>Terminal : Astuces</h6>
+                    <ul>
+
+                        <li class="fragment">Tabulation pour compléter la commande</li>
+                        <li class="fragment">Flèche haut pour naviguer dans précédentes commandes</li>
+                       
+
+                    </ul>
+                </div>
+            </section>
+
+            <section data-background-image="img1/git.jpg" data-background-color="#f1eded" data-background-size="1600px">
+                <div id="fondop2" class="fragment">
+                    <h6>Exercice 2 : Commander la Gittérature</h6>
+                    <ul>
+
+                        <li class="fragment">Selon la <a href="https://gitlab.com/antilivre/gitterature/#commandes">liste des commandes</a>, parcourez le projet</li>
+                    
+                    </ul>
+                </div>
+            </section>
+
+
+            <section data-background-image="img1/Main.png" data-background-size="1800px">
+                <div id="fondop2" class="fragment">
+                    <p class="fragment">Pour la semaine prochaine</p>
+                    <ul>
+
+                        <li class="fragment">Installer <a href="https://vscodium.com/">Vs Codium</a></li>
+                        <li class="fragment">Choisir un texte dans la<a href="https://demo.hedgedoc.org/LlC4ncAKQy6iEvW0aYy_TA#">Liste</a></li>
+                        
+                       
+
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                // Optional reveal.js plugins
+                dependencies: [{
+                        src: 'lib/js/classList.js',
+                        condition: function () {
+                            return !document.body.classList;
+                        }
+                    },
+                    {
+                        src: 'plugin/markdown/marked.js',
+                        condition: function () {
+                            return !!document.querySelector('[data-markdown]');
+                        }
+                    },
+                    {
+                        src: 'plugin/markdown/markdown.js',
+                        condition: function () {
+                            return !!document.querySelector('[data-markdown]');
+                        }
+                    },
+                    {
+                        src: 'plugin/highlight/highlight.js',
+                        async: true,
+                        condition: function () {
+                            return !!document.querySelector('pre code');
+                        },
+                        callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }
+                    },
+                    {
+                        src: 'plugin/zoom-js/zoom.js',
+                        async: true
+                    },
+                    {
+                        src: 'plugin/notes/notes.js',
+                        async: true
+                    }
+                ]
+            });
+
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
+</body>
+
+</html>

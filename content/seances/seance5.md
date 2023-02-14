@@ -11,10 +11,10 @@ date: 2023-02-07
 
 [Atelier Stylo](https://mmellet.github.io/FRA3825_2023/seances/seance4/#atelier-2--stylo)
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2-bis.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2-bis.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
 

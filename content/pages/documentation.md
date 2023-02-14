@@ -8,6 +8,72 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 
 -------------------------
 
+## Raccourcis clavier 
+
+### Gestion Écriture
+- CTRL/Cmd + C : Copier (*Copy*)
+- CTRL/Cmd + V : Coller (*Varnish*)
+- CTRL/Cmd + X : Couper (*eXterminate*)
+
+- CTRL/Cmd + A : Sélectionner tout (*All*)
+- CTRL/Cmd + F : Rechercher (*Find*)
+
+- CTRL/Cmd + Z : Annuler (*Zut*)
+- CTRL/Cmd + Y : Revenir à l'état précédent (*Yesterday*)
+
+### Gestion Document
+- CTRL/Cmd + S : Sauvegarder (*Save*)
+- CTRL/Cmd + O : Ouvrir (*Open*)
+- CTRL/Cmd + Q : Quitter (*Quit*)
+
+- CTRL/Cmd + F : Mettre en plein écran (*Full screen*)
+- CTRL/Cmd + N : Nouvelle fenêtre (*New*)
+### Traitement texte 
+- CTRL/Cmd + B : Mise en gras (*Bold*)
+- CTRL/Cmd + I : Mise en italique (*Italique*)
+- CTRL/Cmd + U : Souligner (*Underline*)
+
+-------------------------
+-------------------------
+
+## Commandes Terminal 
+
+### Navigation 
+
+- où je suis : `pwd` (*Print Working Directory*)
+
+- aller : `cd chemin` (*Change Directory*)
+- revenir en arrière : `cd ..`
+
+- lister les fichiers : `ls` ou `ll` (*List*)
+- recherche dans les noms ou dans les fichiers : `find`
+
+### Gestion des fichiers
+
+- déplacer un fichier : `mv nom.extension` (*Move*)
+- supprimer un fichier : `rm nom.extension` (*Remove*)
+- afficher le contenu : `cat nom.extension` (*Concatenate*)
+
+- créer un fichier : `touch nom.extension`
+- créer un dossier : `mkdir nom` (*Make Directory*)
+
+- copier un fichier : `cp nom.extension chemin/nom.extension` (*Copy*)
+- copier un dossier : `cp -r nom chemin/`
+
+### Astuces 
+
+- tabulation : autocomplétion
+- flèche du haut : historique des commandes
+- CTRL + R : rechercher dans l’historique
+
+- `clear` pour effacer les commandes affichées
+
+- `&&` pour enchaîner les commandes
+- `wc nom.extension` pour compter les noms (*WordCounter*)
+
+--------------------
+------------------
+
 <!--
 ## Hypothesis 
 
@@ -132,6 +198,44 @@ Voici mon texte[^1]
 -------------------------
 
 
+## HedgeDoc 
+
+[HedgeDoc](https://docs.hedgedoc.org/) est un espace pour l'écriture collaborative et synchrone. 
+
+ 
+Cet espace se structure selon 2 espaces :
+
+![](https://mmellet.github.io/FRA3825_2023/images/hedge.png)
+
+### ![](https://mmellet.github.io/FRA3825_2023/images/writing.png) Espace d'édition 
+
+![](https://mmellet.github.io/FRA3825_2023/images/edition.png)
+
+C'est dans cet espace que vous pourrez éditer. 
+
+L'édition d'une note peut être effectuée via l'éditeur visuel :
+
+![](https://mmellet.github.io/FRA3825_2023/images/editor.png)
+
+ou directement en Markdown dans le texte.
+
+
+### ![](https://mmellet.github.io/FRA3825_2023/images/visual.png) Espace de visualisation 
+
+![](https://mmellet.github.io/FRA3825_2023/images/visualisation.png)
+
+Cet espace n'est pas éditable mais permet un rendu type web. 
+
+### ![](https://mmellet.github.io/FRA3825_2023/images/double.png) Double configuration
+
+![](https://mmellet.github.io/FRA3825_2023/images/dual.png)
+
+Afin de suivre en simultané le rendu de votre édition vous pouvez choisir la double configuration. 
+
+
+-------------------------
+-------------------------
+
 ## Stylo 
 
 - [Documentation officielle](http://stylo-doc.ecrituresnumeriques.ca/fr_FR/#!index.md)
@@ -143,5 +247,5 @@ Voici mon texte[^1]
 
 ## Hypothesis 
 
-- [Tips pour des annotations réussies](https://web.hypothes.is/annotation-tips-for-students/)
+- [Astuces pour des annotations réussies](https://web.hypothes.is/annotation-tips-for-students/)
 

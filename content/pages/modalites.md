@@ -13,9 +13,9 @@ title: Modalités d'évaluation
 ## Ateliers 
 
 1. [Zotero](https://mmellet.github.io/FRA3825_2023/seances/seance3/#atelier-1--zotero) - 24 janvier
-2. [Stylo](https://mmellet.github.io/FRA3825_2023/seances/seance4/#atelier-2--stylo) - 31 janvier & [Retour d'expérience]() - 7 février
-3. [Écriture Web]() - 7 février
-4. Github - 14 février
+2. [Stylo](https://mmellet.github.io/FRA3825_2023/seances/seance4/#atelier-2--stylo) - 31 janvier & [Retour d'expérience](https://mmellet.github.io/FRA3825_2023/seances/seance5/#retour-sur-latelier-stylo) - 7 février & [Stylo + HTML](https://mmellet.github.io/FRA3825_2023/seances/seance6/#stylo--html)
+3. [Écriture Web](https://mmellet.github.io/FRA3825_2023/seances/seance5/#atelier-3--html--css) - 7 février
+4. [Github](https://mmellet.github.io/FRA3825_2023/seances/seance6/#atelier-4--git) - 14 février
 5. Projet Github - 21 février
 6. Terminal - 7 mars
 7. Hugo - 14 mars
@@ -23,6 +23,8 @@ title: Modalités d'évaluation
 
 
 ## Examen de mi-session 
+
+Préalable : Choisir un texte dans la [liste](https://demo.hedgedoc.org/LlC4ncAKQy6iEvW0aYy_TA#).
 
 *descriptif à venir*
 <!--
