@@ -5,7 +5,7 @@ date: 2023-02-14
 
 # Séance du 14 Février : Chaînes éditoriales & modulaires
 
-[Bibliographie liée](hhttps://www.zotero.org/groups/4823133/fra3825-2023/collections/7EP3Q33Z)
+[Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/7EP3Q33Z)
 
 
 ## Bonnes pratiques d'édition
