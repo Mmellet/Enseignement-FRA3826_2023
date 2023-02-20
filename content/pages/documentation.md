@@ -71,6 +71,7 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 - `clear` pour effacer les commandes affichées
 
 - `&&` pour enchaîner les commandes
+  - ex: ` echo "Hello!" && echo "World!"`
 - `wc nom.extension` pour compter les noms (*WordCounter*)
 
 --------------------
