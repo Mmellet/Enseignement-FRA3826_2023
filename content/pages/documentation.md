@@ -47,8 +47,8 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 | revenir en arrière  |  `cd ..`   | 👈 pareil |
 | lister les fichiers (sans meta information) |  `ls`  | `¯\_(ツ)_/¯` (n'existe pas) |
 | lister les fichiers (avec meta information) |  `ls -l` or `ll`  | `dir` |
-| recherche dans les noms des fichiers |  `find ~ -name '*.md'` | `dir -s  *.md` (trouve tous les fichiers `.md`) |
-| recherche dans les contenus des fichiers |  `grep site README.txt` | `findstr site .\README.md` (cherche le mot `site` dans le ficher `README.md` ) |
+| recherche dans les noms des fichiers (ex: trouve tous les fichiers `.md`) |  `find ~ -name '*.md'` | `dir -s  *.md` |
+| recherche dans les contenus des fichiers (ex: cherche le mot `site` dans le ficher `README.md`) |  `grep site README.txt` | `findstr site .\README.md` |
 
 ### Gestion des fichiers
 
