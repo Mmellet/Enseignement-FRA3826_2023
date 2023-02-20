@@ -40,13 +40,15 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 
 ### Navigation 
 
-- où je suis : `pwd` (*Print Working Directory*)
-
-- aller : `cd chemin` (*Change Directory*)
-- revenir en arrière : `cd ..`
-
-- lister les fichiers : `ls` ou `ll` (*List*)
-- recherche dans les noms ou dans les fichiers : `find`
+| Action  | Linux/MacOs  | Windows |
+|---|---|---|
+| où je suis  | `pwd` (*Print Working Directory*) | `cd` (*current directory* si suivit de rien) |
+| aller/ se deplacer  |  `cd chemin` (*change Directory*)  | 👈 pareil |
+| revenir en arrière  |  `cd ..`   | 👈 pareil |
+| lister les fichiers (sans meta information) |  `ls`  | `¯\_(ツ)_/¯` (n'existe pas) |
+| lister les fichiers (avec meta information) |  `ls -l` or `ll`  | `dir` |
+| recherche dans les noms des fichiers |  `find ~ -name '*.md'` | `dir -s  *.md` (trouve tous les fichiers `.md`) |
+| recherche dans les contenus des fichiers |  `grep site README.txt` | `findstr site .\README.md` (cherche le mot `site` dans le ficher `README.md` ) |
 
 ### Gestion des fichiers
 
