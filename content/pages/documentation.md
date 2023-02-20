@@ -52,15 +52,16 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 
 ### Gestion des fichiers
 
-- déplacer un fichier : `mv nom.extension` (*Move*)
-- supprimer un fichier : `rm nom.extension` (*Remove*)
-- afficher le contenu : `cat nom.extension` (*Concatenate*)
-
-- créer un fichier : `touch nom.extension`
-- créer un dossier : `mkdir nom` (*Make Directory*)
-
-- copier un fichier : `cp nom.extension chemin/nom.extension` (*Copy*)
-- copier un dossier : `cp -r nom chemin/`
+| Action  | Linux/MacOs  | Windows |
+|---|---|---|
+| déplacer un fichier (ex: deplacer fichier dans dossier parent) | `mv README.md ../`(*move*) | `move README.md ../`  |
+| supprimer un fichier | `rm README.md` (*Remove*) |`del README.md` (*delete*)|
+| afficher le contenu |`cat README.md` (*Concatenate*)| `gc README.md` (*get-content*) |
+| créer un fichier vide | `touch README.md` (*change file timestamps*) or `echo '' >> README.md` (*put nothing into a file*) | `echo $null >> README.md` (*put also nothing into a file*) |
+| créer un dossier | `mkdir newFolder` (*make dir*) |  👈 pareil  |
+| supprimer un dossier vide | `rmdir newFolder` (*remove dir*) | 👈 pareil  |
+| copier un fichier | `cp README.md README2.md` (*copy*) | `copy .\README.md .\README2.md`|
+| copier un dossier | `cp -r content content2` (*copy recursively*) | `Copy-Item -Path content -Destination content2 -Recurse`|
 
 ### Astuces 
 
