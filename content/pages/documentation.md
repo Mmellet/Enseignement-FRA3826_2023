@@ -42,26 +42,25 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 
 | Action  | Linux/MacOs  | Windows |
 |---|---|---|
-| où je suis  | `pwd` (*Print Working Directory*) | `cd` (*current directory* si suivit de rien) |
-| aller/ se deplacer  |  `cd chemin` (*change Directory*)  | 👈 pareil |
-| revenir en arrière  |  `cd ..`   | 👈 pareil |
-| lister les fichiers (sans meta information) |  `ls`  | `¯\_(ツ)_/¯` (n'existe pas) |
-| lister les fichiers (avec meta information) |  `ls -l` or `ll`  | `dir` |
-| recherche dans les noms des fichiers |  `find ~ -name '*.md'` | `dir -s  *.md` (trouve tous les fichiers `.md`) |
+| où je suis  | `pwd` (*Print Working Directory*) | `cd` (*Current Directory*) |
+| aller/ se deplacer  |  `cd chemin` (*Change Directory*) | `cd chemin` (*Change Directory*) |
+| revenir en arrière  |  `cd ..`   | `cd ..` |
+| lister les fichiers (avec meta information) |  `ls -l` ou `ll`  | `dir` |
+| recherche dans les noms des fichiers |  `find ~ -name '*.md'` | `dir -s  *.md` |
 | recherche dans les contenus des fichiers |  `grep site README.txt` | `findstr site .\README.md` (cherche le mot `site` dans le ficher `README.md` ) |
 
 ### Gestion des fichiers
 
 | Action  | Linux/MacOs  | Windows |
 |---|---|---|
-| déplacer un fichier (ex: deplacer fichier dans dossier parent) | `mv README.md ../`(*move*) | `move README.md ../`  |
-| supprimer un fichier | `rm README.md` (*Remove*) |`del README.md` (*delete*)|
-| afficher le contenu |`cat README.md` (*Concatenate*)| `gc README.md` (*get-content*) |
-| créer un fichier vide | `touch README.md` (*change file timestamps*) or `echo '' >> README.md` (*put nothing into a file*) | `echo $null >> README.md` (*put also nothing into a file*) |
-| créer un dossier | `mkdir newFolder` (*make dir*) |  👈 pareil  |
-| supprimer un dossier vide | `rmdir newFolder` (*remove dir*) | 👈 pareil  |
-| copier un fichier | `cp README.md README2.md` (*copy*) | `copy .\README.md .\README2.md`|
-| copier un dossier | `cp -r content content2` (*copy recursively*) | `Copy-Item -Path content -Destination content2 -Recurse`|
+| déplacer un fichier (ex: deplacer fichier dans dossier parent) | `mv README.md ../`(*Move*) | `move README.md ../`  |
+| supprimer un fichier | `rm README.md` (*Remove*) |`del README.md` (*Delete*)|
+| afficher le contenu |`cat README.md` (*Concatenate*)| `gc README.md` (*Get-Content*) |
+| créer un fichier vide | `touch README.md` ou `echo '' >> README.md` | `echo $null >> README.md` |
+| créer un dossier | `mkdir newFolder` (*Make Dir*) | `mkdir newFolder` (*Make Dir*)  |
+| supprimer un dossier vide | `rmdir newFolder` (*Remove dir*) | `rmdir newFolder` (*Remove dir*)  |
+| copier un fichier | `cp README.md README2.md` (*Copy*) | `copy .\README.md .\README2.md`|
+| copier un dossier | `cp -r content content2` (*Copy recursively*) | `Copy-Item -Path content -Destination content2 -Recurse`|
 
 ### Astuces 
 

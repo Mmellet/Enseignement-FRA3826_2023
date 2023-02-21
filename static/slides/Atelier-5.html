@@ -1,0 +1,448 @@
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>FRA3825 - Théories de l'édition numérique</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+    <style>
+        textarea {
+            width: 450px;
+  height: 50px;
+  text-align: center;
+margin-top: auto;
+resize:inherit;
+}
+        code {
+            background-color: honeydew;
+        }
+
+        .pre {
+            background-color: honeydew;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+            display: none;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+
+            .prev,
+            .next,
+            .text {
+                font-size: 11px
+            }
+        }
+        .transparent {
+  background-color: rgba(247, 100, 181, 0.329);
+}
+
+.transparent2 {
+  background-color:  	rgba(106, 142, 35, 0.603);
+}
+    </style>
+
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <div class="slides">
+            <div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
+            <section data-background-image="img1/Main.png" data-background-size="2000px" background-color="#21211c">
+                <div id="fondop" style="position:inherit;top: -50px;left: -50px;">
+                    <sup>FRA3825</sup>
+                </div>
+
+                <div id="fondop2" class="fragment">
+                    <p>
+                        <h2> Pratiques de l'édition numérique</h2>
+                    </p>
+                </div>
+                <div id="fondop2" class="fragment">
+                    <p>
+                        <h6>Atelier 5</h6> La Fabrique de Poe
+                    </p>
+                </div>
+            </section>
+
+
+<section data-background-image="img1/Main.png" data-background-size="1400px">
+    <div id="fondop2" class="fragment">
+        <h5>Édition collaborative des <a href="https://fr.wikisource.org/wiki/Nouvelles_Histoires_extraordinaires" target="blank">Nouvelles Histoires extraordinaires</a></h5>
+            <p class="fragment"><span style="color: green">En ligne</span> ou <span style="color: violet">En local (Terminal + VsCodium)</span></p>      
+
+</div>
+</section>
+<section data-background-image="img1/poe.png" data-background-color="#f1eded" data-background-size="1700px">
+                            <div id="fondop2" class="fragment">
+<h6>Préambule 1 : Exploration d'un projet GitLab</h6>
+<p class="fragment">Visitez les différentes versions : la <a href="https://mmellet.github.io/La_Fabrique_de_Poe/" target="blank">version Web</a>, la <a href="https://mmellet.github.io/La_Fabrique_de_Poe/print/" target="blank">version print</a> et la <a href="https://github.com/Mmellet/La_Fabrique_de_Poe" target="blank">repository</a></p>
+
+<div class="fragment"><p class="transparent">Cloner <textarea>git clone https://github.com/Mmellet/La_Fabrique_de_Poe.git</textarea>
+<br> Ouvrir le repository avec VsCodium</p></div>
+</div>
+</section>
+<section data-background-image="img1/repoPoe.png" data-background-color="#f1eded" data-background-size="1600px">
+<div id="fondop2" class="fragment">
+<h6>Préambule 2 : Analyse de la structure</h6>
+<ul>
+<li class="fragment">naviguez dans le dépôt et cherchez : le dossier des contenus, le dossier des médias, les configurations du site</li>
+<li class="fragment">observez les paramètres de la publication (dossier <code>config</code>)</li>
+</ul>
+</div>
+</section>
+
+<section data-background-image="img1/print.png" data-background-color="#f1eded" data-background-size="1600px">
+<div id="fondop2" class="fragment">
+<h6>Préambule 3 : Modèle</h6>
+<ul>
+<li class="fragment">allez dans le fichier <code>themes/roman/layouts/section/print.html</code></li>
+<li class="fragment">essayer de comprendre la construction de ce modèle pour la version imprimée</li>
+</ul>
+</div>
+</section>
+
+
+<section data-background-image="img1/branche.png" data-background-color="#f1eded" data-background-size="1600px">
+    <div id="fondop2" class="fragment">
+    <h6>Exercice 1 : Se créer sa branche</h6>
+    <div class="fragment"><p class="transparent2">Sélectionnez les branches</p></div>
+    <div class="fragment"><p class="transparent">Ouvrir le terminal dans VsCodium et <textarea>git branch margot</textarea> <br> pour visualiser les branches existantes : <textarea>git branch</textarea> </p>
+    </p></div>
+    </section>
+
+<section data-background-image="img1/wikisource.png" data-background-color="#f1eded" data-background-size="1600px">
+<div id="fondop2" class="fragment">
+<h6>Exercice 5 : Préparer le texte</h6>
+<p class="fragment">Télécharger <a href="https://demo.hedgedoc.org/LlC4ncAKQy6iEvW0aYy_TA#">votre nouvelle</a> correspondant au format txt</p>
+<p class="fragment" style="font-size: medium;"><code>Télécharger</code>, <code>Rechercher un format différent</code>, File format = <code>Plain text</code></p>
+
+<p class="fragment">Ouvrir le fichier <code>.txt</code> dans un éditeur de texte (VsCodium)</p>
+
+</div>
+</section>
+
+<section data-background-image="img1/log.png" data-background-color="#f1eded" data-background-size="1600px">
+<div id="fondop2" class="fragment">
+<h6>Exercice 4 : Se mettre sur sa branche</h6>
+
+<div class="fragment"><p class="transparent2">Sur le <a href="https://gitlab.huma-num.fr/hnu6051/espace-projet">repository</a> : sélectionnez la branche à votre nom</p></div>
+    <div class="fragment"><p class="transparent">Terminal <textarea>git switch margot</textarea></p></div>
+
+</div>
+</section>
+
+
+<section data-background-image="img1/add.png" data-background-color="#f1eded" data-background-size="1600px">
+<div id="fondop2" class="fragment">
+<h6>Exercice 4 : Créer votre fichier</h6>
+<div class="fragment"><p class="transparent2">Allez dans <code>content</code>/<code>posts</code></br>
+Sélectionnez <code>Add file</code>, <code>Create New file</code></br>
+Nommer le fichier <code>nouvelle</code><i>Numero</i><code>.md</code> tel que dans la <a hre="recent:///dee8f550c0ff54298f1e8fe963f3d181">liste</a></p></div>
+<div class="fragment"><p class="transparent">Terminal : <textarea>touch content/posts/nouvelleNumero.md</textarea> <br> Windows* <textarea>echo $null >> content/posts/nouvelleNumero.md</textarea> </p></div>
+</div>
+</section>
+
+<section data-background-image="img1/newPost.png" data-background-color="#f1eded" data-background-size="1600px">
+<div id="fondop2" class="fragment">
+<h6>Exercice 4 : Métadonnées</h6>
+<ul>
+<li class="fragment">Au début du fichier, copier : </br><code>
+    +++
+    <br>chapter = "Nouvelle Numero"
+    <br>date = "2023-01-21T10:01:00.000+00:00"
+    <br>title = "Titre"
+    <br>weight = Numero + 1 (2 si nouvelle 1, 3 si nouvelle 2, etc.)
+    <br>chapitre = "oui"
+    <br>+++</code></li>
+
+</ul>
+</div>
+</section>
+
+<section data-background-image="img1/texte.png" data-background-color="#f1eded" data-background-size="1600px">
+<div id="fondop2" class="fragment">
+<h6>Exercice 4 : Ajout du texte</h6>
+<ul>
+<li class="fragment">Coller le reste du texte ouvert dans votre éditeur à la suite des métadonnées</li>
+
+<li class="fragment">Enlever les informations non nécessaires (mentions de Wikisource)</li>
+</ul>
+</div>
+</section>
+
+
+<section data-background-image="img1/commit.png" data-background-color="#f1eded" data-background-size="1600px">
+<div id="fondop2" class="fragment">
+<h6>Exercice 4 : Commit</h6>
+<div class="fragment"><p class="transparent2">Commitez en décrivant votre participation : "ajout de la nouvelle <i>Numero</i>"</p></div>
+<div class="fragment"><p class="transparent">Terminal <textarea>git add content/posts/nouvelleNumero && git commit -m "Ajout de la nouvelle numero"</textarea> <br> <textarea>git push --set-upstream origin margot</textarea></p>
+</div>
+</section>
+
+<section data-background-image="img1/pull.png" data-background-color="#f1eded" data-background-size="1600px">
+    <div id="fondop2" class="fragment">
+    <h6>Pour déposer le travail : Créer Pull request</h6>
+    <ul>
+    <li class="fragment">Dans <code>Pull requests</code>, sélectionnez <code>Compare & pull request</code></li>
+        <li class="fragment">Renseignez vos modifications & Sélectionnez <code>Create pull request</code></li></ul>
+
+
+    </div>
+    </section>
+
+<section data-background-image="img1/deploiement.png" data-background-color="#f1eded" data-background-size="1600px">
+<div id="fondop2" class="fragment">
+<h6>Deploiement (rien à faire de votre côté)</h6>
+<p class="fragment">Redéploiement du site avec les branches pullées et les modifications seront rendues disponibles <a href="https://mmellet.github.io/La_Fabrique_de_Poe/">en ligne</a></p>
+
+</div>
+</section>
+
+<section data-background-image="img1/Main.png" data-background-size="1800px">
+    <div id="fondop2" class="fragment">
+        <p class="fragment">Pour aller plus loin : <a href="https://learngitbranching.js.org/"
+                target="blank">Learngit Branching</a></p>
+
+    </div>
+</section>
+
+
+<section data-background-image="img1/deploiement.png" data-background-color="#f1eded" data-background-size="1600px">
+    <div id="fondop2" class="fragment">
+    <h6>Pour examen de mi-session :</h6>
+    <p class="fragment"><a href="">Éditer la nouvelle</a></p>
+    
+    </div>
+    </section>
+
+</div>
+
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [{
+                src: 'lib/js/classList.js',
+                condition: function () {
+                    return !document.body.classList;
+                }
+            },
+            {
+                src: 'plugin/markdown/marked.js',
+                condition: function () {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            },
+            {
+                src: 'plugin/markdown/markdown.js',
+                condition: function () {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            },
+            {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                condition: function () {
+                    return !!document.querySelector('pre code');
+                },
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            },
+            {
+                src: 'plugin/zoom-js/zoom.js',
+                async: true
+            },
+            {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }
+        ]
+    });
+
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+</body>
+
+</html>
+
+
