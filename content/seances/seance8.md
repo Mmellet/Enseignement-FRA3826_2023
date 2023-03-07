@@ -1,6 +1,6 @@
 --- 
 title: "Séance 8"
-date: 2023-10-29
+date: 2023-03-07
 ---
 
 # Séance du 7 Mars : Interface Machine
