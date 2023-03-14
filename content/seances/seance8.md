@@ -7,7 +7,6 @@ date: 2023-03-07
 
 [Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/HEBI953Z)
 
-
 ## Bonnes Pratiques dans Github
 
 <iframe src="https://mmellet.github.io/FRA3825_2023/slides/Github.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
