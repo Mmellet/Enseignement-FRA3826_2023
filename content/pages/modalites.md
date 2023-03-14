@@ -52,4 +52,13 @@ Préalable : Choisir un texte dans la [liste](https://demo.hedgedoc.org/LlC4ncAK
 
 2. Carnet d'écriture (30 %)
 
-*descriptif à venir*
+Descriptif de la chaîne éditoriale 
+
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Carnet-chaine.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-chaine.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+
+*descriptif du travail à venir*
