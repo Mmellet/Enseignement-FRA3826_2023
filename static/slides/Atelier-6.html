@@ -225,7 +225,7 @@
 
 					<ul>
 						<li class="fragment"> Exemple : <span style="color:violet">pandoc --standalone</span>
-							<span style="color:green">--bibliography</span> Bibliographie.bib <span
+							<span style="color:green">--bibliography=</span>Bibliographie.bib --citeproc <span
 								style="color:green">--template=</span>Template.latex <span
 								style="color:violet">-f</span> <span style="color:blue">markdown</span> <span
 								style="color:violet">-t</span> <span style="color:blue">latex</span>
@@ -320,7 +320,7 @@
 					<h5>Conversion</h5>
 					<h8>1ere étape : Le Template, Md vers LaTeX</h8>
 					<p class="fragment">
-						<textarea>pandoc --standalone --bibliography=bib.bib --template=template1.latex --csl=udem-apa.csl -f markdown -t latex texte.md -o texte.tex</textarea>
+						<textarea>pandoc --standalone --bibliography=bib.bib --citeproc --template=template1.latex --csl=udem-apa.csl -f markdown -t latex texte.md -o texte.tex</textarea>
 					</p>
 					<p class="fragment">Choix entre les 2 templates et les 2 styles bibliographiques</p>
 				</div>
