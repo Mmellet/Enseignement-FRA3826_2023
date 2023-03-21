@@ -1,0 +1,441 @@
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>FRA3825 - Théories de l'édition numérique</title>
+
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+  <style>
+    code {
+      background-color: honeydew;
+    }
+
+    .pre {
+      background-color: honeydew;
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
+
+    .transparent {
+      background-color: rgba(0, 128, 0, 0.541);
+    }
+    .transparent2 {
+      background-color: rgba(238, 130, 238, 0.664);
+      background-image: linear-gradient(to right, rgba(238, 39, 238, 0.596), rgba(0, 0, 255, 0.507));
+    }
+    .transparent3 {
+      background-color: rgba(0, 128, 0, 0.541);
+      background-image: linear-gradient(to right, rgba(0, 128, 0, 0.541), rgba(238, 39, 238, 0.596), rgba(0, 0, 255, 0.507));
+    }
+  </style>
+
+
+  <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+  <div class="reveal">
+
+    <div class="slides">
+      <div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
+      <section data-background-image="img/Main.png" data-background-size="2000px" background-color="#21211c">
+        <div id="fondop" style="position:inherit;top: -50px;left: -50px;">
+          <sup>FRA3825</sup>
+        </div>
+
+        <div id="fondop2" class="fragment">
+          <p>
+            <h2> Pratiques de l'édition numérique</h2>
+          </p>
+        </div>
+        <div id="fondop2" class="fragment">
+          <p>
+            <h6>Carnet d'écriture</h6> Déploiement
+          </p>
+        </div>
+      </section>
+
+
+      <section data-background="img/fork3.png" data-background-size="2400px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">Duplication/Fork</h5>
+      
+          <p>Sur la page du modèle choisi, sélectionnez <code>Fork</code></p>
+            
+      </div>
+      </section>
+    
+      <section data-background="img/fork2.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">Duplication/Fork</h5>
+      
+          <ul>
+            <li>Changez le nom de votre répertoire</li>
+            <li>Ajoutez une description du projet</li>
+            <li>Forkez</li>
+            </ul>
+      </div>
+      </section>
+
+
+      <section data-background="img/fork1.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">À partir de la page de votre tout nouveau Carnet</h5>
+          
+      
+      </div>
+      </section>
+
+      <section data-background="img/deploiement1.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">Dans la page Actions de votre repo</h5>
+          <p>Sélectionnez <code>I understand my workflows, go ahead and enable them</code></p>
+            
+      </div>
+      </section>
+
+
+      <section data-background="img/deploiement3.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent2">Dans votre page Actions</h5>
+          <p>1 workflow <code>Deploy Hugo site to Pages</code> sans run</p>
+          <p class="transparent">ou <code>Github Pages</code> pour le Modèle 1</p>
+      </div>
+      </section>
+
+      <section data-background="img/deploiement4.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">Dans votre page Code</h5>
+          <p>Créez une branche <code>gh-pages</code></p>
+          
+      </div>
+      </section>
+      <section data-background="img/deploiement5.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">Dans votre page Actions</h5>
+          <p>2 workflows désormais dont <code>pages build and deployment</code> qui run</p>
+          
+      </div>
+      </section>
+
+      <section data-background="img/deploiement6.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3"5>Dans votre page Actions</h5>
+          <p>Si vous cliquez sur le workflow <code>pages build and deployment</code>, vous verrez les étapes de déploiement</p>
+          <p>Une fois le déploiement fini, <code>deploy</code> vous propose une url : le site est déployé mais sans le thème</p>
+          
+      </div>
+      </section>
+          
+
+      <section data-background="img/deploiement7.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">Dans votre page Settings</h5>
+          <p>Allez dans l'onglet <code>Pages</code></p>
+          
+      </div>
+      </section>
+
+      <section data-background="img/deploiement8.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">Dans votre page Settings, onglet Pages</h5>
+          <p>Votre site est déployé à partir de la branche <code>gh-pages</code></p>
+          
+      </div>
+      </section>
+
+      <section data-background="img/deploiement1-2.png" data-background-size="800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent">Pour Modèle 1, page Settings</h5>
+          <p>Dans votre onglet <code>Actions/General</code>, sélectionnez dans <code>Workflows permissions</code> "Read and write permissions" et "Allow Github Actions to create and approve pull requests"</code></p>
+          
+      </div>
+      </section>
+
+      <section data-background="img/deploiement1-2.png" data-background-size="800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent">Pour Modèle 1, page Code</h5>
+          <p>Allez modifiez (modifications mineures) un fichier comme <code>content/posts/post1.md</code> sur la branche main </p>
+          
+      </div>
+      </section>
+
+      <section data-background="img/deploiement10.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent2">Pour Modele 2 & 3, page Code</h5>
+          <p>Ouvrez le document <code>config.toml</code></p>
+          
+      </div>
+      </section>
+
+
+      <section data-background="img/deploiement11.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent2">Dans votre page Code, document config.toml</h5>
+          <p>Vous remarquez que la valeur de <code>baseURL</code> n'est pas votre url de deploiement : Ouvrez le mode édition</p>
+          
+      </div>
+      </section>
+      <section data-background="img/deploiement12.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent2">Dans votre page Code, document config.toml</h5>
+          <p>Remplacez la valeur de <code>baseURL</code> par votre url de déploiement, Commitez sur la branche <code>main</code></p>
+          
+      </div>
+      </section>
+
+      <section data-background="img/deploiement15.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent2">Dans votre page Actions</h5>
+          <p>Sélectionnez le workflow <code>Deploy Hugo site to Pages</code> et Sélectionnez <code>Run workflow</code> en choisissant la <code>Branche: gh-pages</code></p>
+          
+      </div>
+      </section>
+
+
+      <section data-background="img/deploiement16.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">Dans votre page Actions</h5>
+          <p>Vous pouvez suivre le déploiement de votre workflow</p>
+          
+      </div>
+      </section>
+
+      <section data-background="img/deploiementFinal.png" data-background-size="1800px">
+        <div id="fondop2" class="fragment">
+      
+          <h5 class="transparent3">Votre site est désormais déployé avec le bon thème</h5>
+          <p>exemple ici du Modèle 2</p>
+          
+      </div>
+      </section>
+      
+
+
+</div>
+
+
+
+
+
+  </div>
+
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+
+  <script>
+
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins
+      dependencies: [
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'plugin/zoom-js/zoom.js', async: true },
+        { src: 'plugin/notes/notes.js', async: true }
+      ]
+    });
+
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+var i;
+var slides = document.getElementsByClassName("mySlides");
+var dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+ slides[i].style.display = "none"; 
+}
+for (i = 0; i < dots.length; i++) {
+ dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block"; 
+dots[slideIndex-1].className += " active";
+}
+
+  </script>
+
+</body>
+</html>
