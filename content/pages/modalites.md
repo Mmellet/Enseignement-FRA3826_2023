@@ -71,7 +71,9 @@ Préalable : Choisir un texte dans la [liste](https://demo.hedgedoc.org/LlC4ncAK
 #### Attentes selon les modèles 
 
 [Exigences pour le Modèle 1](https://mmellet.github.io/FRA3825_2023//doc/modele1.pdf)
+
 [Exigences pour le Modèle 2](https://mmellet.github.io/FRA3825_2023//doc/modele2.pdf)
+
 [Exigences pour le Modèle 3](https://mmellet.github.io/FRA3825_2023//doc/modele3.pdf)
 
 <iframe src="https://mmellet.github.io/FRA3825_2023/slides/Carnet-travail.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
