@@ -38,7 +38,7 @@ Préalable : Choisir un texte dans la [liste](https://demo.hedgedoc.org/LlC4ncAK
 
 ## Examen final 
 
-1. Proposition du projet d'écriture (10 %) 
+### Proposition du projet d'écriture (10 %) 
 
 
 <iframe src="https://mmellet.github.io/FRA3825_2023/slides/Carnet-declaration.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
@@ -50,9 +50,9 @@ Préalable : Choisir un texte dans la [liste](https://demo.hedgedoc.org/LlC4ncAK
 
 **Rendu prévu pour le 21 mars.** 
 
-2. Carnet d'écriture (30 %)
+### Carnet d'écriture (30 %)
 
-Descriptif de la chaîne éditoriale 
+#### Descriptif de la chaîne éditoriale 
 
 <iframe src="https://mmellet.github.io/FRA3825_2023/slides/Carnet-chaine.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
@@ -60,5 +60,24 @@ Descriptif de la chaîne éditoriale
 <a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-chaine.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
+#### Déploiement du carnet 
 
-*descriptif du travail à venir*
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Carnet-deploiement.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-deploiement.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+#### Attentes selon les modèles 
+
+[Exigences pour le Modèle 1](https://mmellet.github.io/FRA3825_2023//doc/modele1.pdf)
+[Exigences pour le Modèle 2](https://mmellet.github.io/FRA3825_2023//doc/modele2.pdf)
+[Exigences pour le Modèle 3](https://mmellet.github.io/FRA3825_2023//doc/modele3.pdf)
+
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Carnet-travail.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-travail.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+**Rendu prévu pour le 20 avril.** 
