@@ -17,9 +17,9 @@ title: Modalités d'évaluation
 3. [Écriture Web](https://mmellet.github.io/FRA3825_2023/seances/seance5/#atelier-3--html--css) - 7 février
 4. [Github](https://mmellet.github.io/FRA3825_2023/seances/seance6/#atelier-4--git) - 14 février
 5. [Projet collaboratif Github](https://mmellet.github.io/FRA3825_2023/seances/seance7/#atelier-5--la-fabrique-de-poe) - 21 février
-6. [Un Export à soi avec Pandoc - partie 1](https://mmellet.github.io/FRA3825_2023/seances/seance6/#atelier-6--pandoc) - 7 mars
-7. Hugo - 14 mars
-8. Programmation - 21 mars
+6. Un Export à soi avec Pandoc - [partie 1](https://mmellet.github.io/FRA3825_2023/slides/Atelier-6.html) & [partie 2](https://mmellet.github.io/FRA3825_2023/slides/Atelier-6-2.html) - 7 - 14 mars
+7. [Hugo](https://mmellet.github.io/FRA3825_2023/slides/Carnet-deploiement.html) - 21 - 28 mars
+8. [KnightLab](https://mmellet.github.io/FRA3825_2023/slides/Atelier-8.html) - 28 mars
 
 
 ## Examen de mi-session 
@@ -83,3 +83,4 @@ Préalable : Choisir un texte dans la [liste](https://demo.hedgedoc.org/LlC4ncAK
 </div>
 
 **Rendu prévu pour le 20 avril.** 
+
