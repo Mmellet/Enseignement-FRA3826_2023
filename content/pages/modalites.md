@@ -2,6 +2,8 @@
 title: Modalités d'évaluation
 ---
 
+<iframe src="https://uploads.knightlab.com/storymapjs/a91578a74175f36150d11c64b909e824/exemple-dune-carte-du-tendre-2/draft.html" frameborder="0" width="100%" height="800"></iframe>
+
 # Modalités d'évaluation
 
 *Les modalités d'évaluation sont également disponibles dans la présentation du cours d'introduction [ici]().*
