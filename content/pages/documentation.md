@@ -10,8 +10,6 @@ tags: [
     ]
 ---
 
-test 
-
 # Ressources
 
 Cette page référence les documentations utiles au cours dont des vidéos explicatives sur l'usage des outils. 

@@ -2,8 +2,6 @@
 title: Modalités d'évaluation
 ---
 
-<iframe src="https://uploads.knightlab.com/storymapjs/a91578a74175f36150d11c64b909e824/exemple-dune-carte-du-tendre-2/draft.html" frameborder="0" width="100%" height="800"></iframe>
-
 # Modalités d'évaluation
 
 *Les modalités d'évaluation sont également disponibles dans la présentation du cours d'introduction [ici]().*
@@ -82,6 +80,14 @@ Préalable : Choisir un texte dans la [liste](https://demo.hedgedoc.org/LlC4ncAK
 
 <div style="text-align:center">
 <a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-travail.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+#### Rappel pour le travail final 
+
+<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Carnet-rappel.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-rappel.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
 **Rendu prévu pour le 20 avril.** 
