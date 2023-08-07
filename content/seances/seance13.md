@@ -1,33 +1,35 @@
 --- 
 title: "Séance 13"
-date: 2023-04-11
+date: 2021-12-10
 ---
 
-# Séance du 11 Avril : Écologies et Alternatives numériques
+# Séance du 10 décembre
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/ETQGN2LE)
+[Bibliographie liée](https://www.zotero.org/groups/4276254/fra3826-a2021/collections/NMMMEKGT)
 
-## Écologies et Alternatives numériques
+[Prise de note collaborative](https://demo.hedgedoc.org/ZRohTmD_QM-u-fyokTowsw#)
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-13-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+## Écologie numérique
+
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-13-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-13-1.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-13-1.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+## Archives numériques
+
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-13-2.html" title="description" height="500" width="800" ></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-13-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
 
-## Rappel pour le travail final 
+## Conclusion du cours
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Carnet-rappel.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-rappel.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-## Bilan du cours
-
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/bilan.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-13-3.html" title="description" height="500" width="800" ></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/bilan.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-13-3.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>

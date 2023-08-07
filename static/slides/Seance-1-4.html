@@ -1,165 +1,185 @@
-<!DOCTYPE html>
 <html lang="fr">
 
-	<head>
-		<meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-		<title>FRA3825 - Pratiques de l'édition numérique</title>
+  <title>FRA3826 - Théories de l'édition numérique</title>
 
-		<meta name="description" content="">
-		<meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/white.css" id="theme">
 
-		<!-- Code syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		
-<style> 
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
 
 
+  <style>
+    * {
+      box-sizing: border-box
+    }
 
-* {box-sizing:border-box}
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+      to {
+        opacity: 1
+      }
+    }
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-</style>
-	
+      to {
+        opacity: 1
+      }
+    }
 
-		<!--[if lt IE 9]>
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
+  </style>
+
+
+  <!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 
-	</head>
+</head>
 
-	<body>
+<body>
 
-		<div class="reveal">
-      <div class="slides"> <div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
-			<section data-background-image="img/Main.png" data-background-size="2000px" background-color="#21211c">
-				<div id="fondop" style="position:inherit;top: -50px;left: -50px;">
-					<sup> FRA3825 </sup>
-				</div>
-				
-				<div id="fondop2" class="fragment">
-					
-<p><h2> Pratiques de l'édition numérique</h2>
-</p>
-</div>
-				<div id="fondop2" class="fragment">
-<p><h6>10 Janvier - Séance 1</h6> Ressources</p>
-			</div>
-			</section>
-<!--
+  <div class="reveal">
+
+    <div class="slides">
+      <div class="footer">FRA3826|EDN6001 - Automne 2021 - Margot Mellet</div>
+      <section data-background-image="img1/hyper.webp" data-background-size="1600px" background-color="#21211c">
+        <div id="fondop" class="fragment">
+
+          <h2>FRA3826|EDN6001 : Théories de l'édition numérique</h2>
+
+        </div>
+      </section>
+      <section data-background-image="img1/hyper.webp" data-background-size="1400px">
+        <div id="fondop2" class="fragment">
+          <h3>3 septembre : Cours d'introduction</h3>
+          <h4>Volet IV : présentation des ressources documentaires & outils</h4>
+        </div>
+      </section>
+
+      </section>
+      <!--
 <section data-background-image="img/temps.jpg" data-background-size="1200px">
 <div id="fondop2" class="fragment">
 <p>Mode synchrone</p>
 
 <ul>
-<li>ateliers écritures</li>
-<li>séance de discussion</li>
-<li>séance de question</li>
+<li class="fragment">ateliers écritures</li>
+<li class="fragment">séance de discussion</li>
+<li class="fragment">séance de question</li>
 </ul>
 </div>
 																	
@@ -170,8 +190,8 @@
 <p>Précision</p>
 
 <ul>
-<li>visionnage des podscasts nécessaire et hebdomadaire</li>
-<li>séances synchrones obligatoires</li>
+<li class="fragment">visionnage des podscasts nécessaire et hebdomadaire</li>
+<li class="fragment">séances synchrones obligatoires</li>
 </ul>
 </div>
 																	
@@ -182,12 +202,12 @@
 <p>L'espace <i>Studium</i></p>
 
 <ul>
-<li>index avec les contenus des séances</li>
-<li>podcasts & slides</li>
-<li>horaires & liens de rencontre</li>
-<li>thèmes des discussion</li>
-<li>intitulés & contraintes des atliers d'écriture</li>
-<li>autres documentation</li>
+<li class="fragment">index avec les contenus des séances</li>
+<li class="fragment">podcasts & slides</li>
+<li class="fragment">horaires & liens de rencontre</li>
+<li class="fragment">thèmes des discussion</li>
+<li class="fragment">intitulés & contraintes des atliers d'écriture</li>
+<li class="fragment">autres documentation</li>
 </ul>
 </div>
 																	
@@ -200,146 +220,259 @@
 																</div>
 															</section>-->
 
-     
-<div class="slides"> <div class="footer"></div>
-															
-<section data-background-color="#fff"
-      data-background-image="img/Main.png"
-      data-background-size="1800px"
 
-      data-transition="linear"
-      data-transition-speed="fast">
-											<div id="fondop2" class="fragment">
+      <div class="slides">
+        <div class="footer"></div>
 
-                        <h6>Ressources documentaires</h6>
-<ul>
-<li><a href="https://studium.umontreal.ca/" target="_blank">Studium</a></li>
-<li><a href="https://mmellet.github.io/fra3825_2023/documentation/" target="_blank">Page Web du cours</a></li>
-<li>Bibliographie Zotero <a href="https://www.zotero.org/groups/4823133/fra3825-2023/library" target="_blank">FRA3825-H2023</a></li>
-</ul>
+        <section data-background-color="#fff" data-background-image="img1/hn1.jpg" data-background-size="1200px"
+          data-transition="linear" data-transition-speed="fast">
+          <div id="fondop2" class="fragment">
 
-												</div>
-												</section>
+            <h6>Ressources documentaires</h6>
+            <ul>
+              <li class="fragment"><a href="https://studium.umontreal.ca/" target="_blank">Studium</a></li>
+              <li class="fragment"><a href="https://mmellet.github.io/fra3826_2021/documentation/" target="_blank">Page
+                  Web du cours</a></li>
+              <li class="fragment">Bibliographie Zotero <a
+                  href="https://www.zotero.org/groups/4276254/fra3826-a2021/library" target="_blank">FRA3826-A2021</a>
+              </li>
+            </ul>
 
-															
-                        <section data-background-color="#fff"
-                        data-background-image="img/z.svg"
-                        data-background-size="1200px"
-                  
-                        data-transition="linear"
-                        data-transition-speed="fast">
-                                        <div id="fondop2" class="fragment">
-                  
-                                          <h6>Zotero</h6>
-                  <ul>
-                  <li>Logiciel de gestion de références gratuit, libre et open source</li>
-                  <li><a href="https://www.zotero.org/user/register" target="_blank">Compte en ligne</a> / <a href="https://www.zotero.org/download/" target="_blank">Standalone</a> (local)</li>
-                  <li><a href="https://www.zotero.org/support/" target="_blank">Documentation</a></li>
-                  </ul>
-    
-                  
-                  <p><b>Structuration des références</b></p>
-                                          </div>
-                                          </section>
-
-		
-                             
+          </div>
+        </section>
 
 
-                                                            <section data-background-image="img/Main.png" data-background-size="1800px" data-background-color="#f1eded">
-                                                              <div id="fondop2" class="fragment">
-                                                              <h6>Conseils</h6>
-                                                              
-                                                              <ul>
-                                                              <li>Amabilité dans les échanges</li>
-                                                              <li>Procrastination, <i>not today</i> : ne tardez pas pour la création des comptes nécessaires aux ateliers</li>
-                                                              </ul>
-                                                              </div>
-                                                                                                
-                                                                                              </section>
-                                                                                              <section data-background-image="img/Main.png" data-background-size="1800px" data-background-color="#f1eded">
-                                                                                                <div id="fondop2" class="fragment">
-                                                                                                <h6>Contact & Disponibilité<b>s</b></h6>
-                                                                                                
-                                                                                                <ul>
-                                                                                                <li><a href="mailto:margot.mellet@umontreal.ca" target="_blank">margot.mellet@umontreal.ca</a></li>
-                                                                                                <li>
-                                                                                              Université de Montréal, Pavillon Lionel Groulx, 8<sup>e</sup> étage
-                                                                                                  Local C8041, 3150, Rue Jean-Brillant</li>
-                                                                                                <li>mardi (et autres jours si rendez-vous)</li>
-                                                                                                </ul>
-                                                                                                </div>
-                                                                                                                                  
-                                                                                                                                </section>
-</div>
+        <section data-background-color="#fff" data-background-image="img1/z.svg" data-background-size="1200px"
+          data-transition="linear" data-transition-speed="fast">
+          <div id="fondop2" class="fragment">
+
+            <h6>Zotero</h6>
+            <ul>
+              <li class="fragment">Logiciel de gestion de références gratuit, libre et open source</li>
+              <li class="fragment"><a href="https://www.zotero.org/user/register" target="_blank">Compte en ligne</a> /
+                <a href="https://www.zotero.org/download/" target="_blank">Standalone</a> (local)</li>
+              <li class="fragment"><a href="https://www.zotero.org/support/" target="_blank">Documentation</a></li>
+            </ul>
+
+
+            <p class="fragment"><b>Structuration des références</b></p>
+          </div>
+        </section>
+
+
+        <section data-background-color="#fff" data-background-image="img1/hn1.jpg" data-background-size="1200px"
+          data-transition="linear" data-transition-speed="fast">
+          <div id="fondop2" class="fragment">
+
+            <h6>Lecture hebdomadaire</h6>
+            <ul>
+              <li class="fragment">Un article / semaine</li>
+              <li class="fragment">Annotation <a href="https://via.hypothes.is/" target="_blank">Hypothesis</a> en ligne
+                : groupe <a href="https://hypothes.is/groups/dgb1gBxB/fra3826-2021" target="_blank">FRA3826-2021</a>
+              </li>
+              <li class="fragment">Discussion en classe</li>
+            </ul>
+
+
+            <p class="fragment"><b>Dynamique d'échange sur les théories</b></p>
+          </div>
+        </section>
+
+        <section data-background-color="#fff" data-background-image="img1/hypothesislogo.jpg"
+          data-background-size="600px" data-transition="linear" data-transition-speed="fast">
+          <div id="fondop2" class="fragment">
+
+            <h6><a href="https://via.hypothes.is/" target="_blank">Hypothesis</a></h6>
+            <ul>
+              <li class="fragment">Outil d'annotation en ligne, libre et gratuit</li>
+              <li class="fragment"><a href="https://web.hypothes.is/start/" target="_blank">Créer un compte</a> </li>
+              <li class="fragment">Rejoindre le groupe privé <a href="https://hypothes.is/groups/dgb1gBxB/fra3826-2021"
+                  target="_blank">FRA3826-2021</a></li>
+              <li class="fragment"><a href="https://web.hypothes.is/" target="_blank">Documentation</a></li>
+              <li class="fragment"><a href="https://mmellet.github.io/fra3826_2021/videos/Hypothesis.mp4"
+                  target="_blank">Vidéo explicative pour le cours</a></li>
+            </ul>
+            <p class="fragment">Lecture pour la semaine prochaine : <a
+                href="https://via.hypothes.is/https://www.cairn.info/revue-les-cahiers-de-mediologie-1998-2-page-137.htm"
+                target="_blank">L'image du texte pour une théorie de l'énonciation éditoriale (Souchier 1998)</a></p>
+
+
+            <p class="fragment"><b>Espace de commentaires / dialogues dans l'espace d'écriture</b></p>
+          </div>
+        </section>
+
+        <section data-background-image="img1/ironie.jpg" data-background-size="1200px" data-background-color="#f1eded">
+          <div id="fondop2" class="fragment">
+            <h6>Alerte Plagiat<b></b></h6>
+
+            <ul>
+              <li class="fragment">≠ Paraphrase</li>
+              <li class="fragment">Déclarer les sources & références</li>
+              <li class="fragment">Visibilité du processus de réflexion</li>
+              <li class="fragment">Éthique intellectuelle</li>
+            </ul>
+            <p class="fragment"><a href="https://integrite.umontreal.ca/accueil/" target="_blank">Documentation</a> & <a
+                href="https://ruor.uottawa.ca/bitstream/10393/12793/4/Vandendorpe_Christian_1992_Le_plagiat.htm"
+                target="_blank">Définition (Vanderdorpe 1992)</a></p>
+
+          </div>
+        </section>
+
+        <section data-background-image="img1/M.chat3.png" data-background-size="1200px" data-background-color="#f1eded">
+          <div id="fondop2" class="fragment">
+            <h6>Mesures pandémique<b>s</b></h6>
+
+            <ul>
+              <li class="fragment">Masque en tout temps</li>
+              <li class="fragment">Distanciation</li>
+
+              <li class="fragment">Pas de consommation de nourriture</li>
+            </ul>
+            <p class="fragment"><a href="https://infocovid19.umontreal.ca/faq/" target="_blank">Documentation</a></p>
+
+          </div>
+
+        </section>
+        <section data-background-image="img1/hyper.webp" data-background-size="1200px" data-background-color="#f1eded">
+          <div id="fondop2" class="fragment">
+            <h6>Conseil<b>s</b></h6>
+
+            <ul>
+              <li class="fragment">Amabilité dans les échanges</li>
+              <li class="fragment">Nommage des fichiers</li>
+              <li class="fragment">RT*M & Google it !</li>
+              <li class="fragment">Virtuel</li>
+            </ul>
+          </div>
+
+        </section>
+        <section data-background-image="img1/hyper.webp" data-background-size="1200px" data-background-color="#f1eded">
+          <div id="fondop2" class="fragment">
+            <h6>Contact & Disponibilité<b>s</b></h6>
+
+            <ul>
+              <li class="fragment"><a href="mailto:margot.mellet@umontreal.ca"
+                  target="_blank">margot.mellet@umontreal.ca</a></li>
+              <li class="fragment">
+                Université de Montréal, Pavillon Lionel Groulx, 8e étage
+                Local C8041, 3150, Rue Jean-Brillant, Montréal (QC) H3T 1N8 Canada</li>
+              <li class="fragment">lundi, mardi, vendredi</li>
+            </ul>
+          </div>
+
+        </section>
+
+
+        <section data-background-image="img1/hyper.webp" data-background-size="1400px" data-background-color="#f1eded">
+          <div id="fondop2" class="fragment">
+            <p class="fragment">Lecture pour la semaine prochaine : <a
+                href="https://via.hypothes.is/https://www.cairn.info/revue-les-cahiers-de-mediologie-1998-2-page-137.htm"
+                target="_blank">L'image du texte pour une théorie de l'énonciation éditoriale (Souchier 1998)</a></p>
+            <p>Merci !</p>
+          </div>
+
+        </section>
+      </div>
 
 
 
 
 
-		</div>
+    </div>
 
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-		<script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
 
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+        // Optional reveal.js plugins
+        dependencies: [{
+            src: 'lib/js/classList.js',
+            condition: function () {
+              return !document.body.classList;
+            }
+          },
+          {
+            src: 'plugin/markdown/marked.js',
+            condition: function () {
+              return !!document.querySelector('[data-markdown]');
+            }
+          },
+          {
+            src: 'plugin/markdown/markdown.js',
+            condition: function () {
+              return !!document.querySelector('[data-markdown]');
+            }
+          },
+          {
+            src: 'plugin/highlight/highlight.js',
+            async: true,
+            condition: function () {
+              return !!document.querySelector('pre code');
+            },
+            callback: function () {
+              hljs.initHighlightingOnLoad();
+            }
+          },
+          {
+            src: 'plugin/zoom-js/zoom.js',
+            async: true
+          },
+          {
+            src: 'plugin/notes/notes.js',
+            async: true
+          }
+        ]
+      });
 
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
 
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
-var slideIndex = 1;
-showSlides(slideIndex);
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
+</body>
 
-		</script>
-
-	</body>
 </html>

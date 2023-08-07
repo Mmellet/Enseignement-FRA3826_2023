@@ -1,46 +1,19 @@
 --- 
 title: "Séance 3"
-date: 2023-01-24
+date: 2021-09-17
 ---
 
 
-# Séance du 24 septembre : Édition savante & Structuration des données
+# Séance du 17 septembre
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/RDDUMA4X)
+[Bibliographie liée](https://www.zotero.org/groups/4276254/fra3826-a2021/collections/RV4ZQU9V)
 
-## Édition savante
+[Prise de note collaborative](https://demo.hedgedoc.org/Mz4bm2ZZS2GMWHJyE3CAbw#)
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+## Qu'est ce que l'édition numérique ? (volet II)
 
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-## Éditorialisation
-
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-3-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-2.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-
-## Structuration des données
-
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-3.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-3-3.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-
-## Atelier 1 : Zotero
-
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-1.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-3-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>

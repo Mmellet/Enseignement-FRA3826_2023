@@ -1,475 +1,374 @@
+
 <html lang="fr">
 
-<head>
-	<meta charset="utf-8">
+	<head>
+		<meta charset="utf-8">
+
+		<title>FRA3826- Théories de l'édition numérique - A2021</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		
+<style> 
 
 
-	<title>FRA3825- Pratiques de l'édition numérique - H2023</title>
 
-	<meta name="description" content="">
-	<meta name="author" content="">
+* {box-sizing:border-box}
 
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
-	<!-- Code syntax highlighting -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
-	<style>
-		* {
-			box-sizing: border-box
-		}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
-		/* Slideshow container */
-		.slideshow-container {
-			max-width: 1000px;
-			position: relative;
-			margin: auto;
-		}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
 
-		/* Hide the images by default */
-		.mySlides {
-			display: none;
-		}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
-		/* Next & previous buttons */
-		.prev,
-		.next {
-			cursor: pointer;
-			position: absolute;
-			top: 50%;
-			width: auto;
-			margin-top: -22px;
-			padding: 16px;
-			color: white;
-			font-weight: bold;
-			font-size: 18px;
-			transition: 0.6s ease;
-			border-radius: 0 3px 3px 0;
-			user-select: none;
-		}
+.active, .dot:hover {
+  background-color: #717171;
+}
 
-		/* Position the "next button" to the right */
-		.next {
-			right: 0;
-			border-radius: 3px 0 0 3px;
-		}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 
-		/* On hover, add a black background color with a little bit see-through */
-		.prev:hover,
-		.next:hover {
-			background-color: rgba(0, 0, 0, 0.8);
-		}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
-		/* Caption text */
-		.text {
-			color: #f2f2f2;
-			font-size: 15px;
-			padding: 8px 12px;
-			position: absolute;
-			bottom: 8px;
-			width: 100%;
-			text-align: center;
-		}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
-		/* Number text (1/3 etc) */
-		.numbertext {
-			color: #f2f2f2;
-			font-size: 12px;
-			padding: 8px 12px;
-			position: absolute;
-			top: 0;
-		}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+	
 
-		/* The dots/bullets/indicators */
-		.dot {
-			cursor: pointer;
-			height: 15px;
-			width: 15px;
-			margin: 0 2px;
-			background-color: #bbb;
-			border-radius: 50%;
-			display: inline-block;
-			transition: background-color 0.6s ease;
-		}
-
-		.active,
-		.dot:hover {
-			background-color: #717171;
-		}
-
-		/* Fading animation */
-		.fade {
-			-webkit-animation-name: fade;
-			-webkit-animation-duration: 1.5s;
-			animation-name: fade;
-			animation-duration: 1.5s;
-		}
-
-		@-webkit-keyframes fade {
-			from {
-				opacity: .4
-			}
-
-			to {
-				opacity: 1
-			}
-		}
-
-		@keyframes fade {
-			from {
-				opacity: .4
-			}
-
-			to {
-				opacity: 1
-			}
-		}
-
-		/* On smaller screens, decrease text size */
-		@media only screen and (max-width: 300px) {
-
-			.prev,
-			.next,
-			.text {
-				font-size: 11px
-			}
-		}
-	</style>
-
-
-	<!--[if lt IE 9]>
+		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-	<div class="reveal">
+		<div class="reveal">
 
-		<div class="slides">
-			<div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
-			<section data-background-image="img/Main.png" data-background-size="2000px" background-color="#21211c">
-				<div id="fondop" style="position:inherit;top: -50px;left: -50px;">
-					<sup> FRA3825 </sup>
-				</div>
+	<div class="slides"> <div class="footer">FRA3826|EDN6001 - Automne 2021 - Margot Mellet</div>
 
-				<div id="fondop2" class="fragment">
-
-					<p>
-						<h2> Pratiques de l'édition numérique</h2>
-					</p>
-				</div>
-				<div id="fondop2" class="fragment">
-					<p>
-						<h6>14 Mars - Séance 9</h6> Auto-édition & Auto-publication
-					</p>
-				</div>
-			</section>
-
-			</section>
-			<section data-background-image="img/curseur.jpg" data-background-size="1600px"
-				data-background-color="#fff">
-				<div id="fondop2" class="fragment">
-					<h5>Index de la séance</h5>
-					<ol class="fragment">
-						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-9#/">Auto-édition &
-								Auto-publication</a></li>
-						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-chaine#/2">La chaîne
-								éditoriale du Carnet d'écriture</a></li>
-						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-6-2.html#/">Atelier Pandoc
-								partie 2</a>
-						</li>
-					</ol>
-
-				</div>
-			</section>
-
-
-			<section data-background="img/kelmscott.jpeg" data-background-size="1200px">
-				<div id="fondop2" class="fragment">
-
-					<h5>Appropriation de/par l'édition</h5>
-
-
-					<ul>
-						<li>Éditions marginales</li>
-						<li>La presse privée - Kelmscott Press de William Morris (1891)</li>
-					</ul>
-					<p><b>Échapper à une institution</b></p>
-				</div>
-			</section>
-
-
-			<section data-background-image="img/auto-edition.jpg" data-background-size="1700px">
-				<div id="fondop2" class="fragment">
-					<h5>Auto-édition</h5>
-
-
-
-					<ul>
-						<li>≠ éditer à compte d'éditeur</li>
-						<li>≠ éditer à compte d'auteur</li>
-					</ul>
-					<p><b>Bypasser l'intermédiaire</b></p>
-
-				</div>
-			</section>
-
-			<section data-background-image="img/SF.jpg" data-background-size="1100px">
-				<div id="fondop2" class="fragment">
-
-					<h5>Auto-édition numérique</h5>
-
-
-					<ul>
-						<li>Lulu.com (2002), Blurb (2005)</li>
-						<li>Kindle d'Amazon (2007)</li>
-
-					</ul>
-					<p><b>Auto-édition papier/numérique & print on demand</b></p>
-				</div>
-			</section>
-
-
-			<section data-background-image="img/auto-edition.jpg" data-background-size="1600px">
-				<div id="fondop2" class="fragment">
-					<h5>Modalités</h5>
-					<ul>
-						<li>Coûts de réalisation</li>
-						<li>Empreinte écologique</li>
-
-						<li>Diffusion & Décision</li>
-						<li>Aspect juridique</li>
-					</ul>
-					<p><b>Nouveau mode d'édition</b></p>
-				</div>
-			</section>
-
-			<section data-background-image="img/Fahrenheit-451.webp" data-background-size="1300px">
-				<div id="fondop2" class="fragment">
-					<h5>La question du métier d'édition</h5>
-					<ul>
-						<li>Figure double de l'éditeur (<i>editor</i> & <i>publisher</i>) Bourdieu</li>
-						<li>Se faire éditeur/S'éditer soi-même</li>
-						<li>Autoritativité</li>
-					</ul>
-					<p><b>Nouvelles dynamiques entre les pratiques</b></p>
-				</div>
-			</section>
-
-			<section data-background-image="img/homme.jpg" data-background-size="1300px">
-				<div id="fondop2" class="fragment">
-					<h5>Anti-édition</h5>
-					<ul>
-						<li>Marc-Édouard Nabe & Audrey Vernon (2000) : « l’anti-édition, c’est
-							l’auto-édition pour quelqu’un qui est déjà connu »</li>
-						<li><i>L'homme qui arrêta d'écrire</i></li>
-						<li>Émancipation d'un système</li>
-					</ul>
-					<p><b>Édition Institution/Principe</b></p>
-				</div>
-			</section>
-
-
-
-			<section data-background-image="img/festin.jpg" data-background-size="1700px" data-background-color="#fff">
-				<div id="fondop2" class="fragment">
-
-					<h5>Droit d'auteur.e</h5>
-
-
-
-					<ul>
-						<li>Existence légale d'un individu via le statut d'auteur.e/rice</li>
-						<li>Lien entre statut et production</li>
-						<li>Dimension économique & artistique</li>
-					</ul>
-					<p><b>Un type de propriété intellectuelle parmi d'autres</b></p>
-				</div>
-			</section>
-
-
-
-			<section data-background-image="img/anne.jpg" data-background-size="900px">
-				<div id="fondop2" class="fragment">
-					<h5>(petit) Historique</h5>
-
-					<ul>
-						<li>Le Statut d'Anne (1710) : protection contre les copies/diffusions non
-							autorisées par l'auteur.e durant 14 ans</li>
-						<li>Convention de Berne : accord international pour équité de statut entre les
-							oeuvres</li>
-
-					</ul>
-					<p><b>Droit lié au territoire</b></p>
-
-				</div>
-			</section>
-
-
-			<section data-background-image="img/festin.jpg" data-background-size="1600px">
-				<div id="fondop2" class="fragment">
-					<h5>Principes fondamentaux</h5>
-					<ul>
-						<li>Propriété</li>
-						<li>Responsabilité</li>
-						<li>Singularité</li>
-					</ul>
-					<p><b></b></p>
-				</div>
-			</section>
-
-			<section data-background-image="img/domaine.png" data-background-size="700px">
-				<div id="fondop2" class="fragment">
-					<h5>Exceptions au droit d'auteur</h5>
-
-					<ul>
-						<li>Domaine public</li>
-						<li>Copie privée</li>
-						<li>Citation courte</li>
-						<li>Utilisation équitable (QC)</li>
-					</ul>
-					<p><b>Négociations selon le contexte</b></p>
-
-				</div>
-			</section>
-
-
-
-			<section data-background="img/fair.png" data-background-size="1400px">
-				<div id="fondop2" class="fragment">
-
-					<h5>Utilisation équitable / <i>Fair Dealing</i> </h5>
-
-
-					<ul>
-						<li>Loi & Accord de principe</li>
-						<li>Exception au droit d'auteur</li>
-						<li>Usage si dans cadre privé, de recherche, de critique, de communication</li>
-					</ul>
-					<p><b>Liberté & Licences</b></p>
-				</div>
-			</section>
-
-			<section data-background="img/acces.jpg" data-background-size="1000px">
-				<div id="fondop2" class="fragment">
-
-					<h5>Libre accès</h5>
-
-
-					<ul>
-						<li>Disponibilité du contenu sans condition préalable</li>
-						<li>≠ <i>Open access</i> - Accès ouvert</li>
-						<li>Gratuit / Payant</li>
-					</ul>
-				</div>
-			</section>
-
-
-			<section data-background-image="img/voiesN.png" data-background-size="900px">
-				<div id="fondop2" class="fragment">
-					<h5>Plusieurs libres</h5>
-
-					<ul>
-						<li>Voie dorée : accès en ligne immédiat libre</li>
-						<li>Voie verte : dépôt institutionnel payant / gratuit</li>
-
-					</ul>
-					<p><b>Accès & légitimité</b></p>
-
-				</div>
-			</section>
-
-			<section data-background-image="img/cc.png" data-background-size="700px">
-				<div id="fondop2" class="fragment">
-
-					<h5>Licences Creative Commons (2002)</h5>
-
-					<ul>
-						<li>Licences numériques</li>
-						<li>4 conditions : Attribution / Utilisation commerciale / Condition de partage
-							/ Modification</li>
-						<li>7 licences par combinaisons</li>
-					</ul>
-
-					<p><b>Extension du droit d'auteur.e dans le numérique</b></p>
-				</div>
-			</section>
-
-
-			<section data-background="img/neutre.jpg" data-background-size="1100px">
-				<div id="fondop2" class="fragment">
-					<h5><i>Digital Rights Management</i></h5>
-
-					<ul>
-						<li>Outils de gestion de droits numériques</li>
-						<li>Restrictions multiples : économiques, institutionnelles, logicielles, etc.</li>
+				<section data-background-image="img1/hyper.webp" data-background-size="1600px" background-color="#21211c">
+					<div id="fondop2" class="fragment">
 						
-					</ul>
-					<p><i>Déterminer/Protéger l'usage d'un document numérique</i></p>
+<h2>FRA3826|EDN6001 : Théories de l'édition numérique</h2>
+
+</div>
+				</section>
+
+<section data-background-image="img1/hyper.webp" data-background-size="1400px">
+					<div id="fondop2" class="fragment">
+						<h3>5 novembre : Séance 9</h3>
+						<h4>Modèles économiques/politiques des formats</h4>
+				</div>
+				</section>
+
+				<section data-background-image="img1/curseur.jpg" data-background-size="1200px" data-background-color="#fff">
+					<div id="fondop2" class="fragment">
+<h5>Index de la séance</h5>
+<ol class="fragment">
+<li><a href="https://mmellet.github.io/fra3826_2021/slides/Seance-9-1.html#/">Format et types de format</a></li>
+<li><a href="https://mmellet.github.io/fra3826_2021/slides/Seance-9-2.html#/">Enjeux et problématiques des formats</a></li>
+<li><a href="https://mmellet.github.io/fra3826_2021/slides/Seance-9-3.html#/">Exemples et démonstrations</a></li>
+</ol>
 
 				</div>
-			</section>
+				</section>
 
+<section data-background-image="img1/brut.png" data-background-size="1700px" data-background-color="#fff">
+	<div id="fondop2" class="fragment">
 
-			<section data-background="img/festin.jpg" data-background-size="1600px">
-				<div id="fondop2" class="fragment">
-					<h5>La question de la propriété numérique</h5>
+		<h5>Format et types de format</h5>
 
-					<ul>
-						<li>Accès à une version</li>
-						<li>Business intelletuel</li>
-
-					</ul>
-					<p>Savoir = Pouvoir</p>
-
-				</div>
-			</section>
+</div>
+</section>
 
 
 
-			<section data-background-image="img/Elsevier.jpg" data-background-size="900px">
-				<div id="fondop2" class="fragment">
-					<h5>Le cas Elsevir</h5>
+<section data-background-image="img1/texte.jpg" data-background-size="1200px">
+	<div id="fondop2" class="fragment">
+		<h5>Structure d'un document numérique</h5>
 
-					<ul>
-						<li>Premier diffuseur de revues savantes (16% sur le monde)</li>
-						<li>avec Springer Nature, Wiley Blackwells, Tailor and Francis (40% du marché
-							mondial)</li>
-						<li>Scandale des abonnements annuels</li>
-					</ul>
+		<ul>
+			<li class="fragment">Niveau 1 : Vue séquentielle - suite de symboles (caractères)</li>
+			<li class="fragment">Niveau 2 : Structure arborescente - syntaxique (mots, phrases, paragraphes)</li>
+			<li class="fragment">Niveau 3 : Vue métadonnées - informations autour du document (date création, auteur, mots-clefs)</li>
+			<li class="fragment">Niveau 4 (facultatif) : Vue stylisée - présentation (typographie, taille, marges)</li>
+			
+			</ul>
+																																													<p class="fragment"><b>Distinction Structure / Style</b></p>
 
-					<p><b>Privatisation du savoir public</b></p>
-				</div>
-			</section>
-
-			<section data-background-image="img/scihub.jpg" data-background-size="1300px">
-				<div id="fondop2" class="fragment">
-					<h5>Sci-Hub</h5>
-
-					<ul>
-						<li>Alexandra Elbakyan - 2011</li>
-						<li>Site pirate</li>
-						<li>Entorse au droit d'auteur</li>
-						<li>Idéal babélien</li>
-					</ul>
-					<p><b>Question du monopole économique / Capitalisme cognitif</b></p>
-
-				</div>
-			</section>
+</div>
+</section> 
 
 
 
+<section data-background="img1/brut.png" data-background-size="1600px">
+	<div id="fondop2" class="fragment">
 
+		<h5>Définition</h5>
+
+
+		<p class="fragment"><i>Mode technique concret d'organisation du contenu qui se traduit par une spécification du mode d'organisation du contenu</i></p>
+	
+																																		<p class="fragment"><b>Structure & Détermination du contenu</b></p>
+	</div>
+</section>
+
+
+<section data-background-image="img1/type.png" data-background-size="1200px">
+	<div id="fondop2" class="fragment">
+		<h5>Formats textuels</h5>
+
+		<ul>
+			<li class="fragment">.txt : textes bruts, éditeurs de texte</li>
+			<li class="fragment">.odt : textes enrichis, OpenOffice et autres</li>
+			<li class="fragment">.doc et .docx : textes enrichis, MicrosoftWord</li>
+			<li class="fragment">.pdf : textes pour impression, Adobe</li>
+			<li class="fragment">.html : hypertextes, Web</li>
+			</ul>
+																																													<p class="fragment"><b>Déclinaisons de formats selon le type d'informations</b></p>
+
+</div>
+</section> 
+
+
+<section data-background-image="img1/brut.png" data-background-size="1200px">
+	<div id="fondop2" class="fragment">
+		<h5>Plein Texte / Texte brut</h5>
+
+		<ul>
+			<li class="fragment">Juste du texte</li>
+			<li class="fragment">Sans formatage, enrichissement, mise en page</li>
+			<li class="fragment">Vue séquentielle - simple séquence de caractère</li>
+			<li class="fragment">ASCII : <i>American Standard Code for Information Interchange : encodage des caratères (anglais)</i></li>
+			<li class="fragment">Unicode : standard encodage des caractères (autres langues)</li>
+			</ul>
+																																													<p class="fragment"><b>Format le plus épuré</b></p>
+
+</div>
+</section>
+
+<section data-background-image="img1/hn1.jpg" data-background-size="1400px">
+	<div id="fondop2" class="fragment">
+		<h5>Conditions d'existence du savoir</h5>
+
+		<ul>
+			<li class="fragment">Pérennité</li>
+			<li class="fragment">Interopérabilité</li>
+			<li class="fragment">Utilisabilité</li>
+			<li class="fragment">Modélisation</li>
+		
+			</ul>
+																																													<p class="fragment"><b>Un format = Une représentation d'un type de savoir</b></p>
+
+</div>
+</section>
+
+
+
+
+<section data-background-image="img1/brut.png" data-background-size="1600px">
+	<div id="fondop2" class="fragment">
+<h5>Critères du format</h5>
+<ul>
+	<li class="fragment">Pertinence</li>
+	<li class="fragment">Économie</li>
+	<li class="fragment">Efficacité</li>
+	<li class="fragment">Sécurité</li>
+	</ul>
+<p class="fragment"><b>Composition/Interprétation de ces critères dans un format</b></p>
+</div>
+</section>
+
+<section data-background-image="img1/edito.jpg" data-background-size="1600px">
+	<div id="fondop2" class="fragment">
+<h7>Un format texte = une idée particulière de ce qu'est un texte, de sa lecture, de son édition</h7>
+
+</div>
+</section>
+
+<section data-background="img1/brut.png" data-background-size="1400px">
+	<div id="fondop2" class="fragment">
+<h5>Non-neutralité du format</h5>
+
+<ul>
+	<li class="fragment">Détermination des textes présents & futurs</li>
+	<li class="fragment">Participation à la mémoire de la lecture</li>
+	<li class="fragment">Délimitation de l'interaction avec le contenu</li>
+	</ul>
+																																							<p class="fragment"><i>Mon rapport au savoir passe par le format</i></p>
+
+</div>
+</section>
+
+<section data-background-image="img1/brut.png" data-background-size="1700px" data-background-color="#fff">
+	<div id="fondop2" class="fragment">
+
+		<h6>Types de format</h6>
+
+</div>
+</section>
+
+<section data-background="img1/exferme.png" data-background-size="1200px">
+	<div id="fondop2" class="fragment">
+<h5>Format propriétaire / libre</h5>
+
+<ul>
+	<li class="fragment">Appartenance à des privés / Communauté</li>
+	<li class="fragment">Intérêts privés / Intérêts de recherche</li>
+	<li class="fragment">Restriction des pratiques / Évolution selon les pratiques </li>
+	</ul>
+																																					
+
+</div>
+</section>
+
+
+<section data-background="img1/ferme.png" data-background-size="1200px">
+	<div id="fondop2" class="fragment">
+<h5>Format ouvert / fermé</h5>
+
+<ul>
+	<li class="fragment">Spécifications connues / cachées</li>
+	<li class="fragment">Conversions possibles / restreintes</li>
+	<li class="fragment">Interopérabilité / Concurrence affichée</li>
+	</ul>
+	<p class="fragment"><b>Propriétaire fermé (doc), Propriétaire ouvert (PDF), Libre ouvert (md)</b></p>										
+
+</div>
+</section>
+
+<section data-background="img1/brut.png" data-background-size="1300px">
+	<div id="fondop2" class="fragment">
+<h5>Spécifications du format</h5>
+
+<ul>
+	<li class="fragment">Ce qui structure techniquement le format</li>
+	<li class="fragment">Non connues : doc / Négociées : docx / Connues : bibtex, html, etc.</li>
+	</ul>
+	<p class="fragment"><b>Schéma du format</b></p>										
+
+</div>
+</section>
+
+
+<section data-background="img1/odt.png" data-background-size="1000px">
+	<div id="fondop2" class="fragment">
+<h5>Conversion(s) entre formats</h5>
+
+<ul>
+	<li class="fragment">Outil de conversion</li>
+	<li class="fragment">Concordances établies entre les schémas des formats</li>
+	<li class="fragment">Spécifications connues / Accord politique</li>
+	<li class="fragment">Incompatibilités entre formats : concurrence & rapports de pouvoir</li>
+	</ul>
+	<p class="fragment"><b>Importance dans la pérennité du document</b></p>										
+
+</div>
+</section>
+
+
+
+
+																																																
+
+
+
+
+
+</div>
 
 
 
@@ -478,416 +377,67 @@
 		</div>
 
 
-
-
-
-	</div>
-
-
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
-
-	<script>
-		// Full list of configuration options available at:
-		// https://github.com/hakimel/reveal.js#configuration
-		Reveal.initialize({
-			controls: true,
-			progress: true,
-			history: true,
-			center: true,
-
-			transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-			// Optional reveal.js plugins
-			dependencies: [{
-					src: 'lib/js/classList.js',
-					condition: function () {
-						return !document.body.classList;
-					}
-				},
-				{
-					src: 'plugin/markdown/marked.js',
-					condition: function () {
-						return !!document.querySelector('[data-markdown]');
-					}
-				},
-				{
-					src: 'plugin/markdown/markdown.js',
-					condition: function () {
-						return !!document.querySelector('[data-markdown]');
-					}
-				},
-				{
-					src: 'plugin/highlight/highlight.js',
-					async: true,
-					condition: function () {
-						return !!document.querySelector('pre code');
-					},
-					callback: function () {
-						hljs.initHighlightingOnLoad();
-					}
-				},
-				{
-					src: 'plugin/zoom-js/zoom.js',
-					async: true
-				},
-				{
-					src: 'plugin/notes/notes.js',
-					async: true
-				}
-			]
-		});
-
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
-
-		var slideIndex = 1;
-		showSlides(slideIndex);
-
-		function plusSlides(n) {
-			showSlides(slideIndex += n);
-		}
-
-		function currentSlide(n) {
-			showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("dot");
-			if (n > slides.length) {
-				slideIndex = 1
-			}
-			if (n < 1) {
-				slideIndex = slides.length
-			}
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";
-			}
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" active", "");
-			}
-			slides[slideIndex - 1].style.display = "block";
-			dots[slideIndex - 1].className += " active";
-		}
-	</script>
-
-</body>
-
-</html>
-  
-
-<section data-background-image="img/brut.png" data-background-size="1700px" data-background-color="#fff">
-	<div id="fondop2" class="fragment">
-
-		<h5>Format et types de format</h5>
-
-	</div>
-</section>
-
-
-
-<section data-background-image="img/texte.jpg" data-background-size="1200px">
-	<div id="fondop2" class="fragment">
-		<h5>Structure d'un document numérique</h5>
-
-		<ul>
-			<li>Niveau 1 : Vue séquentielle - suite de symboles (caractères)</li>
-			<li>Niveau 2 : Structure arborescente - syntaxique (mots, phrases, paragraphes)</li>
-			<li>Niveau 3 : Vue métadonnées - informations autour du document (date création, auteur,
-				mots-clefs)</li>
-			<li>Niveau 4 (facultatif) : Vue stylisée - présentation (typographie, taille, marges)</li>
-
-		</ul>
-		<p><b>Distinction Structure / Style</b></p>
-
-	</div>
-</section>
-
-
-
-<section data-background="img/brut.png" data-background-size="1600px">
-	<div id="fondop2" class="fragment">
-
-		<h5>Définition</h5>
-
-
-		<p><i>Mode technique concret d'organisation du contenu qui se traduit par une spécification du
-				mode d'organisation du contenu</i></p>
-
-		<p><b>Structure & Détermination du contenu</b></p>
-	</div>
-</section>
-
-
-<section data-background-image="img/type.png" data-background-size="1200px">
-	<div id="fondop2" class="fragment">
-		<h5>Formats textuels</h5>
-
-		<ul>
-			<li>.txt : textes bruts, éditeurs de texte</li>
-			<li>.odt : textes enrichis, OpenOffice et autres</li>
-			<li>.doc et .docx : textes enrichis, MicrosoftWord</li>
-			<li>.pdf : textes pour impression, Adobe</li>
-			<li>.html : hypertextes, Web</li>
-		</ul>
-		<p><b>Déclinaisons de formats selon le type d'informations</b></p>
-
-	</div>
-</section>
-
-
-<section data-background-image="img/brut.png" data-background-size="1200px">
-	<div id="fondop2" class="fragment">
-		<h5>Plein Texte / Texte brut</h5>
-
-		<ul>
-			<li>Juste du texte</li>
-			<li>Sans formatage, enrichissement, mise en page</li>
-			<li>Vue séquentielle - simple séquence de caractère</li>
-			<li>ASCII : <i>American Standard Code for Information Interchange : encodage des caratères
-					(anglais)</i></li>
-			<li>Unicode : standard encodage des caractères (autres langues)</li>
-		</ul>
-		<p><b>Format le plus épuré</b></p>
-
-	</div>
-</section>
-
-<section data-background-image="img/hn1.jpg" data-background-size="1400px">
-	<div id="fondop2" class="fragment">
-		<h5>Conditions d'existence du savoir</h5>
-
-		<ul>
-			<li>Pérennité</li>
-			<li>Interopérabilité</li>
-			<li>Utilisabilité</li>
-			<li>Modélisation</li>
-
-		</ul>
-		<p><b>Un format = Une représentation d'un type de savoir</b></p>
-
-	</div>
-</section>
-
-
-
-
-<section data-background-image="img/brut.png" data-background-size="1600px">
-	<div id="fondop2" class="fragment">
-		<h5>Critères du format</h5>
-		<ul>
-			<li>Pertinence</li>
-			<li>Économie</li>
-			<li>Efficacité</li>
-			<li>Sécurité</li>
-		</ul>
-		<p><b>Composition/Interprétation de ces critères dans un format</b></p>
-	</div>
-</section>
-
-<section data-background-image="img/edito.jpg" data-background-size="1600px">
-	<div id="fondop2" class="fragment">
-		<h7>Un format texte = une idée particulière de ce qu'est un texte, de sa lecture, de son édition</h7>
-
-	</div>
-</section>
-
-<section data-background="img/brut.png" data-background-size="1400px">
-	<div id="fondop2" class="fragment">
-		<h5>Non-neutralité du format</h5>
-
-		<ul>
-			<li>Détermination des textes présents & futurs</li>
-			<li>Participation à la mémoire de la lecture</li>
-			<li>Délimitation de l'interaction avec le contenu</li>
-		</ul>
-		<p><i>Mon rapport au savoir passe par le format</i></p>
-
-	</div>
-</section>
-
-<section data-background-image="img/brut.png" data-background-size="1700px" data-background-color="#fff">
-	<div id="fondop2" class="fragment">
-
-		<h6>Types de format</h6>
-
-	</div>
-</section>
-
-<section data-background="img/exferme.png" data-background-size="1200px">
-	<div id="fondop2" class="fragment">
-		<h5>Format propriétaire / libre</h5>
-
-		<ul>
-			<li>Appartenance à des privés / Communauté</li>
-			<li>Intérêts privés / Intérêts de recherche</li>
-			<li>Restriction des pratiques / Évolution selon les pratiques </li>
-		</ul>
-
-
-	</div>
-</section>
-
-
-<section data-background="img/ferme.png" data-background-size="1200px">
-	<div id="fondop2" class="fragment">
-		<h5>Format ouvert / fermé</h5>
-
-		<ul>
-			<li>Spécifications connues / cachées</li>
-			<li>Conversions possibles / restreintes</li>
-			<li>Interopérabilité / Concurrence affichée</li>
-		</ul>
-		<p><b>Propriétaire fermé (doc), Propriétaire ouvert (PDF), Libre ouvert (md)</b></p>
-
-	</div>
-</section>
-
-<section data-background="img/brut.png" data-background-size="1300px">
-	<div id="fondop2" class="fragment">
-		<h5>Spécifications du format</h5>
-
-		<ul>
-			<li>Ce qui structure techniquement le format</li>
-			<li>Non connues : doc / Négociées : docx / Connues : bibtex, html, etc.</li>
-		</ul>
-		<p><b>Schéma du format</b></p>
-
-	</div>
-</section>
-
-
-<section data-background="img/odt.png" data-background-size="1000px">
-	<div id="fondop2" class="fragment">
-		<h5>Conversion(s) entre formats</h5>
-
-		<ul>
-			<li>Outil de conversion</li>
-			<li>Concordances établies entre les schémas des formats</li>
-			<li>Spécifications connues / Accord politique</li>
-			<li>Incompatibilités entre formats : concurrence & rapports de pouvoir</li>
-		</ul>
-		<p><b>Importance dans la pérennité du document</b></p>
-
-	</div>
-</section>
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-</div>
-
-
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.js"></script>
-
-<script>
-	// Full list of configuration options available at:
-	// https://github.com/hakimel/reveal.js#configuration
-	Reveal.initialize({
-		controls: true,
-		progress: true,
-		history: true,
-		center: true,
-
-		transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-		// Optional reveal.js plugins
-		dependencies: [{
-				src: 'lib/js/classList.js',
-				condition: function () {
-					return !document.body.classList;
-				}
-			},
-			{
-				src: 'plugin/markdown/marked.js',
-				condition: function () {
-					return !!document.querySelector('[data-markdown]');
-				}
-			},
-			{
-				src: 'plugin/markdown/markdown.js',
-				condition: function () {
-					return !!document.querySelector('[data-markdown]');
-				}
-			},
-			{
-				src: 'plugin/highlight/highlight.js',
-				async: true,
-				condition: function () {
-					return !!document.querySelector('pre code');
-				},
-				callback: function () {
-					hljs.initHighlightingOnLoad();
-				}
-			},
-			{
-				src: 'plugin/zoom-js/zoom.js',
-				async: true
-			},
-			{
-				src: 'plugin/notes/notes.js',
-				async: true
-			}
-		]
-	});
-
-	var link = document.createElement('link');
-	link.rel = 'stylesheet';
-	link.type = 'text/css';
-	link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-	document.getElementsByTagName('head')[0].appendChild(link);
-
-	var slideIndex = 1;
-	showSlides(slideIndex);
-
-	function plusSlides(n) {
-		showSlides(slideIndex += n);
-	}
-
-	function currentSlide(n) {
-		showSlides(slideIndex = n);
-	}
-
-	function showSlides(n) {
-		var i;
-		var slides = document.getElementsByClassName("mySlides");
-		var dots = document.getElementsByClassName("dot");
-		if (n > slides.length) {
-			slideIndex = 1
-		}
-		if (n < 1) {
-			slideIndex = slides.length
-		}
-		for (i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";
-		}
-		for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" active", "");
-		}
-		slides[slideIndex - 1].style.display = "block";
-		dots[slideIndex - 1].className += " active";
-	}
-</script>
-
-</body>
-
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+		</script>
+
+	</body>
 </html>
   

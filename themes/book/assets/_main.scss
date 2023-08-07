@@ -1,62 +1,3 @@
-
-
-/* Début pour animation titre */
-
-.container {
-  display: flex;
-/*   border:1px solid red; */
-  height: 20%;
-  align-items: center;
-}
-
-svg {
-  display: block;
-  font: 6.5em 'Pratiques de l édition numérique';
-  width: 960px;
-  height: 100px;
-  margin: 0 auto;
-}
-
-.text-copy {
-  fill: none;
-  stroke: white;
-  stroke-dasharray: 6% 29%;
-  stroke-width: 5px;
-  stroke-dashoffset: 0%;
-  animation: stroke-offset 5.5s infinite linear;
-}
-
-.text-copy:nth-child(1){
-stroke: #34ad70;
-animation-delay: -1;
-}
-
-.text-copy:nth-child(2){
-stroke: #ac0759f6;
-animation-delay: -2s;
-}
-
-.text-copy:nth-child(3){
-stroke: #6edbcd;
-animation-delay: -3s;
-}
-
-.text-copy:nth-child(4){
-stroke: #f32b64;
-animation-delay: -4s;
-}
-
-.text-copy:nth-child(5){
-stroke: #c51f80;
-animation-delay: -5s;
-}
-
-@keyframes stroke-offset{
-100% {stroke-dashoffset: -35%;}
-}
-
-/* Fin pour animation titre */
-
 html {
   font-size: $font-size-base;
   scroll-behavior: smooth;
@@ -97,11 +38,9 @@ img {
   vertical-align: baseline;
 }
 
-/*
 :focus {
   @include outline;
 }
-*/
 
 aside nav ul {
   padding: 0;
@@ -311,18 +250,14 @@ body[dir="rtl"] .book-menu {
   }
 }
 
-
 .book-footer {
   padding-top: $padding-16;
   font-size: $font-size-14;
 
   img {
-    height: 2.1em;
+    height: 1em;
+    width: 1em;
     margin-inline-end: $padding-8;
-    padding-left: 120px;
-  }
-  #grandlogo {
-    height: 2em;
   }
 }
 

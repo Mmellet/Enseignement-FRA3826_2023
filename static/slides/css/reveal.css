@@ -1275,8 +1275,7 @@ body {
 
 .reveal.rtl ol,
 .reveal.rtl ul {
-  text-align: right; 
-  list-style: circle;}
+  text-align: right; }
 
 .reveal.rtl .progress span {
   float: right; }

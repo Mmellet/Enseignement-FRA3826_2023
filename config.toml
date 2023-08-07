@@ -1,6 +1,6 @@
-baseurl = "https://mmellet.github.io/FRA3825_2023/"
-#relativeURLs = true
-title = "FRA3825"
+baseURL = "/"
+relativeURLs = true
+title = "FRA3826   EDN6001"
 theme = "book"
 
 
@@ -25,10 +25,3 @@ theme = "book"
     [markup.goldmark.renderer]
      footnoteReturnLinkContents = "&uarr;"
       unsafe = true
-
-copyright = "2023 Margot Mellet CC BY-NC-SA"
-languageCode = "en-us"
-
-[author]
-	name = "Margot Mellet"
-	email = "margot.mellet@umontreal.ca"

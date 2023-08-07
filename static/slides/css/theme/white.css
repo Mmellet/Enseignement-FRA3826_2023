@@ -92,12 +92,10 @@ background-repeat: no-repeat;}
   list-style-type: decimal; }
 
 .reveal ul {
-  list-style-image: linear-gradient(to left bottom, rgb(255, 0, 200), rgb(0, 255, 179));
-  ;}
+  list-style-type: disc; }
 
 .reveal ul ul {
-  list-style-type: square; 
-  list-style-image: linear-gradient(to left bottom, rgb(255, 0, 200), rgb(0, 255, 179))}
+  list-style-type: square; }
 
 .reveal ul ul ul {
   list-style-type: circle; }

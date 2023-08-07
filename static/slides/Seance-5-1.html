@@ -1,551 +1,368 @@
+
 <html lang="fr">
 
-<head>
-	<meta charset="utf-8">
+	<head>
+		<meta charset="utf-8">
+
+		<title>FRA3826- Théories de l'édition numérique - A2021</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		
+<style> 
 
 
-	<title>FRA3825- Pratiques de l'édition numérique - H2023</title>
 
-	<meta name="description" content="">
-	<meta name="author" content="">
+* {box-sizing:border-box}
 
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
-	<!-- Code syntax highlighting -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
-	<style>
-		* {
-			box-sizing: border-box
-		}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
-		/* Slideshow container */
-		.slideshow-container {
-			max-width: 1000px;
-			position: relative;
-			margin: auto;
-		}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
 
-		/* Hide the images by default */
-		.mySlides {
-			display: none;
-		}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
-		/* Next & previous buttons */
-		.prev,
-		.next {
-			cursor: pointer;
-			position: absolute;
-			top: 50%;
-			width: auto;
-			margin-top: -22px;
-			padding: 16px;
-			color: white;
-			font-weight: bold;
-			font-size: 18px;
-			transition: 0.6s ease;
-			border-radius: 0 3px 3px 0;
-			user-select: none;
-		}
+.active, .dot:hover {
+  background-color: #717171;
+}
 
-		/* Position the "next button" to the right */
-		.next {
-			right: 0;
-			border-radius: 3px 0 0 3px;
-		}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 
-		/* On hover, add a black background color with a little bit see-through */
-		.prev:hover,
-		.next:hover {
-			background-color: rgba(0, 0, 0, 0.8);
-		}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
-		/* Caption text */
-		.text {
-			color: #f2f2f2;
-			font-size: 15px;
-			padding: 8px 12px;
-			position: absolute;
-			bottom: 8px;
-			width: 100%;
-			text-align: center;
-		}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
-		/* Number text (1/3 etc) */
-		.numbertext {
-			color: #f2f2f2;
-			font-size: 12px;
-			padding: 8px 12px;
-			position: absolute;
-			top: 0;
-		}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+	
 
-		/* The dots/bullets/indicators */
-		.dot {
-			cursor: pointer;
-			height: 15px;
-			width: 15px;
-			margin: 0 2px;
-			background-color: #bbb;
-			border-radius: 50%;
-			display: inline-block;
-			transition: background-color 0.6s ease;
-		}
-
-		.active,
-		.dot:hover {
-			background-color: #717171;
-		}
-
-		/* Fading animation */
-		.fade {
-			-webkit-animation-name: fade;
-			-webkit-animation-duration: 1.5s;
-			animation-name: fade;
-			animation-duration: 1.5s;
-		}
-
-		@-webkit-keyframes fade {
-			from {
-				opacity: .4
-			}
-
-			to {
-				opacity: 1
-			}
-		}
-
-		@keyframes fade {
-			from {
-				opacity: .4
-			}
-
-			to {
-				opacity: 1
-			}
-		}
-
-		/* On smaller screens, decrease text size */
-		@media only screen and (max-width: 300px) {
-
-			.prev,
-			.next,
-			.text {
-				font-size: 11px
-			}
-		}
-	</style>
-
-
-	<!--[if lt IE 9]>
+		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-	<div class="reveal">
+		<div class="reveal">
 
-		<div class="slides">
-			<div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
-			<section data-background-image="img/Main.png" data-background-size="2000px" background-color="#21211c">
-				<div id="fondop" style="position:inherit;top: -50px;left: -50px;">
-					<sup> FRA3825 </sup>
+	<div class="slides"> <div class="footer">FRA3826|EDN6001 - Automne 2021 - Margot Mellet</div>
+				<section data-background-image="img1/hyper.webp" data-background-size="1600px" background-color="#21211c">
+					<div id="fondop2" class="fragment">
+						
+<h2>FRA3826|EDN6001 : Théories de l'édition numérique</h2>
+
+</div>
+				</section>
+<section data-background-image="img1/hyper.webp" data-background-size="1400px">
+					<div id="fondop2" class="fragment">
+<h3>1er octobre : Séance 5</h3>
+<h4>Code & sémantique</h4>
 				</div>
+				</section>
 
-				<div id="fondop2" class="fragment">
-
-					<p>
-						<h2> Pratiques de l'édition numérique</h2>
-					</p>
-				</div>
-				<div id="fondop2" class="fragment">
-					<p>
-						<h6>7 Février - Séance 5</h6> Écriture Web
-					</p>
-				</div>
-			</section>
-
-			</section>
-			<section data-background-image="img/curseur.jpg" data-background-size="1600px"
-				data-background-color="#fff">
-				<div id="fondop2" class="fragment">
-					<h5>Index de la séance</h5>
-					<ol class="fragment">
-						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-5-1.html#/2">Web &
-								Hypertextes</a></li>
-						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-5-2.html#/">Écriture &
-								Littérature hypertextuelle</a></li>
-						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-3.html#/">Atelier HTML &
-								CSS</a></li>
-					</ol>
+				</section>
+<section data-background-image="img1/curseur.jpg" data-background-size="1200px" data-background-color="#fff">
+					<div id="fondop2" class="fragment">
+<h5>Index de la séance</h5>
+<ol class="fragment">
+<li><a href="https://mmellet.github.io/fra3826_2021/slides/Seance-5-1.html#/">Web sémantique & données</a></li>
+<li><a href="https://mmellet.github.io/fra3826_2021/slides/Seance-5-2.html#/">Code & écriture par écriture</a></li>
+<li><a href="https://mmellet.github.io/fra3826_2021/slides/Seance-4-3.html#/">Écritures & modèles sémantiques</a></li>
+<li>Présentation de Stylo & Examen de mi-session</li>
+</ol>
 
 				</div>
-			</section>
-
-			<section data-background-image="img/nelson.jpeg" data-background-size="1400px">
-				<div id="fondop2" class="fragment">
-					<h5>Le Web : organiser les liens</h5>
+				</section>
 
 
-				</div>
-			</section>
-			<section data-background="img/bush.jpg" data-background-size="1100px">
 
-				<div id="fondop" class="fragment">
-					<h3>Origine(s) du Web</h3>
-					<ul>
-						<li><i>Mundaneum</i> de Paul Otlet : Projet de Réseau Documentaire Universel
-						</li>
-						<li>Xanadu : Dispositif hypertextuel de Vannevar Bush Xanadu</li>
+				<section data-background-image="img1/stair.jpg" data-background-size="1100px">
+					<div id="fondop2" class="fragment">
+<h5>Web, le retour</h5>
 
-					</ul>
-					<p><b>Non-linéarité & Interconnection = Poétique hypertexte</b></p>
+<p>La question de la connaissance</p>
 
 				</div>
-			</section>
+				</section>
+				<section data-background="img1/tbl.jpeg" data-background-size="1300px">
+
+					<div id="fondop2" class="fragment">
+						<h3>WWW</h3>
+						<ul>
+			<li class="fragment"><a href="https://www.w3.org/People/Berners-Lee/9602affi.html">Déclaration du W3C</a></li>
+			<li class="fragment">Tim Berners Lee, 1996</li>
+			<li class="fragment"><i>platform for a global, online store of knowledge</i></li>
+
+		</ul>
+<p class="fragment"><b>Concevoir un espace de connaissance</b></p>
+	</div>
+</section>
+				<section data-background="img1/pont.jpg" data-background-size="1500px">
+
+					<div id="fondop2" class="fragment">
+						<h3>Accès à l'information</h3>
+						<ul>
+<li class="fragment">Un même réseau de connaissances</li>
+<li class="fragment">Identifiant unique</li>
+							<li class="fragment">Standards</li>
+						
+
+						</ul>
+						<p class="fragment"><b>Enjeux de pérennité</b></p>
+					</div>
+				</section>
 
 
-			<section data-background-image="img/nelson.jpeg" data-background-size="1400px">
-				<div id="fondop2" class="fragment">
-					<h5>Hypertexte : un système</h5>
-					<ul>
-						<li>Genette : « texte littéraire dérivé par rapport à un autre qui lui est
-							antérieur et lui sert de modèle ou de source, d'où des phénomènes de réécriture possibles
-							comme le pastiche ou la parodie »</li>
-						<li>Nelson : rupture dans la continuité</li>
-					</ul>
+				<section data-background="img1/pont.jpg" data-background-size="1500px">
 
-					<p>Entre littérature & technique</p>
-				</div>
-			</section>
+					<div id="fondop2" class="fragment">
+						<h3>Document / information / données</h3>
+						
+							</div>
+							</section>
+								<section data-background="img1/stair.jpg" data-background-size="1100px">
 
-			<section data-background-image="img/nelson.jpeg" data-background-size="1400px">
-				<div id="fondop2" class="fragment">
-					<h5>Principe de l'hypertexte</h5>
-					<ul>
-						<li>Dépasser la contrainte de linéarité</li>
-						<li><i>hyper</i> : en dehors, plus loin, au-delà</li>
-						<li>Théorie de la <i>Transtextualité</i> (Genette, <i>Palimpseste</i> 1982)
-						</li>
-					</ul>
+									<div id="fondop2" class="fragment">
+										<h3>Web sémantique</h3>
+										<ul>
+							<li class="fragment">Web 1.0 : documents statiques</li>
+							<li class="fragment">Web 2.0 : connexions</li>
+							<li class="fragment">Web 3.0 : données</li>
+
+						</ul>
+<p class="fragment"><b>Gestion de l'information</b></p>
+					</div>
+				</section>
 
 
-				</div>
-			</section>
+				<section data-background="img1/stair.jpg" data-background-size="1100px">
 
-			<section data-background-image="img/diderot.png" data-background-size="1100px">
-				<div id="fondop2" class="fragment">
-					<h5>Dépassement de la linéarité textuelle</h5>
+					<div id="fondop2" class="fragment">
+						<h3>Webs futurs</h3>
+						<ul>
+			<li class="fragment">Web des objets</li>
+			<li class="fragment">Fin du Web (?)</li>
+			<li class="fragment">Utopie / dystopie</li>
+		</ul>
+<p class="fragment"><b>Savoir / Pouvoir</b></p>
+	</div>
+</section>
 
-					<ul>
-						<li>Index : aller directement à une section</li>
-						<li>Notes infra-paginales : accès à des références externes</li>
-						<li>Organisation encyclopédique : de Diderot et d'Alembert jusqu'à Wikipédia
-						</li>
-					</ul>
-					<p><b>Modélisation de l'esprit humain</b></p>
+				<section data-background="img1/card.jpg" data-background-size="1400px">
 
-				</div>
-			</section>
+					<div id="fondop2" class="fragment">
+						<h3>Principes de balisage</h3>
+						<ul>
 
+							<li class="fragment">Niveaux de balisage 1.0, 2.0, 3.0</li>
+							<li class="fragment">Métadonnées</li>
+							<li class="fragment">Identifiant unique
 
-			<section data-background-image="img/Main.png" data-background-size="1800px">
-				<div id="fondop2" class="fragment">
+</ul>
+<p class="fragment"> <b>Enjeux de la structuration des informations</b></p>
 
-					<p style="text-align: justify;">« 1. Le droit de connaître au moins approximativement au départ le
-						volume de texte proposé ainsi que le nombre d’images,la durée totale des clips sonores et vidéo
-						; </br>2. Le droit d’entrer dans le texte au point où on le désire ; </br>3. Le droit de lire à
-						la suite les diverses unités consacrées à un
-						même sujet ; </br>4. Le droit de retrouver facilement un passage lu antérieurement et de le
-						relire , </br>5. Le droit d’annoter les pages lues. » </br></p>
-					<p>(Vanderdorpe, 1999)</p>
+</div>
+</section>
 
 
-				</div>
-			</section>
+<section data-background="img1/pont.jpg" data-background-size="1500px">
 
-			<section data-background-image="img/saporta.jpeg" data-background-size="1100px">
-				<div id="fondop2" class="fragment">
-					<h5><i>Composition no 1</i>, Saporta (1962)</h5>
+	<div id="fondop2" class="fragment">
+		<h3>Modélisation</h3>
+			<ul>
 
-					<ul>
-						<li>Déconstruction du livre</li>
-						<li>Jeu de cartes à battre/lire</li>
-					</ul>
-					<p><b>Ordre entre les mains</b></p>
+				<li class="fragment">Théorie : définition</li>
+				<li class="fragment">Formule : modèle mathématique</li>
+				<li class="fragment">Implémentation : modèle informatique</li>
 
-				</div>
-			</section>
+</ul>
+<p class="fragment"> <b>
+Régne de la représentation (Barad)</b></p>
 
-			<section data-background-image="img/perec.svg" data-background-size="800px">
-				<div id="fondop2" class="fragment">
-					<h5><i>La vie mode d'emploi</i>, Perec (1978)</h5>
+</div>
+</section>
 
-					<ul>
-						<li>Architecture narrative</li>
-						<li>1 immeuble soit 99 chapitres/pièces</li>
-						<li>Impossibilité d'une lecture "classique"</li>
-					</ul>
-					<p><b>Ni logique narrative, ni logique chronologique</b></p>
 
-				</div>
-			</section>
+<section data-background="img1/stair.jpg" data-background-size="1400px">
 
-			<section data-background-image="img/queneau.jpeg" data-background-size="1300px">
-				<div id="fondop2" class="fragment">
-					<h5><i>Cent mille milliards de poèmes</i>, Queneau (1967)</h5>
+	<div id="fondop2" class="fragment">
+		<h3>Enjeux Savoir / Pouvoir</h3>
+			<ul>
+				<li class="fragment">un Milieu : Technique, politique, sociaux</li>
+				<li class="fragment">Décider le savoir du monde</li>
 
-					<p style="text-align: justify;">« Ce petit ouvrage permet à tout un chacun de composer à volonté
-						cent mille milliards de sonnets, tous réguliers bien entendu. C’est
-						somme toute une sorte de machine à fabriquer des poèmes, mais
-						en nombre limité ; il est vrai que ce nombre, quoique limité, fournit
-						de la lecture pour près de deux cents millions d’années (en lisant
-						24h sur 24). »</p>
-					<p>(Queneau, <i>Préface</i>)</p>
+				</ul>
+				<p class="fragment"><b>Rôle de l'édition</b>
 
-				</div>
-			</section>
-
-			<section data-background-image="img/queneau2.jpg" data-background-size="1300px">
-				<div id="fondop2" class="fragment">
-					<h5><i>Cent mille milliards de poèmes</i>, Queneau (1967)</h5>
-
-					<ul>
-						<li>Hypertexte avant le numérique (Jeanneret et Souchier 2005)</li>
-						<li>Combinaison poétique</li>
-						<li>Livre instrument</li>
-					</ul>
-
-				</div>
-			</section>
-
-			<section data-background-image="img/queneau.jpeg" data-background-size="1300px">
-				<div id="fondop2" class="fragment">
-					<h5><i>Hyper</i>texte</h5>
-
-					<p style="text-align: justify;">« En comptant 45 s pour lire un sonnet et 15 s pour changer les
-						volets
-						à 8 heures par jour, 200 jours par an, on a pour plus d’un million
-						de siècles de lecture, et en lisant toute la journée 365 jours par an,
-						pour 190 258 751 années plus quelques plombes et broquilles (sans
-						tenir compte des années bissextiles et autres détails). »</p>
-					<p>(Queneau, <i>Préface</i>)</p>
-
-				</div>
-			</section>
-
-			<section data-background-image="img/Main.png" data-background-size="1800px">
-				<div id="fondop2" class="fragment">
-					<h5>Hypertexte numérique</h5>
-
-				</div>
-			</section>
-
-			<section data-background-image="img/memex.png" data-background-size="1200px"
-				data-background-color="#f1eded">
-				<div id="fondop2" class="fragment">
-					<h5>Memex - Vannevar Bush</h5>
-
-					<ul>
-
-						<li><a
-								href="https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"><i>As
-									We May Think</i></a> 1945</li>
-						<li>Extension de la mémoire</li>
-						<li>Mécanisation d'un index</li>
-					</ul>
-
-					<p><b>Dépasser la linéarité du savoir</b></p>
-				</div>
-
-			</section>
-
-			<section data-background-image="img/nelson.jpeg" data-background-size="1300px"
-				data-background-color="#f1eded">
-				<div id="fondop2" class="fragment">
-					<p>« Let me introduce the word "hypertext" to mean a body of written or pictorial material
-						interconnected in such a complex way that it could not conveniently be presented or represented
-						on paper » Ted Nelson (1965)</p>
-
-				</div>
-
+</b></p>
+			</div>
 			</section>
 
 
 
-			<section data-background-image="img/nelson.jpeg" data-background-size="1300px"
-				data-background-color="#f1eded">
-				<div id="fondop2" class="fragment">
-					<h5>Xanadu</h5>
 
-					<ul>
-
-						<li>Prototype d'un système hypertexte global</li>
-						<li>Dépôt de la littérature mondiale</li>
-
-					</ul>
-
-					<p><b>Complexité de la réalisation</b></p>
-				</div>
-
-			</section>
+</div>
 
 
-
-			<section data-background-image="img/html.png" data-background-size="1300px"
-				data-background-color="#f1eded">
-				<div id="fondop2" class="fragment">
-					<p><b>H</b>yper <b>T</b>ext <b>M</b>arkup <b>L</b>anguage</p>
-
-					<ul>
-
-						<li>Tim Berners-Lee & Robert Cailliau - <i>HyperText Transfer Protocol</i> ou HTTP</li>
-						<li>Structurer et contenir les hypertextes</li>
-
-					</ul>
-
-					<p><b>Langage pour Hypertexte</b></p>
-				</div>
-
-			</section>
-
-
-			<section data-background-image="img/url.jpeg" data-background-size="1600px"
-				data-background-color="#f1eded">
-				<div id="fondop2" class="fragment">
-					<h5><b>U</b>niform <b>R</b>esource <b>L</b>ocator</h5>
-
-					<ul>
-
-						<li>Identification de la destination</li>
-						<li>Lien unidirectionnel</li>
-						<li>Syntaxe : </br> http: <i>ou</i> https: protocole HTTP </br> //(...) :
-							serveur (<i>www</i> pour le Web)</i> </br> /(...)/ : chemin </br> + extension du fichier
-							et/ou encre avec</i> # </li>
-
-					</ul>
-
-					<p>Exemple : <a
-							href="https://mmellet.github.io/FRA3825_2023/seances/seance5/#atelier-3--html--css">https://mmellet.github.io/FRA3825_2023/seances/seance45/#atelier-3--html--css</a>
-					</p>
-				</div>
-
-			</section>
 
 
 
 		</div>
 
 
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
+		<script>
 
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
 
-	</div>
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
 
-	<script>
-		// Full list of configuration options available at:
-		// https://github.com/hakimel/reveal.js#configuration
-		Reveal.initialize({
-			controls: true,
-			progress: true,
-			history: true,
-			center: true,
+var slideIndex = 1;
+showSlides(slideIndex);
 
-			transition: 'slide', // none/fade/slide/convex/concave/zoom
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-			// Optional reveal.js plugins
-			dependencies: [{
-					src: 'lib/js/classList.js',
-					condition: function () {
-						return !document.body.classList;
-					}
-				},
-				{
-					src: 'plugin/markdown/marked.js',
-					condition: function () {
-						return !!document.querySelector('[data-markdown]');
-					}
-				},
-				{
-					src: 'plugin/markdown/markdown.js',
-					condition: function () {
-						return !!document.querySelector('[data-markdown]');
-					}
-				},
-				{
-					src: 'plugin/highlight/highlight.js',
-					async: true,
-					condition: function () {
-						return !!document.querySelector('pre code');
-					},
-					callback: function () {
-						hljs.initHighlightingOnLoad();
-					}
-				},
-				{
-					src: 'plugin/zoom-js/zoom.js',
-					async: true
-				},
-				{
-					src: 'plugin/notes/notes.js',
-					async: true
-				}
-			]
-		});
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
 
-		var slideIndex = 1;
-		showSlides(slideIndex);
+		</script>
 
-		function plusSlides(n) {
-			showSlides(slideIndex += n);
-		}
-
-		function currentSlide(n) {
-			showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("dot");
-			if (n > slides.length) {
-				slideIndex = 1
-			}
-			if (n < 1) {
-				slideIndex = slides.length
-			}
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";
-			}
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" active", "");
-			}
-			slides[slideIndex - 1].style.display = "block";
-			dots[slideIndex - 1].className += " active";
-		}
-	</script>
-
-</body>
-
+	</body>
 </html>
   

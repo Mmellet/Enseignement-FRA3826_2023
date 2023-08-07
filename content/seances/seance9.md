@@ -1,34 +1,41 @@
 --- 
 title: "Séance 9"
-date: 2023-03-14
+date: 2021-11-05
 ---
 
+# Séance du 5 novembre
 
-# Séance du 14 Mars : Auto-édition & Auto-publication
+[Bibliographie liée](https://www.zotero.org/groups/4276254/fra3826-a2021/collections/VSBWRZFL)
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/ETAWUS4E)
+[Prise de note collaborative](https://demo.hedgedoc.org/ynGGmdNYSEOwoF6tdK-p1w#)
 
-## Auto-édition & Auto-publication
+## Format et types de format
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-9-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-9-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-## Atelier 6 : *Export à soi* avec Pandoc (partie 2)
-
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-6-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-9-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-6-2.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-9-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
-## La Chaîne d'édition du Carnet
+## Enjeux et problématiques des formats
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Carnet-chaine.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-9-2.html" title="description" height="500" width="800" ></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-chaine.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-9-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
+
+
+## Exemples et démonstrations
+
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-9-3.html" title="description" height="500" width="800" ></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-9-3.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+
+
+À annoter pour la séance prochaine : 
+
+- <a href="https://via.hypothes.is/https://www.cairn.info/revue-carrefours-de-l-education-2004-1-page-42.htm" target="blank"> La disparition des filles dans les études d'informatique : les conséquences d'un changement de représentation, Isabelle Collet (2004)</a>

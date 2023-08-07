@@ -1,655 +1,501 @@
+
 <html lang="fr">
 
-<head>
-	<meta charset="utf-8">
+	<head>
+		<meta charset="utf-8">
+
+		<title>FRA3826- Théories de l'édition numérique - A2021</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		
+<style> 
 
 
-	<title>FRA3825- Pratiques de l'édition numérique - H2023</title>
 
-	<meta name="description" content="">
-	<meta name="author" content="">
+* {box-sizing:border-box}
 
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
-	<!-- Code syntax highlighting -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
 
-	<style>
-		* {
-			box-sizing: border-box
-		}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
-		/* Slideshow container */
-		.slideshow-container {
-			max-width: 1000px;
-			position: relative;
-			margin: auto;
-		}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
 
-		/* Hide the images by default */
-		.mySlides {
-			display: none;
-		}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
-		/* Next & previous buttons */
-		.prev,
-		.next {
-			cursor: pointer;
-			position: absolute;
-			top: 50%;
-			width: auto;
-			margin-top: -22px;
-			padding: 16px;
-			color: white;
-			font-weight: bold;
-			font-size: 18px;
-			transition: 0.6s ease;
-			border-radius: 0 3px 3px 0;
-			user-select: none;
-		}
+.active, .dot:hover {
+  background-color: #717171;
+}
 
-		/* Position the "next button" to the right */
-		.next {
-			right: 0;
-			border-radius: 3px 0 0 3px;
-		}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 
-		/* On hover, add a black background color with a little bit see-through */
-		.prev:hover,
-		.next:hover {
-			background-color: rgba(0, 0, 0, 0.8);
-		}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
-		/* Caption text */
-		.text {
-			color: #f2f2f2;
-			font-size: 15px;
-			padding: 8px 12px;
-			position: absolute;
-			bottom: 8px;
-			width: 100%;
-			text-align: center;
-		}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
-		/* Number text (1/3 etc) */
-		.numbertext {
-			color: #f2f2f2;
-			font-size: 12px;
-			padding: 8px 12px;
-			position: absolute;
-			top: 0;
-		}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+	
 
-		/* The dots/bullets/indicators */
-		.dot {
-			cursor: pointer;
-			height: 15px;
-			width: 15px;
-			margin: 0 2px;
-			background-color: #bbb;
-			border-radius: 50%;
-			display: inline-block;
-			transition: background-color 0.6s ease;
-		}
-
-		.active,
-		.dot:hover {
-			background-color: #717171;
-		}
-
-		/* Fading animation */
-		.fade {
-			-webkit-animation-name: fade;
-			-webkit-animation-duration: 1.5s;
-			animation-name: fade;
-			animation-duration: 1.5s;
-		}
-
-		@-webkit-keyframes fade {
-			from {
-				opacity: .4
-			}
-
-			to {
-				opacity: 1
-			}
-		}
-
-		@keyframes fade {
-			from {
-				opacity: .4
-			}
-
-			to {
-				opacity: 1
-			}
-		}
-
-		/* On smaller screens, decrease text size */
-		@media only screen and (max-width: 300px) {
-
-			.prev,
-			.next,
-			.text {
-				font-size: 11px
-			}
-		}
-	</style>
-
-
-	<!--[if lt IE 9]>
+		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-	<div class="reveal">
+		<div class="reveal">
 
-		<div class="slides">
-			<div class="footer">FRA3825 - Hiver 2023 - Margot Mellet</div>
-			<section data-background-image="img/Main.png" data-background-size="2000px" background-color="#21211c">
-				<div id="fondop" style="position:inherit;top: -50px;left: -50px;">
-					<sup> FRA3825 </sup>
-				</div>
+	<div class="slides"> <div class="footer">FRA3826|EDN6001 - Automne 2021 - Margot Mellet</div>
 
-				<div id="fondop2" class="fragment">
-
-					<p>
-						<h2> Pratiques de l'édition numérique</h2>
-					</p>
-				</div>
-				<div id="fondop2" class="fragment">
-					<p>
-						<h6>28 Mars - Séance 11</h6> Expérimentations littéraires
-					</p>
-				</div>
-			</section>
-
-			</section>
-			<section data-background-image="img/curseur.jpg" data-background-size="1600px" data-background-color="#fff">
-				<div id="fondop2" class="fragment">
-					<h5>Index de la séance</h5>
-					<ol class="fragment">
-						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-11-1#/">Littérature
-								numérique</a></li>
-						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-7-1#/">Atelier Créer une narration numérique</a></li>
-
-						<li><a href="https://mmellet.github.io/FRA3825_2023/slides/Carnet-deploiement.html#/19">Hugo en Local</a>
-						</li>
-					</ol>
-
-				</div>
-			</section>
-
-
-			<section data-background-image="img/babel.png" data-background-size="1600px">
-				<div id="fondop2" class="fragment">
-					<h5>De la littérature numérisée à numérique</h5>
-					<ul>
-						<li class="fragment">Des bibliothèques en ligne aux plateformes d'auto-publication</li>
-						<li class="fragment">Des générateurs de poèmes aux cyberlittératures</li>
-						<li class="fragment">Des formats du livre analogique aux expérimentations éditoriales</li>
+				<section data-background-image="img1/hyper.webp" data-background-size="1600px" background-color="#21211c">
+					<div id="fondop2" class="fragment">
 						
-					</ul>
+<h2>FRA3826|EDN6001 : Théories de l'édition numérique</h2>
 
-
-				</div>
-			</section>
-
-			<section data-background-image="img/hayles.png" data-background-size="1000px">
-				<div id="fondop2" class="fragment">
-					<h5>Littérature numérique, électronique, informatique</h5>
-
-					<p class="fragment">La littérature numérique est hybride : questionne les valeurs littéraires (Hayles, Bouchardon)</p>
-
-				</div>
-			</section>
-
-			<section data-background-image="img/interacti.jpg" data-background-size="1200px">
-				<div id="fondop2" class="fragment">
-					<h5>Littérature générative</h5>
-				</div>
-			</section>
-
-
-			<section data-background-image="img/strachey.jpg" data-background-size="1600px">
-				<div id="fondop2" class="fragment">
-					<h5>MUC - Strachey - 1952</h5>
-					<ul>
-						<li class="fragment">Génère des poèmes d'amour</li>
-						<li class="fragment">Littérature électronique & critique de l'hétéronormativité</li>
-						<li class="fragment">Définition d'un cadre de la lettre</li>
-
-					</ul>
-					
-
-				</div>
-			</section>
-
-			<section data-background-image="img/poem.jpeg" data-background-size="1200px">
-				<div id="fondop2" class="fragment">
-					</div>
-			</section>
-
-			<section data-background-image="img/baudot.jpeg" data-background-size="600px">
-				<div id="fondop2" class="fragment">
-					<h5>Machine à écrire - Baudot - 1964</h5>
-					<ul>
-						<li class="fragment">Production de vers</li>
-						<li class="fragment">2 programmes : Manuel de français, Lexique d'Hugo</li>
-						
-
-					</ul>
-					<p class="fragment"><a href="https://archive.org/details/xfoml0001/page/n47/mode/2up"><i>La Machine à écrire mise en marche et programmée par Jean A. Baudot</i></a></p>
-
-
-				</div>
-			</section>
-
-
-			<section data-background-image="img/machine.jpg" data-background-size="1800px">
-				<div id="fondop2" class="fragment">
-					<h5>1<sup>er</sup> programme</h5>
-					<ul>
-						<li class="fragment">L'automne et le champs transportent quelquefois une couronne</li>
-						<li class="fragment">Les campagnes trahissent l'effort</li>
-						<li class="fragment">Les crocodiles rapides oublieront les courses vives comme une peine pittoresque</li>
-						
-
-					</ul>
-		
-
-				</div>
-			</section>
-
-
-			<section data-background-image="img/machine.jpg" data-background-size="1800px">
-				<div id="fondop2" class="fragment">
-					<h5>1<sup>er</sup> programme</h5>
-					<ul>
-						<li class="fragment">Le robinet travaille</li>
-						<li class="fragment">Les couronnes et la pluie se regardent dans la chouette</li>
-						<li class="fragment">L'histoire sauve la compote derrière le vent</li>
-						
-
-					</ul>
-		
-
-				</div>
-			</section>
-
-			
-			<section data-background-image="img/machine.jpg" data-background-size="1800px">
-				<div id="fondop2" class="fragment">
-					<h5>2<sup>eme</sup> programme</h5>
-					<ul>
-						<li class="fragment">Les lueurs aristocratiques et les ailes souveraines profanent la justice même</li>
-						<li class="fragment">Les espaces augustes entrent en pleine nuit, car les brousailles funèbres dominent les brumes</li>
-						<li class="fragment">Des bronzes tordus et des tremblements ne se sauveront plus</li>
-						
-
-					</ul>
-		
-
-				</div>
-			</section>
-
-			<section data-background-image="img/baudot.jpeg" data-background-size="600px">
-				<div id="fondop2" class="fragment">
-
-					<p class="fragment"><small>Les phrases qui figurent dans ce volume [...] sont moins une performance littéraire que le résultat d'une expérience qui mérite un certain intérêt. La composition est considérée, sans aucun doute, comme une activité fondamentalement humaine, il est donc troublant d'observer une machine fonctionnant sans aucune intervention extérieure écrire des phrases évocatrices dans un style crédible. (Baudot)</small></p>
-
-				</div>
-			</section>
-
-
-			<section data-background-image="img/alamo.webp" data-background-size="1000px">
-				<div id="fondop2" class="fragment">
-					<h5>De l'OuLiPo à l'Alamo</h5>
-					<ul>
-						<li class="fragment">[1981-2020] Braffort, Roubaud, Balpe</li>
-						<li class="fragment"><a href="http://www.balpe.name/Contre-Haikus">Contre-Haïkus</a> de Germaine Proust</li>
-						
-
-					</ul>
-		
-
-				</div>
-			</section>
-
-			<section data-background-image="img/babel.png" data-background-size="1200px">
-				<div id="fondop2" class="fragment">
-					<h5>Littérature par les écritures numériques</h5>
-
-					<p class="fragment">Édition au cœur du littéraire</p>
-
-				</div>
-			</section>
-
-			<section data-background-image="img/interacti.jpg" data-background-size="1200px">
-				<div id="fondop2" class="fragment">
-					<h5>Interactivité</h5>
-
-					<p class="fragment">« l'interactivité repose sur une programmation informatique prévoyant les
-						interventions matérielles du lecteur » (Bouchardon)</p>
-
-				</div>
-			</section>
-
-
-
-			<section data-background-image="img/babel.png" data-background-size="1800px">
-				<div id="fondop2" class="fragment">
-					<h5>Types d'interactivité</h5>
-					<ul>
-						<li class="fragment">récits hypertextuels : arborescence en boucle (<i>Patchwork girl</i>)</li>
-						<li class="fragment">récits cinétiques : mouvement et jeu sur le texte (<i>Déprise</i>)</li>
-						<li class="fragment">récits génératifs : écriture automatique (<i>Contre-haïkus</i>)</li>
-						<li class="fragment">récits collectifs : communauté autour d'une écriture (<i>General Instin</i>)</li>
-
-					</ul>
-					<p class="fragment"><b>Édition de l'intéraction (accès, manipulation, production)</b></p>
-
-
-				</div>
-			</section>
-
-
-
-
-
-			<section data-background-image="img/babel.png" data-background-size="1600px">
-				<div id="fondop2" class="fragment">
-					<h5>Enjeux</h5>
-					<ul>
-
-						<li class="fragment">Concilier narrativité & interactivité</li>
-						<li class="fragment">Éditer l'édition</li>
-						<li class="fragment">Faire participer à un savoir/récit</li>
-
-					</ul>
-					<p class="fragment"><b>Édition/Recherche/Création</b></p>
-				</div>
-			</section>
-
-
-			<section data-background="img/deprise.png" data-background-size="1600px">
-				<div id="fondop2" class="fragment">
-					<h5>Exemples</h5>
-
-					<ul>
-						<li class="fragment"><a href="https://bouchard.pers.utc.fr/deprise/home"><i>Déprise</i></a> de Bouchardon et Volckaert</li>
-					</ul>
-
-				</div>
-			</section>
-
-			<section data-background-image="img/babel.png" data-background-size="1400px" data-background-color="#fff">
-				<div id="fondop2" class="fragment">
-
-					<h6>Édition & Espaces de lecture</h6>
-					<ul>
-
-						<li class="fragment">Réseaux sociaux</li>
-
-						<li class="fragment">Géolocalisés</li>
-						<li class="fragment">Flux de données</li>
-
-
-
-					</ul>
-				</div>
-			</section>
-
-
-			<section data-background-image="img/chat.png" data-background-size="1400px" data-background-color="#fff">
-				<div id="fondop2" class="fragment">
-
-					<h6>Jusqu'à ChatGPT</h6>
-					<ul>
-
-						<li class="fragment">Explosion de l'autorité</li>
-
-						<li class="fragment">ChatGPT peut-il écrire une histoire ? (<a href="https://www.youtube.com/watch?v=_SpaaaD0Ssg">Bon</a> 2023)</li>
-						<li class="fragment">Entraînement d'un modèle</li>
-
-
-
-					</ul>
-				</div>
-			</section>
-
-			<section data-background-image="img/babel.png" data-background-size="1200px">
-				<div id="fondop2" class="fragment">
-					<h5>Édition comme recherche/création</h5>
-
-
-				</div>
-			</section>
-
-
-<section data-background="img/luhan.png" data-background-size="1400px">
-
-	<div id="fondop2" class="fragment">
-		<h3>Le Média au centre de la question</h3>
-		<ul>
-			<li class="fragment">“The Medium is the Message” (McLuhan 1964)</li>
-			<li class="fragment">“Media determine our situation” (Kittler 1999)</li>
-				</ul>
 </div>
-</section>
+				</section>
 
-
-<section data-background="img/souchier.jpeg" data-background-size="1400px">
-
-	<div id="fondop2" class="fragment">
-		<h3>Énonciation éditoriale</h3>
-		<p class="fragment"><small>« [l]’énonciation éditoriale est médiatrice en ce qu’elle se propose de questionner les instances de savoir et d’énonciation qui parlent à travers le discours de l’autre. » Souchier (1998)</small></p>
-			
-</div>
-</section>
-
-<section data-background="img/balzac.jpg" data-background-size="700px">
-
-	<div id="fondop2" class="fragment">
-		<h3><i>Physiologie du mariage</i> Balzac 1838
-		</h3>
-				<ul>
-					<li class="fragment">Carnaval typographique (Souchier)</li>
-					<li class="fragment">Littérature comme jeu de lettres</li>
-
-					<li class="fragment">Création par l'édition</li>
-				</ul>
-
-	<p class="fragment"><b>Littérature comme édition</b></p>
-
-	</div>
-</section>
-
-<section data-background="img/uncreative.jpg" data-background-size="1300px">
-	<div id="fondop2" class="fragment">
-		<h3>Évacuer l'originalité</h3>
-		<ul>
-	
-			<li class="fragment">pour l'auteur : Perloff <i>Unoriginal Genius</i> (2010)</li>
-			<li class="fragment">pour le texte : Goldsmith <i>Day</i> (2003), <i>Uncreative Writing</i> (2011)</li>
-				</ul>
-
-
-<p class="fragment"><i>Déplacer le focus de la création</i></p>
-
-	</div>
-</section>
-
-
-
-			<section data-background-image="img/savelli.png" data-background-size="1300px">
-				<div id="fondop2" class="fragment">
-
-					<p>Anne Savelli - <a href="http://annesavelli.fr/">Fenêtres Open Space</a></p>
-
-
+<section data-background-image="img1/litt.jpg" data-background-size="1500px">
+					<div id="fondop2" class="fragment">
+						<h3>26 novembre : Séance 11</h3>
+						<h4>Création & expérimentation littéraire</h4>
 				</div>
-			</section>
+				</section>
 
-
-			<section data-background-image="img/archet.webp" data-background-size="1300px">
-				<div id="fondop2" class="fragment">
-
-					<p>Anne Archet- <a href="https://archet.net/blogs-2/">Littératures en ligne</a></p>
-
-
-				</div>
-			</section>
-
-
-
-			<section data-background-image="img/chris.webp" data-background-size="800px">
-				<div id="fondop2" class="fragment">
-
-					<p>Chris Tanasescu - Poésie performance : <a href="http://christanasescu.blogspot.com/">MARGENTO</a></p>
-
-
-				</div>
-			</section>
-
-			<section data-background-image="img/thurston.jpeg" data-background-size="800px">
-				<div id="fondop2" class="fragment">
-
-					<p>Nick Thurston - <a href="http://www.nickthurston.info/">Conceptions d'éditions</a></p>
-
-
-				</div>
-			</section>
-
-
-			<section data-background="img/babel.png" data-background-size="1600px">
-
-				<div id="fondop2" class="fragment">
-					<h3>Ressources
-					</h3>
-							<ul>
-								<li class="fragment"><a href="https://repertoire.ecrituresnumeriques.ca/s/repertoire/page/accueil">Le Répertoire des écritures numériques</a></li>
-								<li class="fragment"><a href="https://www.ubu.com/">UbuWeb</a></li>
-								<li class="fragment"><a href="https://newmediawritingprize.co.uk/">New Media Writing Prize</a></li>
+				<section data-background-image="img1/litt.jpg" data-background-size="1400px">
+					<div id="fondop2" class="fragment">
+						<h5>Approche<b>s</b></h5>
+				
+						<ul>
+							<li class="fragment">Intermédialité de la littérature</li>
+							<li class="fragment">Édition comme création</li>
 							</ul>
-			
-			
+																																																	<p class="fragment"><b>Ouvrir la littérature aux éditions numériques</b></p>
+				
 				</div>
+				</section> 
+				
+
+				<section data-background-image="img1/curseur.jpg" data-background-size="1200px" data-background-color="#fff">
+					<div id="fondop2" class="fragment">
+<h5>Index de la séance</h5>
+<ol class="fragment">
+<li><a href="https://mmellet.github.io/fra3826_2021/slides/Seance-11-1.html#/">Littérature multimédiale & interactive</a></li>
+<li><a href="https://mmellet.github.io/fra3826_2021/slides/Seance-11-2.html#/">Le livre, modèle et reconfigurations</a></li>
+<li><a href="https://mmellet.github.io/fra3826_2021/slides/Seance-11-3.html#/">Édition & Création</a></li>
+</ol>
+
+				</div>
+				</section>
+
+<section data-background-image="img1/litt.jpg" data-background-size="1400px" data-background-color="#fff">
+	<div id="fondop2" class="fragment">
+
+		<h5>Littérature multimédiale et interactive</h5>
+
+</div>
+</section>
+
+
+
+<section data-background-image="img1/multimédia.jpg" data-background-size="1300px">
+	<div id="fondop2" class="fragment">
+		<h5>Multimédia</h5>
+
+		<p class="fragment">le résultat d'une manipulation conjointe sur un même support de plusieurs types de contenus, plusieurs systèmes d'expression, et donc plusieurs médias : l'écriture, le son, l'image, la vidéo, etc.</p>
+																																													<p class="fragment"><b>Association multimédia / numérique</b></p>
+
+</div>
+</section> 
+
+<section data-background-image="img1/multimédia.jpg" data-background-size="1300px">
+	<div id="fondop2" class="fragment">
+<h5>Multi / Inter / Trans</h5>
+
+<ul>
+<li class="fragment">Transmédialité : déploiement de plusieurs médias à partir d'une origine médiatique</li>
+<li class="fragment">Intermédialité : étude des relations entre médias comme sens médial</li>
+</ul>
+																																							<p class="fragment"><b>Multimédialité : collaboration de médias en une écriture</b></p>
+
+</div>
+</section>
+
+<section data-background="img1/litt.jpg" data-background-size="1300px">
+	<div id="fondop2" class="fragment">
+
+		<h5>Réunion & Distinction</h5>
+
+
+		<ul>
+			<li class="fragment">Au-delà de la distinction entre arts : un art numérique ?</li>
+			<li class="fragment">Tous écriture / différents formats</li>
+			<li class="fragment">Édition multimédiale</li>
+		
+			
+			</ul>
+	
+																																		<p class="fragment"><b>Trouble dans le littéraire</b></p>
+	</div>
+</section>
+
+
+<section data-background-image="img1/litt.jpg" data-background-size="1300px">
+	<div id="fondop2" class="fragment">
+<h5>"En quoi c'est de la littérature ?"</h5>
+<ul>
+<li class="fragment">Justification contextuelle / insitutionnelle</li>
+<li class="fragment">Nouvelles potentialités / plasticités du numérique</li>
+<li class="fragment">Nouveaux phénomènes / identités du littéraire</li>
+</ul>
+<p class="fragment"><b>Enjeux de la définition d'un art & édition littéraire</b></p>
+</div>
+</section>
+
+<section data-background-image="img1/poeme.jpg" data-background-size="600px" data-background-color="#fff">
+	<div id="fondop2" class="fragment">
+<h5>Littérature multimédiale</h5>
+<ul>
+<li class="fragment">Poésie graphique/visuelle/typographique</li>
+<li class="fragment">Calligramme : écriture & édition</li>
+<li class="fragment">Légitimité du support papier</li>
+</ul>
+
+<p class="fragment"><b>Explorer la littérature</b></p>
+</div>
+</section>
+
+<section data-background-image="img1/multimédia.jpg" data-background-size="1300px">
+	<div id="fondop2" class="fragment">
+<h5>Multimédial numérique</h5>
+
+<ul>
+<li class="fragment">Possibilité de gestion des différentes extensions</li>
+<li class="fragment">Distinction des types de contenus</li>
+<li class="fragment">Formes d'écritures</li>
+</ul>
+																																							<p class="fragment"><b>Écriture/Édition multimédiale</b></p>
+
+</div>
+</section>
+
+
+<section data-background-image="img1/savelli.png" data-background-size="1300px">
+	<div id="fondop2" class="fragment">
+
+<p>Anne Savelli - <a href="http://annesavelli.fr/">Fenêtres Open Space</a></p>
+
+
+</div>
+</section>
+
+
+
+<section data-background-image="img1/multimédia.jpg" data-background-size="1300px">
+	<div id="fondop2" class="fragment">
+<h5>Édition multimédiale</h5>
+
+<ul>
+<li class="fragment">Identité artistique</li>
+<li class="fragment">Problématique d'impression</li>
+<li class="fragment">Poétique numérique/E-poétique</li>
+</ul>
+																																							<p class="fragment"><b>Éditer par l'écran = autrement</b></p>
+
+</div>
+</section>
+
+<!--
+<section data-background-image="img1/pillow.png" data-background-size="1300px">
+	<div id="fondop2" class="fragment">
+<h5><i>The Pillow Book</i> - Peter Greeenaway</h5>
+
+<ul>
+<li class="fragment">Remédier le livre à l'écran</li>
+<li class="fragment">Réflexion sur les supports</li>
+<li class="fragment">Processus d'édition</li>
+</ul>
+																																							<p class="fragment"><b>Un film qui se lit</b></p>
+
+</div>
+</section>-->
+
+
+<section data-background-image="img1/litt.jpg" data-background-size="1400px">
+	<div id="fondop2" class="fragment">
+		<h5><i>Littérature interactive</i></h5>
+
+		</div>
 			</section>
+
+
+
+<section data-background-image="img1/interacti.jpg" data-background-size="1200px">
+	<div id="fondop2" class="fragment">
+		<h5>Interactivité</h5>
+
+			<p class="fragment">"l'interactivité repose sur une programmation informatique prévoyant les interventions matérielles du lecteur" (Bouchardon)</p>
+
+		</div>
+	</section>
+
+
+
+<section data-background-image="img1/narra.jpg" data-background-size="1800px">
+<div id="fondop2" class="fragment">
+<h5>Types d'interactivité</h5>
+<ul>
+			<li class="fragment">récits hypertextuels : arborescence en boucle (<i>Patchwork girl</i>)</li>
+<li class="fragment">récits cinétiques : mouvement et jeu sur le texte (<i>Déprise</i>)</li>
+<li class="fragment">récits génératifs : écriture automatique (<i>Contre-haïkus</i>)</li>
+<li class="fragment">récits collectifs : (<i>Aalcofibras</i>)</li>
+
+</ul>
+<p class="fragment"><b>Édition transmédiatique (accès, manipulation, production)</b></p>									
+																																			
+
+</div>
+</section>
+
+<section data-background-image="img1/handPDF.jpg" data-background-size="1000px">
+	<div id="fondop2" class="fragment">
+		<h5>Éditions d'interactivité</h5>
+		<ul>
+
+			<li class="fragment">Interactivité pré-numérique : écriture fragmentaire et non-linéaire (Saporta, Calvino)</li>
+			<li class="fragment">Système délinéarisé : hypertextualités</li>
+
+
+</ul>
+																																													<p class="fragment"><b>Maléabilité & Instrumentation de l'activité de lecture</b></p>
+
+</div>
+</section>
+
+
+
+
+<section data-background-image="img1/litt.jpg" data-background-size="1600px">
+	<div id="fondop2" class="fragment">
+<h5>Enjeux</h5>
+<ul>
+
+<li class="fragment">Concilier narrativité & interactivité</li>
+<li class="fragment">Éditer l'édition</li>
+<li class="fragment">Faire participer à un savoir/récit</li>
+
+</ul>
+<p class="fragment"><b>Édition/Recherche/Création</b></p>
+</div>
+</section>
+
+
+<section data-background="img1/deprise.png" data-background-size="1600px">
+	<div id="fondop2" class="fragment">
+<h5>Exemples</h5>
+
+<ul>
+<li class="fragment"><a href="https://www.youtube.com/watch?v=gew68Qj5kxw"><i>Alice in Wonderland</i> for the iPad</a></li>
+<li class="fragment"><a href="https://bouchard.pers.utc.fr/deprise/home"><i>Déprise</i></a></li>
+</ul>																																					
+
+</div>
+</section>
+
+<section data-background-image="img1/litt.jpg" data-background-size="1400px" data-background-color="#fff">
+	<div id="fondop2" class="fragment">
+
+		<h6>Problématiques éditoriales littéraires</h6>
+		<ul>
+
+			<li class="fragment">Littérature sans fin/limite ?</li>
+
+<li class="fragment">Où/Quand/À quoi arrêter l'édition ?</li>
+<li class="fragment">Question institutionnelle</li>
+
+
+
+</ul>
+<p class="fragment"><b>Édition numérique du littéraire : inter/multimédiale, interdisciplinaire, sémiotique du support</b></p>																							</div>
+</section>
+
+
+<section data-background-image="img1/litt.jpg" data-background-size="1400px">
+	<div id="fondop2" class="fragment">
+
+<p style="font-size: 30px">« <b>Pour la forcer à ouvrir ses frontières [de la littérature], je me proclame écrivain et continuerai à le faire même si mon travail s’éloigne chaque jour davantage de ce qu’on entend généralement par “écriture”.</b> Parce que la littérature est si sévèrement circonscrite, on peut y importer à peu près n’importe quelle question issue des arts conceptuels ou de performance et obtenir ainsi quelque chose de nouveau. Qu’arriverait-il si on recentrait l’oeuvre sur les moyens de sa distribution ? Sur le lecteur ? […] Sur le support ? Sur la décrépitude, la dispersion ou la disparition du support ? Qu’arriverait-il si on se concentrait non pas sur le langage et ses qualités dénotatives, mais sur la sensation qu’il produit dans la bouche ? Sur le goût de l’encre ? [...] Et ainsi de suite ? » </br>(Interview de Shelley Jackson, Scott Rettberg 2006)</p>
+
+</div>
+</section>
+
+																																																
+
+
+
+
+
+</div>
+
+
+
+
 
 		</div>
 
 
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
+		<script>
 
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
 
-	</div>
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.js"></script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
 
-	<script>
-		// Full list of configuration options available at:
-		// https://github.com/hakimel/reveal.js#configuration
-		Reveal.initialize({
-			controls: true,
-			progress: true,
-			history: true,
-			center: true,
+var slideIndex = 1;
+showSlides(slideIndex);
 
-			transition: 'slide', // none/fade/slide/convex/concave/zoom
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-			// Optional reveal.js plugins
-			dependencies: [{
-					src: 'lib/js/classList.js',
-					condition: function () {
-						return !document.body.classList;
-					}
-				},
-				{
-					src: 'plugin/markdown/marked.js',
-					condition: function () {
-						return !!document.querySelector('[data-markdown]');
-					}
-				},
-				{
-					src: 'plugin/markdown/markdown.js',
-					condition: function () {
-						return !!document.querySelector('[data-markdown]');
-					}
-				},
-				{
-					src: 'plugin/highlight/highlight.js',
-					async: true,
-					condition: function () {
-						return !!document.querySelector('pre code');
-					},
-					callback: function () {
-						hljs.initHighlightingOnLoad();
-					}
-				},
-				{
-					src: 'plugin/zoom-js/zoom.js',
-					async: true
-				},
-				{
-					src: 'plugin/notes/notes.js',
-					async: true
-				}
-			]
-		});
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-		var link = document.createElement('link');
-		link.rel = 'stylesheet';
-		link.type = 'text/css';
-		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-		document.getElementsByTagName('head')[0].appendChild(link);
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
 
-		var slideIndex = 1;
-		showSlides(slideIndex);
+		</script>
 
-		function plusSlides(n) {
-			showSlides(slideIndex += n);
-		}
-
-		function currentSlide(n) {
-			showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("dot");
-			if (n > slides.length) {
-				slideIndex = 1
-			}
-			if (n < 1) {
-				slideIndex = slides.length
-			}
-			for (i = 0; i < slides.length; i++) {
-				slides[i].style.display = "none";
-			}
-			for (i = 0; i < dots.length; i++) {
-				dots[i].className = dots[i].className.replace(" active", "");
-			}
-			slides[slideIndex - 1].style.display = "block";
-			dots[slideIndex - 1].className += " active";
-		}
-	</script>
-
-</body>
-
+	</body>
 </html>
   

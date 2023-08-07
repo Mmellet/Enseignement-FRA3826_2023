@@ -1,46 +1,40 @@
 --- 
 title: "Séance 5"
-date: 2023-02-07
+date: 2021-10-01
 ---
 
-# Séance du 7 Février : Écriture Web
+# Séance du 1er octobre
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/XKHHTI2W)
+[Bibliographie liée](https://www.zotero.org/groups/4276254/fra3826-a2021/collections/TZU6BMX7)
 
-## Retour sur l'Atelier Stylo
+[Prise de note collaborative](https://demo.hedgedoc.org/Urs-SQKFTnKlJjA9r-cYRQ#)
 
-[Atelier Stylo](https://mmellet.github.io/FRA3825_2023/seances/seance4/#atelier-2--stylo)
+## Web sémantique & Données
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-5-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-2-2.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-5-1.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+## Code & écriture par écriture
+
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-5-2.html" title="description" height="500" width="800" ></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-5-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
 
-## Web & Hypertextes
+## Écriture & modèles sémantiques
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-5-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-5-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-## Édition & Littérature hypertextuelle
-
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-5-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-5-3.html" title="description" height="500" width="800" ></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-5-2.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-5-3.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
+À regarder pour la semaine prochaine : 
 
-## Atelier 3 : HTML & CSS
+- <a href="https://www.canal-u.tv/video/meshs/elena_pierazzo_a_propos_des_digital_humanities.14935">Pierazzo à propos des Digital Humanities</a>
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-3.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-3.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>

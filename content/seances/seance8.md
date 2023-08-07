@@ -1,34 +1,41 @@
 --- 
 title: "Séance 8"
-date: 2023-03-07
+date: 2021-10-29
 ---
 
-# Séance du 7 Mars : Interface Machine
+# Séance du 29 octobre
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/fra3825-2023/collections/HEBI953Z)
+[Bibliographie liée](https://www.zotero.org/groups/4276254/fra3826-a2021/collections/4Y7E4Q78)
 
-## Bonnes Pratiques dans Github
+[Prise de note collaborative](https://demo.hedgedoc.org/OCnnEebTSVGPEPkdMlQOOg#)
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Github.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+## Droit d'auteur.e
 
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Github.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-## Interface Machine
-
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Seance-8-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-8-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Seance-8-1.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-8-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
-## Atelier 6 : *Export à soi* avec Pandoc (partie 1)
+## Libre accès & Licences libres
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Atelier-6.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-8-2.html" title="description" height="500" width="800" ></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Atelier-6.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-8-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
+
+## Licences Propriétaires
+
+<iframe src="https://mmellet.github.io/fra3826_2021/slides/Seance-8-3.html" title="description" height="500" width="800" ></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/fra3826_2021/slides/Seance-8-3.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+
+
+À annoter pour la séance prochaine : 
+
+- <a href="https://via.hypothes.is/http://www.parcoursnumeriques-pum.ca/Les-formats" target="blank">Les formats, Viviane Boulétreau & Benoît Habert (2014)</a>
