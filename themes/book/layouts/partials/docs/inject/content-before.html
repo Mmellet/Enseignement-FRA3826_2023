@@ -1,15 +1,101 @@
-<div class="container">
-    <svg viewBox="0 0 2000 200">
-      <symbol id="s-text">
-        <a href="{{ .Site.BaseURL }}"> <text text-anchor="middle" x="50%" y="40%">Pratiques de l'édition numérique</text></a>
-      </symbol> 
 
-      <g class = "g-ants">
-        <use xlink:href="#s-text" class="text-copy"></use>
-        <use xlink:href="#s-text" class="text-copy"></use>
-        <use xlink:href="#s-text" class="text-copy"></use>
-        <use xlink:href="#s-text" class="text-copy"></use>
-        <use xlink:href="#s-text" class="text-copy"></use>
-      </g>
-    </svg> 
-  </div>     
+<style>
+
+.animation-container {
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  right: 45vh;
+  bottom: 85vh;
+  margin-left: 45vh;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.301);
+}
+
+.animation-container span {
+  position: absolute;
+  color: orange;
+  display: block;
+  font-size: 16px;
+  font-family: 'Helvetica';
+  text-shadow: 0 0 1px rgba(49, 146, 106, 0.26);
+  user-select: none;
+  pointer-events: none;
+  cursor: default;
+  z-index: 1;
+  opacity: 0;
+  top: 0;
+  will-change: transform, opacity;
+  animation-timing-function: ease-out;
+  animation-name: move;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    top: 100%;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: none;
+  }
+}
+
+
+</style>
+
+<div class="container">
+        <a href="{{ .Site.BaseURL }}"> 
+          <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Théories de l'Édition numérique<h1>
+        </a>
+
+  </div>    
+  
+  <script>
+
+'use strict';
+
+var app = {
+
+  chars: ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','0','1','2','3','4','5','6','7','8','9'],
+
+  init: function () {
+    app.container = document.createElement('div');
+    app.container.className = 'animation-container';
+    document.body.appendChild(app.container);
+    window.setInterval(app.add, 100);
+  },
+
+  add: function () {
+    var element = document.createElement('span');
+    app.container.appendChild(element);
+    app.animate(element);
+  },
+
+  animate: function (element) {
+    var character = app.chars[Math.floor(Math.random() * app.chars.length)];
+    var duration = Math.floor(Math.random() * 15) + 1;
+    var offset = Math.floor(Math.random() * (50 - duration * 2)) + 3;
+    var size = 10 + (15 - duration);
+    element.style.cssText = 'right:'+offset+'vw; font-size:'+size+'px;animation-duration:'+duration+'s';
+    element.innerHTML = character;
+    window.setTimeout(app.remove, duration * 1000, element);
+  },
+
+  remove: function (element) {
+    element.parentNode.removeChild(element);
+  },
+
+};
+
+document.addEventListener('DOMContentLoaded', app.init);
+  </script>

@@ -4,7 +4,7 @@ title: Lectures
 
 ## Lectures & annotations hebdomadaires
 
-[Bibliographie Zotero pour Lectures & annotations](https://www.zotero.org/groups/4276254/fra3825-a2023/collections/SFNDP4QX)
+[Bibliographie Zotero pour Lectures & annotations](https://www.zotero.org/groups/4276254/FRA3826-a2023/collections/SFNDP4QX)
 
 ### Séance 2 
 
@@ -42,7 +42,7 @@ Patrick Poirier et Pascal Genêt </a>
 
 ### Séance 8
 
-- <a href="https://via.hypothes.is/https://mmellet.github.io/fra3825_2023/lecture/Lecture8.pdf" target="blank">L'accès libre, Olivier Charbonneau (2010)</a>
+- <a href="https://via.hypothes.is/https://mmellet.github.io/FRA3826_2023/lecture/Lecture8.pdf" target="blank">L'accès libre, Olivier Charbonneau (2010)</a>
 
 ### Séance 9
 

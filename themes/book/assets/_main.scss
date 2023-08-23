@@ -1,59 +1,25 @@
 
 
 /* Début pour animation titre */
-
-.container {
-  display: flex;
-/*   border:1px solid red; */
-  height: 20%;
-  align-items: center;
+/* General styling of the page. */
+/* Sets a background color, font-size etc. */
+body {
+  background-color: #F7F3E9;
 }
 
-svg {
-  display: block;
-  font: 6.5em 'Pratiques de l édition numérique';
-  width: 960px;
-  height: 100px;
-  margin: 0 auto;
+h1 {
+  font-family: 'Fredericka the Great';
+  font-weight: 800;
+  font-size: 3em;
+  width: 17em;
+  color: black;
+  line-height: 1.9em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text-copy {
-  fill: none;
-  stroke: white;
-  stroke-dasharray: 6% 29%;
-  stroke-width: 5px;
-  stroke-dashoffset: 0%;
-  animation: stroke-offset 5.5s infinite linear;
-}
 
-.text-copy:nth-child(1){
-stroke: #34ad70;
-animation-delay: -1;
-}
 
-.text-copy:nth-child(2){
-stroke: #ac0759f6;
-animation-delay: -2s;
-}
-
-.text-copy:nth-child(3){
-stroke: #6edbcd;
-animation-delay: -3s;
-}
-
-.text-copy:nth-child(4){
-stroke: #f32b64;
-animation-delay: -4s;
-}
-
-.text-copy:nth-child(5){
-stroke: #c51f80;
-animation-delay: -5s;
-}
-
-@keyframes stroke-offset{
-100% {stroke-dashoffset: -35%;}
-}
 
 /* Fin pour animation titre */
 
@@ -67,6 +33,7 @@ body {
   min-width: $body-min-width;
   color: var(--body-font-color);
   background: var(--body-background);
+  background-color: rgba(250, 247, 248, 0.993);
 
   letter-spacing: 0.33px;
   font-weight: $body-font-weight;
@@ -104,6 +71,7 @@ img {
 */
 
 aside nav ul {
+  margin-top: 50px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -405,6 +373,7 @@ body[dir="rtl"] .book-menu {
   }
 
   .book-menu {
+    background-color: #fdf8f2;
     visibility: hidden;
     margin-inline-start: -$menu-width;
     font-size: $font-size-base;

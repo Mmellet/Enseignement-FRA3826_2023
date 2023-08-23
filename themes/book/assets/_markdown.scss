@@ -9,11 +9,11 @@
   }
 
   h1 {
-    color: #f32b64;
+    color: #0a0708;
   }
   h2,
   h3 {
-color: #c51f80;
+color: orange;
   }
 
   h4,
@@ -25,6 +25,7 @@ color: #c51f80;
     margin-bottom: $padding-16;
 
     a.anchor {
+      color: SlateBlue;
       opacity: 0;
       font-size: 0.75em;
       vertical-align: middle;

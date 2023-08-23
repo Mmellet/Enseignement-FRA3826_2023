@@ -10,15 +10,15 @@ tags: [
     ]
 ---
 
-# Ressources
+## Ressources
 
 Cette page référence les documentations utiles au cours dont des vidéos explicatives sur l'usage des outils. 
 
 -------------------------
 
-## Raccourcis clavier 
+### Raccourcis clavier 
 
-### Gestion Écriture
+#### Gestion Écriture
 - CTRL/Cmd + C : Copier (*Copy*)
 - CTRL/Cmd + V : Coller (*Varnish*)
 - CTRL/Cmd + X : Couper (*eXterminate*)
@@ -29,24 +29,24 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 - CTRL/Cmd + Z : Annuler (*Zut*)
 - CTRL/Cmd + Y : Revenir à l'état précédent (*Yesterday*)
 
-### Gestion Document
+#### Gestion Document
 - CTRL/Cmd + S : Sauvegarder (*Save*)
 - CTRL/Cmd + O : Ouvrir (*Open*)
 - CTRL/Cmd + Q : Quitter (*Quit*)
 
 - CTRL/Cmd + F : Mettre en plein écran (*Full screen*)
 - CTRL/Cmd + N : Nouvelle fenêtre (*New*)
-### Traitement texte 
+#### Traitement texte 
 - CTRL/Cmd + B : Mise en gras (*Bold*)
 - CTRL/Cmd + I : Mise en italique (*Italique*)
 - CTRL/Cmd + U : Souligner (*Underline*)
 
 -------------------------
 -------------------------
+<!--
+### Commandes Terminal 
 
-## Commandes Terminal 
-
-### Navigation 
+#### Navigation 
 
 | Action  | Linux/MacOs  | Windows |
 |---|---|---|
@@ -57,7 +57,7 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 | recherche dans les noms des fichiers |  `find ~ -name '*.md'` | `dir -s  *.md` |
 | recherche dans les contenus des fichiers |  `grep site README.txt` | `findstr site .\README.md` (cherche le mot `site` dans le ficher `README.md` ) |
 
-### Gestion des fichiers
+#### Gestion des fichiers
 
 | Action  | Linux/MacOs  | Windows |
 |---|---|---|
@@ -70,7 +70,7 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 | copier un fichier | `cp README.md README2.md` (*Copy*) | `copy .\README.md .\README2.md`|
 | copier un dossier | `cp -r content content2` (*Copy recursively*) | `Copy-Item -Path content -Destination content2 -Recurse`|
 
-### Astuces 
+#### Astuces 
 
 - tabulation : autocomplétion
 - flèche du haut : historique des commandes
@@ -285,16 +285,16 @@ PS: *pwd permet de savoir où je me trouve dans ma machine*.
         sleep 0.2;
 
        done;
--->
+
 -------------
 ----------
 
-## Zotero 
+### Zotero 
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/Zotero.html" title="description" height="500" width="800" ></iframe>
+<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Zotero.html" title="description" height="500" width="800" ></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/Zotero.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3826_2023/slides/Zotero.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
 -------------------------
@@ -342,15 +342,15 @@ L'index pour les prises de notes collaboratives se trouve [ici](https://demo.hed
 
 -------------------------
 -------------------------
--->
 
-## Markdown
+
+### Markdown
 
 Markdown est un langage sémantique. 
 
 Voici les fondamentaux : 
 
-### Niveaux de titre 
+#### Niveaux de titre 
 
 Les niveaux de titre se notent avec l'utilisation du dièse : 
 
@@ -362,7 +362,7 @@ Les niveaux de titre se notent avec l'utilisation du dièse :
 
 ```
 
-### Italique et gras
+#### Italique et gras
 
 ```
 - *italique*
@@ -371,7 +371,7 @@ Les niveaux de titre se notent avec l'utilisation du dièse :
 
 ```
 
-### Notes 
+#### Notes 
 
 ```
 Voici mon texte^[une note de bas de page inline.]
@@ -382,20 +382,20 @@ Voici mon texte[^1]
 
 ```
 
-### Liens
+#### Liens
 
 ```
 [un lien vers une page Wikipédia](https://fr.wikipedia.org/wiki/Hyperlien)
 
 ```
  
-### Image
+#### Image
 
 ```
 ![Légende](https://tonpetitlook.com/wp-content/uploads/2017/05/nouveau-chaton-nouveau-defi-430442.png)
 ```
 
-### Tutoriel
+#### Tutoriel
 
 <a href="https://www.arthurperret.fr/tutomd/" target="blank">Traduction en ligne par Arthur Perret</a>
 					
@@ -404,37 +404,37 @@ Voici mon texte[^1]
 -------------------------
 
 
-## HedgeDoc 
+### HedgeDoc 
 
 [HedgeDoc](https://docs.hedgedoc.org/) est un espace pour l'écriture collaborative et synchrone. 
 
  
 Cet espace se structure selon 2 espaces :
 
-![](https://mmellet.github.io/FRA3825_2023/images/hedge.png)
+![](https://mmellet.github.io/FRA3826_2023/images/hedge.png)
 
-### ![](https://mmellet.github.io/FRA3825_2023/images/writing.png) Espace d'édition 
+#### ![](https://mmellet.github.io/FRA3826_2023/images/writing.png) Espace d'édition 
 
-![](https://mmellet.github.io/FRA3825_2023/images/edition.png)
+![](https://mmellet.github.io/FRA3826_2023/images/edition.png)
 
 C'est dans cet espace que vous pourrez éditer. 
 
 L'édition d'une note peut être effectuée via l'éditeur visuel :
 
-![](https://mmellet.github.io/FRA3825_2023/images/editor.png)
+![](https://mmellet.github.io/FRA3826_2023/images/editor.png)
 
 ou directement en Markdown dans le texte.
 
 
-### ![](https://mmellet.github.io/FRA3825_2023/images/visual.png) Espace de visualisation 
+#### ![](https://mmellet.github.io/FRA3826_2023/images/visual.png) Espace de visualisation 
 
-![](https://mmellet.github.io/FRA3825_2023/images/visualisation.png)
+![](https://mmellet.github.io/FRA3826_2023/images/visualisation.png)
 
 Cet espace n'est pas éditable mais permet un rendu type web. 
 
-### ![](https://mmellet.github.io/FRA3825_2023/images/double.png) Double configuration
+#### ![](https://mmellet.github.io/FRA3826_2023/images/double.png) Double configuration
 
-![](https://mmellet.github.io/FRA3825_2023/images/dual.png)
+![](https://mmellet.github.io/FRA3826_2023/images/dual.png)
 
 Afin de suivre en simultané le rendu de votre édition vous pouvez choisir la double configuration. 
 
@@ -442,7 +442,7 @@ Afin de suivre en simultané le rendu de votre édition vous pouvez choisir la d
 -------------------------
 -------------------------
 
-## Stylo 
+### Stylo 
 
 - [Documentation officielle](http://stylo-doc.ecrituresnumeriques.ca/fr_FR/#!index.md)
 
@@ -451,17 +451,18 @@ Afin de suivre en simultané le rendu de votre édition vous pouvez choisir la d
 
 -------------------------
 
-## Hypothesis 
+### Hypothesis 
 
 - [Astuces pour des annotations réussies](https://web.hypothes.is/annotation-tips-for-students/)
 
 ------------------
 ---------------------
 
-## StoryMap KnightLab 
 
-<iframe src="https://mmellet.github.io/FRA3825_2023/slides/StoryMap.html" title="description" height="500" width="800" ></iframe>
+### StoryMap KnightLab 
+
+<iframe src="https://mmellet.github.io/FRA3826_2023/slides/StoryMap.html" title="description" height="500" width="800" ></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3825_2023/slides/StoryMap.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/FRA3826_2023/slides/StoryMap.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
