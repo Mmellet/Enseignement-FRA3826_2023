@@ -1,10 +1,7 @@
 
 Bienvenue sur le site du cours **FRA3826|Pratiques de l'édition numérique**. 
 
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/bilan.html" title="description"  height="200" width="100" allowfullscreen="allowfullscreen"></iframe>
-
-
-Le cours se déroule officiellement le marid de 16h à 18h59 du 10 janvier au 11 avril. 
+Le cours se déroule officiellement le lundi de 8h30 à 11h29 du 11 septembre au 18 décembre. 
 
 Le plan du cours (*le véritable*) est disponible [ici](./doc/FRA3826_2023.pdf).
 
