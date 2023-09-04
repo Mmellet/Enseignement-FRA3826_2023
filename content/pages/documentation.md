@@ -466,3 +466,11 @@ Afin de suivre en simultané le rendu de votre édition vous pouvez choisir la d
 <div style="text-align:center">
 <a href="https://mmellet.github.io/FRA3826_2023/slides/StoryMap.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
+
+**Bug de CAPTCHA** : si vous ne parvenez pas à ouvrir l'article pour l'annoter, lisez-le [ici](https://www.cairn.info/revue-les-cahiers-de-mediologie-1998-2-page-137.htm) en prenant en note vos commentaires, remarques, questions. 
+
+OU 
+
+Ajoutez l'extension hypothesis dans Chrome (ou Google Chromium) : https://web.hypothes.is/help/installing-the-chrome-extension/
+
+Une fois installée, vous aurez à cliquer sur l'article dans chrome : https://www.cairn.info/revue-les-cahiers-de-mediologie-1998-2-page-137.htm et ouvrir le volet hypothesis avec l'extension du navigateur. 

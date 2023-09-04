@@ -1,6 +1,6 @@
 baseurl = "https://mmellet.github.io/FRA3826_2023/"
 #relativeURLs = true
-title = "FRA3826"
+title = "FRA3826|EDN6001"
 theme = "book"
 
 

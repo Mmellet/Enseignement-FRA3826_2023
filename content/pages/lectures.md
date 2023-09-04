@@ -4,62 +4,68 @@ title: Lectures
 
 ## Lectures & annotations hebdomadaires
 
-[Bibliographie Zotero pour Lectures & annotations](https://www.zotero.org/groups/4276254/FRA3826-a2023/collections/SFNDP4QX)
+[Bibliographie Zotero pour Lectures & annotations](https://www.zotero.org/groups/5124082/fra3826-a2023/collections/GZLL2DDG)
+
+----
 
 ### Séance 2 
+*pas d'annotation* 
 
-- <a href="https://via.hypothes.is/https://www.cairn.info/revue-les-cahiers-de-mediologie-1998-2-page-137.htm">L'image du texte pour une théorie de l'énonciation éditoriale (Souchier 1998)</a>
+- <a href="https://www.persee.fr/doc/colan_0336-1500_2007_num_154_1_4684">L'oralité et l'écriture (Goody 2007)</a>
 
-**Bug de CAPTCHA** : si vous ne parvenez pas à ouvrir l'article pour l'annoter, lisez-le [ici](https://www.cairn.info/revue-les-cahiers-de-mediologie-1998-2-page-137.htm) en prenant en note vos commentaires, remarques, questions. 
-
-OU 
-
-Ajoutez l'extension hypothesis dans Chrome (ou Google Chromium) : https://web.hypothes.is/help/installing-the-chrome-extension/
-
-Une fois installée, vous aurez à cliquer sur l'article dans chrome : https://www.cairn.info/revue-les-cahiers-de-mediologie-1998-2-page-137.htm et ouvrir le volet hypothesis avec l'extension du navigateur. 
+----
  
 ### Séance 3
 
-- <a href="https://via.hypothes.is/http://www.parcoursnumeriques-pum.ca/pour-une-definition-du-numerique">Pour une définition du "numérique" (Vitali-Rosati 2014)</a>
-
-### Séance 4 
-
 - <a href="https://via.hypothes.is/https://www.cairn.info/revue-communications-2011-1-page-47.htm">Édition électronique (Dacos, Mounier 2011)</a>
 
-### Séance 5 
+----
+### Séance 4 
 
 - <a href="https://via.hypothes.is/https://www.cairn.info/revue-communication-et-langages1-2017-1-page-129.htm">L'écriture numérique ou l'écriture selon les machines (Petit, Bouchardon 2017)</a>
 
+----
+### Séance 5 
+
+- <a href="https://via.hypothes.is/https://www.parcoursnumeriques-pum.ca/1-pratiques/chapitre9.html" target="blank">Les formats (Viviane Boulétreau & Benoît Habert, 2014)</a>
+
+----
 ### Séance 6 
-*pas d'annotation* 
 
-- <a href="https://www.canal-u.tv/video/meshs/elena_pierazzo_a_propos_des_digital_humanities.14935">Pierazzo à propos des Digital Humanities</a>
+*annotation en mode public*
 
+- <a href="https://via.hypothes.is/https://txt.quaternum.net/2023/fabriques-de-publication/">Fabriques d'édition : un double mouvement éditorial (Fauchié 2023)</a>
+
+----
 ### Séance 7 
 
-- <a href="https://via.hypothes.is/https://books.openedition.org/pum/312?lang=fr">Chapitre 1. La fonction éditoriale et ses défis
-Patrick Poirier et Pascal Genêt </a>
+- <a href="https://via.hypothes.is/https://www.cairn.info/revue-les-cahiers-de-mediologie-1998-2-page-137.htm">L'image du texte pour une théorie de l'énonciation éditoriale (Souchier 1998)</a>
+
+----
 
 ### Séance 8
 
-- <a href="https://via.hypothes.is/https://mmellet.github.io/FRA3826_2023/lecture/Lecture8.pdf" target="blank">L'accès libre, Olivier Charbonneau (2010)</a>
+- <a href="http://blog.sens-public.org/marcellovitalirosati/pour-une-definition-de-leditorialisation/">Pour une définition de l'éditorialisation (Vitali-Rosati 2018)</a>
 
+----
 ### Séance 9
 
-- <a href="https://via.hypothes.is/http://www.parcoursnumeriques-pum.ca/Les-formats" target="blank">Les formats, Viviane Boulétreau & Benoît Habert (2014)</a>
+- <a href="http://sens-public.org/dossiers/1383/">Écrire les communs (Fredriksson, Sauret 2019)</a>
 
+----
 ### Séance 10
 
-- <a href="https://via.hypothes.is/https://www.cairn.info/revue-carrefours-de-l-education-2004-1-page-42.htm" target="blank"> La disparition des filles dans les études d'informatique : les conséquences d'un changement de représentation, Isabelle Collet (2004)</a>
+- <a href="https://via.hypothes.is/https://mmellet.github.io/Enseignement-FRA3826_2023/lecture/Collet_2009.pdf">L'auto-engendrement des informaticiens (Collet 2009)</a>
 
+----
 ### Séance 11
 
-- <a href="https://via.hypothes.is/https://www.cairn.info/revue-communication-et-langages-2020-3-page-5.htm?contenu=article" target="blank">La littérature numérique n’existe pas, Servanne Monjour (2020)</a>
+- <a href="https://via.hypothes.is/https://eliterature.org/pad/elp.html">Electronic Literature What it is? (Hayles 2007)</a>
 
-
+----
 ### Séance 12
 
-- <a href="https://via.hypothes.is/https://papyrus.bib.umontreal.ca/xmlui/bitstream/handle/1866/18302/lEcrivainDeProfil.pdf?sequence=1&isAllowed=y" target="blank">L’écrivain de profil(s)... Facebook, Servanne Monjour (2017)</a>
+- <a href="https://via.hypothes.is/https://papyrus.bib.umontreal.ca/xmlui/bitstream/handle/1866/18302/lEcrivainDeProfil.pdf?sequence=1&isAllowed=y" target="blank">L’écrivain de profil(s)... Facebook (Monjour 2017)</a>
 
 
 

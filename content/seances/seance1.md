@@ -3,9 +3,9 @@ title: "Séance 1"
 date: 2023-09-11
 ---
 
-# Séance du 11  janvier : Introduction
+# Séance du 11 septembre : Introduction
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/FRA3826-2023/collections/2GPSZJET)
+[Bibliographie liée](https://www.zotero.org/groups/5124082/fra3826-a2023/collections/DA7HR2MS)
 
 ## Présentation du cours
 
