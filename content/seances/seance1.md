@@ -9,10 +9,13 @@ date: 2023-09-07
 
 ## Présentation du cours
 
-<iframe src="https://matiere.ecrituresnumeriques.ca/index.php/s/88mnoQCwqj9RCbk" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<div style="text-align:center">
+<a href="https://matiere.ecrituresnumeriques.ca/index.php/s/88mnoQCwqj9RCbk" target="_blank">Capsule 1</a>
+</div>
 
-<iframe src="https://matiere.ecrituresnumeriques.ca/index.php/s/CX8MCRwzeSzASne" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
+<div style="text-align:center">
+<a href="https://matiere.ecrituresnumeriques.ca/index.php/s/CX8MCRwzeSzASne" target="_blank">Capsule 2</a>
+</div>
 
 <div style="text-align:center">
 <a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-1-1.html" target="_blank">Slides</a>
@@ -20,7 +23,10 @@ date: 2023-09-07
 
 ## Calendrier
 
-<iframe src="https://matiere.ecrituresnumeriques.ca/index.php/s/GMC9BSmKjSYY7Yc" title="description" height="500" width="800" ></iframe>
+<div style="text-align:center">
+<a href="https://matiere.ecrituresnumeriques.ca/index.php/s/GMC9BSmKjSYY7Yc" target="_blank">Capsule 3</a>
+</div>
+
 
 <div style="text-align:center">
 <a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-1-2.html" target="_blank">Slides</a>
@@ -29,7 +35,9 @@ date: 2023-09-07
 
 ## Modalités d'évaluation
 
-<iframe src="https://matiere.ecrituresnumeriques.ca/index.php/s/tpHfAbco9akTFfE" title="description" height="500" width="800" ></iframe>
+<div style="text-align:center">
+<a href="https://matiere.ecrituresnumeriques.ca/index.php/s/tpHfAbco9akTFfE" target="_blank">Capsule 3</a>
+</div>
 
 <div style="text-align:center">
 <a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-1-3.html" target="_blank">Slides</a>
@@ -38,7 +46,9 @@ date: 2023-09-07
 
 ## Ressources documentaires & outils
 
-<iframe src="https://matiere.ecrituresnumeriques.ca/index.php/s/KyFRmLE3aET6SCY" title="description" height="500" width="800" ></iframe>
+<div style="text-align:center">
+<a href="https://matiere.ecrituresnumeriques.ca/index.php/s/KyFRmLE3aET6SCY" target="_blank">Capsule 4</a>
+</div>
 
 <div style="text-align:center">
 <a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-1-4.html" target="_blank">Slides</a>
