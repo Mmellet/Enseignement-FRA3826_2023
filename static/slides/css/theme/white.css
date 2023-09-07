@@ -7,6 +7,14 @@
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
+  #fondop {
+    border: solid rgba(235, 123, 83, 0.692);
+  }
+  
+  #fondop2 {
+    border: solid rgba(236, 111, 65, 0.692);
+  }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -92,7 +100,7 @@ background-repeat: no-repeat;}
   list-style-type: decimal; }
 
 .reveal ul {
-  list-style-image: linear-gradient(to left bottom, rgb(255, 0, 200), rgb(0, 255, 179));
+  list-style-image: linear-gradient(to left bottom, rgb(255, 60, 0), rgb(255, 145, 0));
   ;}
 
 .reveal ul ul {
