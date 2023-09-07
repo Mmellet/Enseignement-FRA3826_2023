@@ -9,7 +9,7 @@ date: 2023-09-07
 
 ## Présentation du cours
 
-<iframe src="https://studium.umontreal.ca/pluginfile.php/8765056/mod_label/intro/Seance1-1-1.mp4?time=1694113379211" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://studium.umontreal.ca/pluginfile.php/8765141/mod_label/intro/Seance1-3.mp4" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <iframe src="https://studium.umontreal.ca/pluginfile.php/8765131/mod_label/intro/Seance1-1-2.mp4" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
