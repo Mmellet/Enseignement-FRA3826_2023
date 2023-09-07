@@ -36,7 +36,7 @@ date: 2023-09-07
 ## Modalités d'évaluation
 
 <div style="text-align:center">
-<a href="https://matiere.ecrituresnumeriques.ca/index.php/s/tpHfAbco9akTFfE" target="_blank">Capsule 3</a>
+<a href="https://matiere.ecrituresnumeriques.ca/index.php/s/tpHfAbco9akTFfE" target="_blank">Capsule 4</a>
 </div>
 
 <div style="text-align:center">
@@ -47,7 +47,7 @@ date: 2023-09-07
 ## Ressources documentaires & outils
 
 <div style="text-align:center">
-<a href="https://matiere.ecrituresnumeriques.ca/index.php/s/KyFRmLE3aET6SCY" target="_blank">Capsule 4</a>
+<a href="https://matiere.ecrituresnumeriques.ca/index.php/s/KyFRmLE3aET6SCY" target="_blank">Capsule 5</a>
 </div>
 
 <div style="text-align:center">
