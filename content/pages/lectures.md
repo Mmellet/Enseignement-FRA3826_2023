@@ -45,6 +45,8 @@ title: Lectures
 
 ### Séance 8
 
+*annotation en mode public*
+
 - <a href="http://blog.sens-public.org/marcellovitalirosati/pour-une-definition-de-leditorialisation/">Pour une définition de l'éditorialisation (Vitali-Rosati 2018)</a>
 
 ----
