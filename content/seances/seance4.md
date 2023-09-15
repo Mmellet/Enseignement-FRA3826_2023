@@ -1,6 +1,6 @@
 --- 
 title: "Séance 4"
-date: 2023-09-30
+date: 2024-09-30
 ---
 
 # Séance du 31 janvier : Formats & Écriture sémantique

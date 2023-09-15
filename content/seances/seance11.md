@@ -1,6 +1,6 @@
 --- 
 title: "Séance 11"
-date: 2023-09-28
+date: 2024-09-28
 ---
 
 # Séance du 28 Mars : Expérimentations littéraires

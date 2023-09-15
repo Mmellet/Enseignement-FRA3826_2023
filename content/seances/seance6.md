@@ -1,6 +1,6 @@
 --- 
 title: "Séance 6"
-date: 2023-09-14
+date: 2024-09-14
 ---
 
 # Séance du 14 Février : Chaînes éditoriales & modulaires

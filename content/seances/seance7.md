@@ -1,6 +1,6 @@
 --- 
 title: "Séance 7"
-date: 2023-09-21
+date: 2024-09-21
 ---
 
 # Séance du 21 Février : Principes collaboratifs

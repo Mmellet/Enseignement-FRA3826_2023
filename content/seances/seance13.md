@@ -1,6 +1,6 @@
 --- 
 title: "Séance 13"
-date: 2023-09-11
+date: 2024-09-11
 ---
 
 # Séance du 11 Avril : Écologies et Alternatives numériques
