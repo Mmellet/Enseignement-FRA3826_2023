@@ -1,26 +1,15 @@
 --- 
 title: "Séance 2"
-date: 2023-09-17
+date: 2023-09-15
 ---
 
 
-# Séance du 17 septembre : Qu'est ce que l'édition numérique ?
+# Séance du 17 septembre : Qu’est-ce que l’édition numérique ? (volet 1 : Histoire de l’édition)
 
 [Bibliographie liée](https://www.zotero.org/groups/4823133/FRA3826-2023/collections/635KUM7S)
 
-## Édition : entre ruptures et continuités
+## Contenu à lire 
 
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Seance-2-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+[Version Web](https://mmellet.github.io/Enseignement-FRA3826_2023/textes/seance2/)
 
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Seance-2-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-## Architectures numériques
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Seance-2-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Seance-2-2.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
+[Version PDF](https://mmellet.github.io/Enseignement-FRA3826_2023/doc/seance2.pdf)
