@@ -3,7 +3,7 @@ title: "Séance 1"
 date: 2023-09-07
 ---
 
-# Séance du 11 septembre : Introduction
+## Séance du 11 septembre : Introduction
 
 [Bibliographie liée](https://www.zotero.org/groups/5124082/fra3826-a2023/collections/DA7HR2MS)
 
