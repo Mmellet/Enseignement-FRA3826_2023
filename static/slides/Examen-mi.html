@@ -1,389 +1,354 @@
+
 <html lang="fr">
 
-<head>
-    <meta charset="utf-8">
+	<head>
+		<meta charset="utf-8">
 
-    <title>FRA3826 - Théories de l'édition numérique</title>
+		<title>FRA3826- Théories de l'édition numérique - A2021</title>
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/white.css" id="theme">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
 
-    <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		
+<style> 
 
 
-    <style>
-        code {
-            background-color: honeydew;
-        }
 
-        .pre {
-            background-color: honeydew;
-        }
+* {box-sizing:border-box}
 
-        * {
-            box-sizing: border-box
-        }
-
-        /* Slideshow container */
-        .slideshow-container {
-            max-width: 1000px;
-            position: relative;
-            margin: auto;
-        }
-
-        /* Hide the images by default */
-        .mySlides {
-            display: none;
-        }
-
-        /* Next & previous buttons */
-        .prev,
-        .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width: auto;
-            margin-top: -22px;
-            padding: 16px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-        }
-
-        /* Position the "next button" to the right */
-        .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-        }
-
-        /* On hover, add a black background color with a little bit see-through */
-        .prev:hover,
-        .next:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-
-        /* Caption text */
-        .text {
-            color: #f2f2f2;
-            font-size: 15px;
-            padding: 8px 12px;
-            position: absolute;
-            bottom: 8px;
-            width: 100%;
-            text-align: center;
-        }
-
-        /* Number text (1/3 etc) */
-        .numbertext {
-            color: #f2f2f2;
-            font-size: 12px;
-            padding: 8px 12px;
-            position: absolute;
-            top: 0;
-        }
-
-        /* The dots/bullets/indicators */
-        .dot {
-            cursor: pointer;
-            height: 15px;
-            width: 15px;
-            margin: 0 2px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-        }
-
-        .active,
-        .dot:hover {
-            background-color: #717171;
-        }
-
-        /* Fading animation */
-        .fade {
-            -webkit-animation-name: fade;
-            -webkit-animation-duration: 1.5s;
-            animation-name: fade;
-            animation-duration: 1.5s;
-        }
-
-        @-webkit-keyframes fade {
-            from {
-                opacity: .4
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
-        @keyframes fade {
-            from {
-                opacity: .4
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
-        /* On smaller screens, decrease text size */
-        @media only screen and (max-width: 300px) {
-
-            .prev,
-            .next,
-            .text {
-                font-size: 11px
-            }
-        }
-        .transparent {
-  background-color: rgba(248, 138, 64, 0.596);
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-    </style>
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
-    <!--[if lt IE 9]>
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+	
+
+		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-    <div class="reveal">
+		<div class="reveal">
 
-        <div class="slides">
-            <div class="footer">FRA3826 - Hiver 2023 - Margot Mellet</div>
-            <section data-background-image="img/Main.png" data-background-size="2000px" background-color="#21211c">
-                <div id="fondop" style="position:inherit;top: -50px;left: -50px;">
-                    <sup>FRA3826</sup>
-                </div>
-
-                <div id="fondop2" class="fragment">
-                    <p>
-                        <h2> Pratiques de l'édition numérique</h2>
-                    </p>
-                </div>
-                <div id="fondop2" class="fragment">
-                    <p>
-                        <h6>Examen de mi-session</h6> Édition d'une nouvelle dans La Fabrique de Poe</h6>
-                        poursuite de l'<a href="Atelier-5.html">Atelier 5</a>
-                    </p>
-                </div>
-            </section>
-
-            <section data-background-image="img/Main.png" data-background-color="#f1eded" data-background-size="1700px">
-                <div id="fondop2" class="fragment">
-<h6>Volets</h6>
-<ul>
-<li>Édition - Markdown</li>
-<li>Sémantisation - Métadonnées</li>
-<li>Gestion de fichier - Arborescence</li>
-</ul>
-<div class="fragment"><p class="transparent">Autonomie</p></div>
-</div>
-</section>
-
-<section data-background-image="img/wikisource_poe.png" data-background-color="#f1eded" data-background-size="1700px">
-                            <div id="fondop2" class="fragment">
-<h6>Édition - Base à partir du Modèle</h6>
-<ul>
-<li>Restitution des mises en formes : italiques, tirets longs, espaces insécables, etc.</li>
-<li>Restitution de la structure : paragraphe, note de bas de page, etc. </li>
-</ul>
-<div class="fragment"><p class="transparent"><a href="https://fr.wikisource.org/wiki/Nouvelles_Histoires_extraordinaires/">Modèle de l'édition 1884</a></p></div>
-</div>
-</section>
-<section data-background-image="img/Main.png" data-background-color="#f1eded" data-background-size="1700px">
-    <div id="fondop2" class="fragment">
-<h6>Édition - + 5 Ajouts</h6>
-<ul>
-<li>Ajout de note de bas de page (x 2)</li>
-<li>Insertion d'hyperliens (x 3)</li>
-</ul>
-<div class="fragment"><p class="transparent"><a href="https://mmellet.github.io/FRA3826_2023/documentation/#markdown">Rappel Balisage</a></p></div>
+	<div class="slides"> <div class="footer">FRA3826|EDN6001 - Automne 2023 - Margot Mellet</div>
+				<section data-background-image="media/hyper.webp" data-background-size="1600px" background-color="#21211c">
+					<div id="fondop" class="fragment">
+						
+<h2>FRA3826|EDN6001 : Théories de l'édition numérique</h2>
 
 </div>
-</section>
-<section data-background-image="img/Main.png" data-background-color="#f1eded" data-background-size="1600px">
+				</section>
+<section data-background-image="media/hyper.webp" data-background-size="1400px">
+					<div id="fondop2" class="fragment">
+<h3>Examen de mi-session : Compte-rendu critique de lecture</h3>
+<h5>30 octobre - 30%</h5>
+				</div>
+				</section>
+
+				</section>
+<section data-background-image="media/main.jpg" data-background-size="1400px" data-background-color="#fff">
+					<div id="fondop2" class="fragment">
+
+						<h6>Examen de mi-session</h6>
+						<ul>
+						<li class="fragment">Lecture critique</li>
+						<li class="fragment">Choix parmi une <a href="https://www.zotero.org/groups/5124082/fra3826-a2023/collections/AVDAXSCF">liste d'articles</a> ou d'une conférence plénière lors des <a href="https://www.crihn.org/nouvelles/2023/08/28/colloque-du-crihn-2023/">10 ans du CRIHN</a> (11-13 octobre)</li>
+						<li class="fragment">Édition dans <a href="https://stylo.huma-num.fr/">Stylo</a>)</li>
+						</ul>
+						
+						<p class="fragment">Clarté - Dialogue - Édition</p>
+						
+						<p class="fragment"><b>Développer un esprit critique sur l'édition numérique</b></p>
+
+				</div>
+				</section>
+				
+<section data-background-image="media/main.jpg" data-background-size="1400px">
+					<div id="fondop2" class="fragment">
+<h6>Un compte-rendu critique</h6>
+<ul>
+<li class="fragment">Décrire une lecture</li>
+<li class="fragment">Apporter un point de vue critique</li>
+</ul>
+<p class="fragment"><b>Reprendre les idées essentielles d'un texte, les expliquer et les évaluer</b></p> 
+
+				</div>
+				</section>
+
+										<section data-background-image="media/main.jpg" data-background-size="1400px">
 <div id="fondop2" class="fragment">
-<h6>Sémantisation - + 1 donnée</h6>
+<h6>Objectifs</h6>
+
 <ul>
-<li>Dans les métadonnées de votre nouvelle, ajoutez la donnée <code>editor</code></li>
-<li>Pour sa valeur, renseignez votre nom</li>
+<li class="fragment">Analyse & Synthèse</li>
+<li class="fragment">Structuration : discours & édition</li>
+<li class="fragment">Critique : constructivité</li>
+
 </ul>
-<div class="fragment"><p class="transparent">Attention à la syntaxe</p></div>
 </div>
 </section>
 
-<section data-background-image="img/Main.png" data-background-color="#f1eded" data-background-size="1600px">
+<section data-background-image="media/main.jpg" data-background-size="1400px">
+	<div id="fondop2" class="fragment">
+	<h6>Analyse</h6>
+	
+	<ul>
+	<li class="fragment">Idées principales & secondaires</li>
+	<li class="fragment">Contexte théorique</li>
+	<li class="fragment">Paraphrase n'est pas plagiat</li>
+	</ul>
+
+	<p class="fragment"><b>Capacité de synthèse</b></p>
+	</div>
+	</section>
+
+
+<section data-background-image="media/main.jpg" data-background-size="1400px">
+	<div id="fondop2" class="fragment">
+	<h6>Structure - Discours</h6>
+	<ul>
+	<li class="fragment">Présentation auteur.e & contexte</li>
+	<li class="fragment">Exposé du contenu</li>
+	<li class="fragment">Critique & appréciation</li>
+	</ul>
+
+	<p class="fragment"><b>Informer sa pensée</b></p>
+	</div>
+	</section>
+
+
+<section data-background-image="media/main.jpg" data-background-size="1400px">
+	<div id="fondop2" class="fragment">
+	<h6>Structure - Édition</h6>
+	<ul>
+	<li class="fragment">Niveau<b>x</b> de titres & Notes</li>
+	<li class="fragment">Référence<b>s</b> bibliographiques</li>
+	<li class="fragment">Métadonnées : identité, résumé, mots-clefs</li>
+	</ul>
+
+	<p class="fragment"><b>Édition sémantique</b></p>
+	</div>
+	</section>
+
+	<section data-background-image="media/main.jpg" data-background-size="1400px">
+		<div id="fondop2" class="fragment">
+		<h6>Critique</h6>
+		
+		<ul>
+		<li class="fragment">Forces & Faiblesses</li>
+		<li class="fragment">Constructivité</li>
+		<li class="fragment">Ouverture</li>
+		</ul>
+		<p class="fragment"><b>Ni procès Ni jugement</b></p>
+		</div>
+		</section>
+
+										<section data-background-image="media/main.jpg" data-background-size="1400px" data-background-color="#f1eded">
 <div id="fondop2" class="fragment">
-<h6>Enrichissement - + 1 image</h6>
+<h6>Rappel<b>s</b></h6>
+
 <ul>
-    <li>Choisir et télécharger une image sur <a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimédia</a></li>
-<li>Au bon endroit dans l'Arborescence du repository, importez/uploadez l'image</li>
-<li>Dans votre nouvelle, insérez en markdown l'image</li>
+<li class="fragment">à éditer avec STYLO</li>
+<li class="fragment">envoi de l'export en PDF & partage via Stylo avec margot.mellet@umontreal.ca</li>
+<li class="fragment">1200-1500 mots</li>
+<li class="fragment">Nomenclature : Nom_CompteRendu</li>
 </ul>
-<div class="fragment"><p class="transparent">Attention aux chemins/paths</p>
 </div>
 </section>
 
 
-<section data-background-image="img/poe.png" data-background-color="#f1eded" data-background-size="1600px">
-    <div id="fondop2" class="fragment">
-    <h6>Suivre les instructions de l'<a href="https://mmellet.github.io/FRA3826_2023/slides/Atelier-5.html#/11">ajout</a> jusqu'à la <a href="https://mmellet.github.io/FRA3826_2023/slides/Atelier-5.html#/12">pull-request</a></h6>
-    <div class="fragment"><p class="transparent">Attention à bien être sur votre branch</p>
-        <div class="fragment"><p class="transparent">Attention à puller avant ajout<textarea>git pull</textarea></p></div>
+<section data-background-image="media/hyper.webp" data-background-size="1200px" data-background-color="#f1eded">
+	<div id="fondop2" class="fragment">
+<h6><b>Documentation</b></h6>
 
-
+<ul>
+	<li class="fragment"><a href="https://via.hypothes.is/https://csu.hypotheses.org/36">Hypotheses</a></li>
+	<li class="fragment"><a href="http://sens-public.org/articles/lectures/">Rubrique Lectures sur <i>Sens public</i></a></li>
+	</ul>
 </div>
-    </section>
+													</section>
 
-    <section data-background-image="img/issue.png" data-background-color="#f1eded" data-background-size="1600px">
-        <div id="fondop2" class="fragment">
-        <h6>Un Problème : Une issue</h6>
-        <ul>
-        <li>Dans l'onglet <code>Issue</code>, sélectionnez <code>New Issue></code> </li>
-
-        <li>Renseignez votre problème le plus précisément possible (comportements, manipulations, captures d'écran)</li>
-        <li>Assignez-moi l'issue</li>
-      
-    </ul>
-
-    <div class="fragment"><p class="transparent">Suivi éditorial & Bonne pratique</p></div>
-        </section>
-
-<section data-background-image="img/Main.png" data-background-color="#f1eded" data-background-size="1600px">
-    <div id="fondop2" class="fragment">
-    <h6>Rendu pour le 7 mars</h6>
- </div>
-    </section>
-
-<section data-background-image="img/fabrique2.png" data-background-size="1800px">
-    <div id="fondop2" class="fragment">
-        <h6>Ressources</h6>
-            <ul>
-                <li>Anarchism and Other Essays : <a href="https://antoinentl.gitlab.io/fabrique/"
-                target="blank">Site </a> & <a href="https://gitlab.com/antoinentl/fabrique"
-                target="blank">Repository</a></li>
-                <li>Frankenstein - HNU6051 : <a href="https://hnu6051.gitpages.huma-num.fr/espace-projet/"
-                target="blank">Site</a> & <a href="https://gitlab.huma-num.fr/hnu6051/espace-projet"
-                target="blank">Repository</a></li>
-                </ul>
-
-    </div>
-</section>
-
+<section data-background-image="media/hyper.webp" data-background-size="1200px" data-background-color="#f1eded">
+	<div id="fondop2" class="fragment">
+<p class="fragment"><b>à rendre pour le 30 octobre</b></p>
+</div>
+													</section>
 </div>
 
 
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.js"></script>
 
-<script>
-    // Full list of configuration options available at:
-    // https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
 
-        transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-        // Optional reveal.js plugins
-        dependencies: [{
-                src: 'lib/js/classList.js',
-                condition: function () {
-                    return !document.body.classList;
-                }
-            },
-            {
-                src: 'plugin/markdown/marked.js',
-                condition: function () {
-                    return !!document.querySelector('[data-markdown]');
-                }
-            },
-            {
-                src: 'plugin/markdown/markdown.js',
-                condition: function () {
-                    return !!document.querySelector('[data-markdown]');
-                }
-            },
-            {
-                src: 'plugin/highlight/highlight.js',
-                async: true,
-                condition: function () {
-                    return !!document.querySelector('pre code');
-                },
-                callback: function () {
-                    hljs.initHighlightingOnLoad();
-                }
-            },
-            {
-                src: 'plugin/zoom-js/zoom.js',
-                async: true
-            },
-            {
-                src: 'plugin/notes/notes.js',
-                async: true
-            }
-        ]
-    });
+		</div>
 
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-    document.getElementsByTagName('head')[0].appendChild(link);
 
-    var slideIndex = 1;
-    showSlides(slideIndex);
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
+		<script>
 
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
 
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-            slideIndex = 1
-        }
-        if (n < 1) {
-            slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-    }
-</script>
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-</body>
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
 
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+		</script>
+
+	</body>
 </html>
-
-
