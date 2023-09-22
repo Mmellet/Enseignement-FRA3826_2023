@@ -259,7 +259,7 @@ L'Internet tel que nous le connaissons apparaît à la suite de la création de 
 
 Cette avancée sur la transmission des paquets depuis les travaux de Baran fait émerger une période d'essor des réseaux (ou *inter-networking*) avec la multiplication de réseaux informatiques : AlohaNet à l’Université d’Hawaii, PRNet (Packet Radio Net) réseau par radio, le Minitel français en 1978, Ethernet en 1980 etc.
 
-## De l'Arpa à l'Inter
+### De l'Arpa à l'Inter
 
 En 1983, après qu'Arpanet adopte finalement les deux protocoles de communication qui se sont imposés comme des standards, il est progressivement assimilé au réseau par défaut, jusqu'à être désigné par le terme au départ générique d'*Internet*. Parce qu'il permet d'interconnecter différentes machines mais aussi également différents réseaux, Arpanet/Internet s'impose comme le « réseau des réseaux ». L'explosion d'Arpanet le fait se scinder en deux branches : une branche militaire MILNET / et / une branche civile, universitaire et scientifique qui est connue comme l'Internet.
 
@@ -291,7 +291,7 @@ On distingue plusieurs générations de Web :
 {{< tab "Web 3.0" >}} Web sémantique ou Web des objets -- développement toujours en cours qui ne fait pas l'unanimité pour des questions autant philosophiques qu'éthiques. Le Web 3.0 développe cette idée d'un web personnalisé soit une page du Web 3.0 est créée automatiquement dans le but d'être adaptée à chaque utilisateur et à son environnement. Ainsi le Web 3.0 se créé au fur à mesure des utilisations.{{< /tab >}}
 {{< /tabs >}}
 
-#### Web alternatif
+### Web alternatif
 
 Dernier point à préciser sur le Web : sa dimension alternative et cachée. Selon le navigateur, selon les connexions, selon le profil d'utilisateur ou utilisatrice, nous n'avons pas accès tous et toutes aux mêmes informations : qu'il s'agisse de l'organisation et l'ordre des pages lorsque l'on effectue ou une requête ou même de la nature des réponses par le moteur de recherche, il y a une sélection qui a été faite. 
 
@@ -362,7 +362,7 @@ L'autre élément que l'on peut trouver qui vient sédimenter encore les catégo
 
 Le point qui n'est pas soulevé par l'article, auquel la postérité des études répondent, est celui de la pérennité des dénominations « édition électronique, numérique, en réseau ». Si l'article fonde son propos, sa structure et même une partie de sa rhétorique sur la distinction entre des noms et des formules (tout en admettant que les éditions se recoupent, se recouvrent), il ne parle que peu de ce qu'il advient au nom d'édition lorsque ses strates sont sédimentées. Élément qui n'est pas anodin pour un article dont justement l'édition souffre littéralement de petits problèmes de maintient (vous aurez remarqué que des « ? » remplacent les espaces insécables du texte, ce qui le rend bien interrogateur).
 
-## Une révolution numérique ?
+### Une révolution numérique ?
 
 Élément de conclusion pour la séance tout en l'articulant à l'article de Dacos et Mounier, la dimension « révolutionnaire » de l'édition numérique qu'il est intéressant d'interroger, tout comme il est important de dépasser nos sentiments de Terreur et de Sublime. Le terme de « révolution », employé à de multiples reprises dans l'article, est également un poncif du discours contemporain :
 
