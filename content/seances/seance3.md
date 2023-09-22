@@ -1,46 +1,17 @@
 --- 
 title: "Séance 3"
-date: 2024-09-24
+date: 2023-09-22
 ---
 
 
-# Séance du 24 septembre : Édition savante & Structuration des données
+## Séance 3 : Qu’est-ce que l’édition numérique ? (volet 2 : Architectures numériques)
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/FRA3826-2023/collections/RDDUMA4X)
+[Bibliographie liée](https://www.zotero.org/groups/5124082/fra3826-a2023/collections/LWFIA6G5)
 
-## Édition savante
+## Contenu à lire 
 
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Seance-3-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+- [Version Web](https://mmellet.github.io/Enseignement-FRA3826_2023/textes/seance3/)
 
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Seance-3-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
+ou
 
-## Éditorialisation
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Seance-3-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Seance-3-2.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-
-## Structuration des données
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Seance-3-3.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Seance-3-3.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-
-## Atelier 1 : Zotero
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Atelier-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Atelier-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
+- [Version PDF](https://mmellet.github.io/Enseignement-FRA3826_2023/doc/seance3.pdf)
