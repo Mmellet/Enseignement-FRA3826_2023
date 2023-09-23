@@ -43,7 +43,7 @@ Au-delà de leur différence d'usage, des différentes adresses sensorielles que
 
 {{< hint essai >}}
 
-*Exemple*: Pour représenter le temps et son défilement, une montre analogique indique l'heure à l'aide du déplacement des aiguilles sur un cadran. Ce qui veut dire que les aiguilles « font comme si » elles incarnaient le déplacement du temps, les rouages de l'horlogerie sont une analogie du mouvement du temps (si forte d'ailleurs que passées dans l'imaginaire).
+*Exemple*: Pour représenter le temps et son défilement, une montre analogique indique l'heure à l'aide du déplacement des aiguilles sur un cadran. Ce qui veut dire que les aiguilles « font comme si » elles incarnaient le déplacement du temps, les rouages de l'horlogerie sont une analogie du mouvement du temps (si forte d'ailleurs que passée dans l'imaginaire).
 
 {{< /hint >}}
 
@@ -97,7 +97,7 @@ Pour exemplifier cette idée, l'un des plus anciens mécanismes, appelé la Mach
 
 ![](https://mmellet.github.io/Enseignement-FRA3826_2023/images/mecanism.jpg)
 
-Machine étonnante datée d'avant antérieure à 87 av. J.-C dont seulement trois fragments ont été conservées, le mécanisme d'Anticythère est considéré, après un travail de reconstitution de sa globalité effectué par les archéologues, comme le premier calculateur analogique. Ce mécanisme devait permettre de calculer la positions des astres, de situer par exemple la lune, de prévoir les éclipses etc. Selon les hypothèses, il fonctionnait par un système d'engrenages et des principes mathématiques issus des travaux de Pythagore pour reproduire le rythme des phases lunaires et des périodes synodiques (temps que met une planète pour revenir à la configuration Terre-planète-Soleil). Si les prédictions du mécanisme d'Anticythère devaient en réalité s'avérer pour la plupart fausses (les calcules étaient fondés sur une logique géocentrique) et qu'il demeure un calculateur analogique, l'important est ici de comprendre que toute technologie se fonde sur un principe de modélisation.
+Machine étonnante datée d'avant 87 av. J.-C. et dont seulement trois fragments ont été conservés, le mécanisme d'Anticythère est considéré, après un travail de reconstitution de sa globalité effectué par les archéologues, comme le premier calculateur analogique. Ce mécanisme devait permettre de calculer la position des astres, de situer par exemple la lune, de prévoir les éclipses etc. Selon les hypothèses, il fonctionnait par un système d'engrenages et des principes mathématiques issus des travaux de Pythagore pour reproduire le rythme des phases lunaires et des périodes synodiques (temps que met une planète pour revenir à la configuration Terre-planète-Soleil). Si les prédictions du mécanisme d'Anticythère devaient en réalité s'avérer pour la plupart fausses (les calculs étaient fondés sur une logique géocentrique) et qu'il demeure un calculateur analogique, l'important est ici de comprendre que toute technologie se fonde sur un principe de modélisation.
 
 Toute représentation d'une donnée ou d'une réalité complexe se fonde sur un modèle : il y a donc eu modélisation avant implémentation. 
 
@@ -107,11 +107,11 @@ Toute représentation d'une donnée ou d'une réalité complexe se fonde sur un 
 
 {{< /hint >}}
 
-La modélisation est donc proposer un système pour représenter une réalité en y apposant des valeurs, des règles qui nous semblent définir cette réalité. Le modèle numérique qui est celui de nos machines se fonde sur un principe de binarité. 
+La modélisation, c'est donc proposer un système pour représenter une réalité en y apposant des valeurs, des règles qui nous semblent définir cette réalité. Le modèle numérique qui est celui de nos machines se fonde sur un principe de binarité. 
 
 ### Binarité
 
-Avant d'être une affaire de mathématicien ou d'informaticien, le numérique est d'abord du code binaire, ou *langage machine*, ou *code machine* (Kittler 2015). Dans les machines numériques, tous les types de médias sont codés de façon binaire. Comme une montre qui ne connaît par ce qu'est le temps, le programme ne connaît pas les images, les sons ou même les lettres… Ce qu'il sait faire en revanche c'est manipuler que des 0 et des 1 et il les manipule toujours avec les mêmes règles. Même si l'on distingue les médias au sein d'une machine, entre texte, image, son ou autre, les données demeurent identiques, elles sont constituées de nombres. 
+Avant d'être une affaire de mathématicien ou d'informaticien, le numérique est d'abord du code binaire, ou *langage machine*, ou *code machine* (Kittler 2015). Dans les machines numériques, tous les types de médias sont codés de façon binaire. Comme une montre qui ne connaît par ce qu'est le temps, le programme ne connaît pas les images, les sons ou même les lettres… Ce qu'il sait faire en revanche c'est manipuler des 0 et des 1, et ce, toujours avec les mêmes règles. Même si l'on distingue les médias au sein d'une machine, entre texte, image, son ou autre, les données demeurent identiques, elles sont constituées de nombres. 
 
 La différenciation des médias n'émane pas de leur encodage, la binarité reste la même pour tous, mais d'un traitement pour la lecture humaine produite par le *programme*. L'encodage des médias et de leurs contenus se fonde sur la modélisation en amont mais est aussi une histoire de langage. Le code binaire n'est pas prévu pour être écrit, édité ou même lu directement par l'humain : les langages de programmation en revanche fonctionnent comme des intermédiaires entre la machine et l'individu. 
 
@@ -121,7 +121,7 @@ La différenciation des médias n'émane pas de leur encodage, la binarité rest
 
 {{< /hint >}}
 
-Les langages de programmation, couche qui nous permet d'éditer le rapport à la machine, sont autant de médiation qui peuvent distancier l'humain de son outil de travail comme le déplore Kittler : 
+Les langages de programmation, couche qui nous permet d'éditer le rapport à la machine, sont autant de médiations qui peuvent distancier l'humain de son outil de travail comme le déplore Kittler : 
 
 > [...] les codes commencèrent à croître de manière anarchique. La surface en argent de la puce, à la fois modèle et champ principal d’application de toutes les optimisations topologiques, perd la transparence mathématique qui fut la sienne : elle devient une tour de Babel, dans laquelle les décombres des tours déjà démolies restent intégrés.
 
@@ -129,7 +129,7 @@ La multiplication des langages intermédiaires du modèle numérique signe pour 
 
 ### L'indexation 
 
-Le deuxième exemple qui permet d'inscrire le numérique au-delà d'un immanence technique et dans un temps pré-numérique est celui du *Mundaneum* de Paul Otlet et Henri La Fontaine. Le *Mundaneum* est un centre d'archives et fait se rejoindre deux projets importants qui sont conjoints : *L'Office international de bibliographie* (OIB) et *Le Répertoire bibliographique universel* (RBU) créés en 1895 par Otlet et La Fontaine. 
+Le deuxième exemple qui permet d'inscrire le numérique au-delà d'une immanence technique et dans un temps pré-numérique est celui du *Mundaneum* de Paul Otlet et Henri La Fontaine. Le *Mundaneum* est un centre d'archives et fait se rejoindre deux projets importants qui sont conjoints : *L'Office international de bibliographie* (OIB) et *Le Répertoire bibliographique universel* (RBU) créés en 1895 par Otlet et La Fontaine. 
 
 L'idée principales de ces architectures est celle de réunir et de classer l'ensemble de la connaissance humaine : l'OIB (qui deviendra un Institut) se fonde sur RBU qui rassemble depuis sa création 18 millions de fiches bibliographiques. 
 
@@ -160,7 +160,7 @@ Avec l'idée que l'édition est toujours une appréhension très concrète des c
 
 L'abstraction est à ce point importante et inscrite dans les disciplines en sciences humaines qu'elle en devient une tradition : les textes, l'écrit, la pensée, le fait littéraire sont des objets d'étude abordés largement hors de leur espace d'incarnation, ce qui est reconduit avec encore plus de force dans la culture numérique par un imaginaire filé de la liquidité : au point de devenir iconique (Brown 1989), la métaphore liquide définit l'ensemble du lexique numérique (navigateurs, ancres, *phishing* ou hameçonnage, pirate, *streaming* etc.). La considération du numérique plus proche de l'éther (*cloud* ou nuage) que d'un enracinement fait de l'environnement d'édition une infrastructure vide, flottante et impalpable mais surtout insaisissable (par la pensée) par défaut. 
 
-Si ce premier imaginaire éloigne déjà ce que peut être un geste éditorial d'une conscience technique de son impact et de son fonctionement, les théories *du sentiment* s'ajoutent encore au tableau. Soit technophobe, soit technophile, l'appréhension du support numérique par le sentiment mène à de la terreur (dans le premier cas) ou du sublime (dans le deuxième) tel que défini par Olivier Dyiens (Dyens 2019). 
+Si ce premier imaginaire éloigne déjà ce que peut être un geste éditorial d'une conscience technique de son impact et de son fonctionement, les théories *du sentiment* s'ajoutent encore au tableau. Soit technophobe, soit technophile, l'appréhension du support numérique par le sentiment mène à de la terreur (dans le premier cas) ou du sublime (dans le deuxième) tel que défini par Ollivier Dyens (Dyens 2019). 
 
 {{< hint essai >}}
 
@@ -168,9 +168,9 @@ Si ce premier imaginaire éloigne déjà ce que peut être un geste éditorial d
 
 {{< /hint >}}
 
-Face à AlphaGo, comme face à une machine qui marche, le sentiment humaine, nous dit Dyens, oscille entre une forme de crainte et une fascination, entre Terreur et Sublime. De ces deux émotions, Olivier Dyens en parle comme « la saveur fondamentale de notre réel [...] l'expérience quotidienne de la distance entre les mondes », entre les mondes c'est à dire entre ce que je crois être possible et ce que la machine m'impose lorsqu'elle me prouve le contraire. 
+Face à AlphaGo, comme face à une machine qui marche, le sentiment humain, nous dit Dyens, oscille entre une forme de crainte et une fascination, entre Terreur et Sublime. De ces deux émotions, Olivier Dyens en parle comme « la saveur fondamentale de notre réel [...] l'expérience quotidienne de la distance entre les mondes », entre les mondes c'est à dire entre ce que je crois être possible et ce que la machine m'impose lorsqu'elle me prouve le contraire. 
 
-La critique que l'on peut opposer à cette théorie du sentiment, même si elle a des intérêts évidents pour comprendre l'impact culturel des développements numériques et d'un bouleversement des frontières entre humain et non-humain, c'est que ni la Terreur ni le Sublime ne peuvent nous aider à comprendre comment AlphaGo génère des mouvements, comment une machine produit son propre déplacement, ou comment un programme quelconque établit une édition. Tout l'intérêt du modèle technique en amont de ces actions se trouve dans le brume de réactions qui, si elles demeurent légitimes, n'amènent pas vers la connaissance du lieu où s'opère une édition numérique. Terreur ou Sublime ramènent à l'idée d'une étrangeté radicale, ce qui coupe littéralement la compréhension : si les environnements numériques me paraissent étrangers à mes conceptions ou mes exceptions, ils ont cependant été pensés et prévus pour mon usage (donc ils me concernent) mais surtout de manière plus fondamentale, ils sont tels qu'ils sont parce que la culture du temps de leur émergence et développement est telle qu'elle est.  
+La critique que l'on peut opposer à cette théorie du sentiment, même si elle a des intérêts évidents pour comprendre l'impact culturel des développements numériques et d'un bouleversement des frontières entre humain et non-humain, c'est que ni la Terreur ni le Sublime ne peuvent nous aider à comprendre comment AlphaGo génère des mouvements, comment une machine produit son propre déplacement, ou comment un programme quelconque établit une édition. Tout l'intérêt du modèle technique en amont de ces actions se trouve dans la brume de réactions qui, si elles demeurent légitimes, n'amènent pas vers la connaissance du lieu où s'opère une édition numérique. Terreur ou Sublime ramènent à l'idée d'une étrangeté radicale, ce qui coupe littéralement la compréhension : si les environnements numériques me paraissent étrangers à mes conceptions ou mes exceptions, ils ont cependant été pensés et prévus pour mon usage (donc ils me concernent) mais surtout de manière plus fondamentale, ils sont tels qu'ils sont parce que la culture du temps de leur émergence et développement est telle qu'elle est.  
 
 La connaissance de l'impact de l'édition numérique ne peut donc être appréhendée s'il demeure une forme de sacralisation ou abstraction d'une pensée et de sa matière : pour comprendre comment un livre précis a été édité, il faut l'observer, parfois le démonter, le manipuler, le tester[^raison].
 
@@ -186,7 +186,7 @@ Il est évident que les matières utilisées dans un ordinateur ne vont pas sent
 
 L'usure est notamment un indicateur de la matérialité de l'environnement numérique d'écriture et d'édition : 
 
-> [...] la vitre des écrans se brisent, les écrans tactiles se graissent, les touches du clavier s'érodent (d'ailleurs on voit ainsi quelles sont les touches les plus utilisées), les boîtiers peuvent se fendrent, l'aération de la machine peine et c'est ce qui fait que des vieux ordinateurs font des bruits d'avion lorsqu'ils démarrent, etc. (Bonaccorsi, 2012)
+> [...] la vitre des écrans se brisent, les écrans tactiles se graissent, les touches du clavier s'érodent (d'ailleurs on voit ainsi quelles sont les touches les plus utilisées), les boîtiers peuvent se fendrent, l'aération de la machine peine et c'est ce qui fait que des vieux ordinateurs font des bruits d'avion lorsqu'ils démarrent, etc. (Bonaccorsi 2012)
 
 Cette usure est causée comme pour toute matière qui est un outil, par la série de manipulations, de gestes, de transports, et, de la même manière qu'une page écornée tourne toujours, donc fonctionne, un écran griffé affiche toujours. 
 
@@ -273,10 +273,10 @@ Internet est donc ce réseau permettant le transfert de données entre machines.
 
 ![Robert Cailliau](https://mmellet.github.io/Enseignement-FRA3826_2023/images/cailliau.jpg)
 
-Le Web c'est le premier serveur à utiliser le procole HTTP (*HyperText Transfer Protocol*) dévelopé par Tim Berners-Lee et Robert Caillau dans le cadre d'un projet du CERN (Suisse). L'objectif était de développer un protocole capable de gérer les hypertexte (ce qui était impossible avec les protocoles TCP/IP) dans la continuité du projet hypertexte. Appelé aussi la Toile, le web est la partie la plus visible d'Internet, c’est un service parmi d’autres d’Internet. Le Web renvoie en fait au système hypertexte public qui permet de naviguer de page en page en cliquant sur des liens grâce à un navigateur. Il correspond à l'ensemble des pages publiques reliées à l'aide d'hyperliens. Ce système de liaisons entre les pages est à la base du Web et fait graphiquement penser à une toile d'araignée (ou *web* en anglais). Le Web est donc une technologie qui a créé ses propres bases selon des enjeux scientifiques (et littéraires), son propre protocole, soit son propre langage, et qui est aujourd'hui est devenu un modèle du numérique notamment en s'articulant à deux autres standards : 
+Le Web c'est le premier serveur à utiliser le procole HTTP (*HyperText Transfer Protocol*) dévelopé par Tim Berners-Lee et Robert Caillau dans le cadre d'un projet du CERN (Suisse). L'objectif était de développer un protocole capable de gérer les hypertextes (ce qui était impossible avec les protocoles TCP/IP) dans la continuité du projet hypertexte. Appelé aussi la Toile, le web est la partie la plus visible d'Internet, c’est un service parmi d’autres d’Internet. Le Web renvoie en fait au système hypertexte public qui permet de naviguer de page en page en cliquant sur des liens grâce à un navigateur. Il correspond à l'ensemble des pages publiques reliées à l'aide d'hyperliens. Ce système de liaisons entre les pages est à la base du Web et fait graphiquement penser à une toile d'araignée (ou *Web* en anglais). Le Web est donc une technologie qui a créé ses propres bases selon des enjeux scientifiques (et littéraires), son propre protocole, soit son propre langage, et qui est aujourd'hui est devenu un modèle du numérique notamment en s'articulant à deux autres standards : 
 
 - l'URL pour pouvoir identifier toute ressource dans un hyperlien ;
-- le langage HTML pour écrire des pages web contenant des hyperliens.
+- le langage HTML pour écrire des pages Web contenant des hyperliens.
 
 À partir de 1994, le Web connaît une explosion en parallèle à l’apparition de NCSA Mosaic, un navigateur développé par Eric Bina et Marc Andreessen au *National Center for Supercomputing Applications* (NCSA), dans l’Illinois. Le navigateur Mosaic est le précuseur de nos navigateurs dans la mesure où il pose les bases de l'interface graphique de nos navigateurs modernes (intégration des images au texte). Le Web se développera par la suite dans d'autres navigateurs (Google, Firefox, Apache) et s'imposer comme standard. 
 
@@ -286,9 +286,9 @@ On distingue plusieurs générations de Web :
 
 
 {{< tabs "uniqueid" >}}
-{{< tab "Web 1.0" >}} un web statique soit qui est un web de lecture : il n'y a pas d'interaction possible avec le contenu hyperlien. {{< /tab >}}
-{{< tab "Web 2.0" >}} web qui n'est plus un web statique parce qu'il repose sur des systèmes architecturaux qui permettent une utilisation intelligente responsive et donc la participation des utilisateurs. Il est alors possible de créer le contenu d'une page et de l'éditer en temps réel. C'est ce que l'on appelle le Web social ou Web collaboratif. Ce principe, on le retrouve dans Wikipédia (que l'on verre plus en détail dans une séance prochaine), mais également dans d'autres plateformes comme Facebook ou Youtude. Les utilisateurs deviennent ainsi des créateurs de contenus et participent à l'élaboration de ce contenu.{{< /tab >}}
-{{< tab "Web 3.0" >}} Web sémantique ou Web des objets -- développement toujours en cours qui ne fait pas l'unanimité pour des questions autant philosophiques qu'éthiques. Le Web 3.0 développe cette idée d'un web personnalisé soit une page du Web 3.0 est créée automatiquement dans le but d'être adaptée à chaque utilisateur et à son environnement. Ainsi le Web 3.0 se créé au fur à mesure des utilisations.{{< /tab >}}
+{{< tab "Web 1.0" >}} un Web statique soit qui est un Web de lecture : il n'y a pas d'interaction possible avec le contenu hyperlien. {{< /tab >}}
+{{< tab "Web 2.0" >}} Web qui n'est plus un web statique parce qu'il repose sur des systèmes architecturaux qui permettent une utilisation intelligente responsive et donc la participation des utilisateurs. Il est alors possible de créer le contenu d'une page et de l'éditer en temps réel. C'est ce que l'on appelle le Web social ou Web collaboratif. Ce principe, on le retrouve dans Wikipédia (que l'on verre plus en détail dans une séance prochaine), mais également dans d'autres plateformes comme Facebook ou Youtude. Les utilisateurs deviennent ainsi des créateurs de contenus et participent à l'élaboration de ce contenu.{{< /tab >}}
+{{< tab "Web 3.0" >}} Web sémantique ou Web des objets -- développement toujours en cours qui ne fait pas l'unanimité pour des questions autant philosophiques qu'éthiques. Le Web 3.0 développe cette idée d'un Web personnalisé soit une page du Web 3.0 est créée automatiquement dans le but d'être adaptée à chaque utilisateur et à son environnement. Ainsi le Web 3.0 se créé au fur à mesure des utilisations.{{< /tab >}}
 {{< /tabs >}}
 
 ### Web alternatif
@@ -321,9 +321,10 @@ Et pourtant c'est un outil que nous (en tant que sciences humaines) connaissons 
 
 ## Édition électronique, numérique, en réseau
 
-Comme il y a eu l’invention de l’écriture, puis du codex, puis de l’imprimerie (inventions qui sont loin d'être uniques et exclusives au monde occidental), le XX<sup>e</sup> siècle a vu naître une nouvelle technique, qui bouleverse nos habitudes et nos modèles : il s’agit de l’informatique -- qui, avec l’émergence d’Internet puis du Web, a peu à peu évolué vers ce que l’on appelle l’ère numérique.
+Comme il y a eu l’invention de l’écriture, puis du *codex*, puis de l’imprimerie (inventions qui sont loin d'être uniques et exclusives au monde occidental), le XX<sup>e</sup> siècle a vu naître une nouvelle technique, qui bouleverse nos habitudes et nos modèles : il s’agit de l’informatique -- qui, avec l’émergence d’Internet puis du Web, a peu à peu évolué vers ce que l’on appelle l’ère numérique.
 
 Si on réfléchit à l'informatique, dans le cadre d'une histoire de l'édition et des technologies de l'édition, on est arrivé à une phase qui prolonge le projet de l'imprimé comme on a pu le voir dans la séance précédente, à savoir l'automatisation du processus de production des livres et de publication qui va impliquer : 
+
 - l'émergence de nouveaux formats pour la diffusion des textes ou d'autres contenus :
 - la diffusion très large et libre (investissement sur le Web) ;
 - la question de la légitimation des statuts d'auteur et d'éditeur (que l'on verra dans les séances suivantes).
@@ -337,7 +338,7 @@ Si la distinction entre édition électronique, numérique ou en réseau (on a �
 *Exposé*: Inscrivant leur réflexion dans l'actualité d'une angoisse de disparition dont on connaît désormais les ressorts platoniciens de la disparition d'une culture par un changement de pratiques et de supports d'inscription, et d'une crainte du remplacement de l'intermédiaire (qui n'est pas sans évoquer les craintes de Kittler vis-à-vis des programmes informatiques), Dacos et Mounier distinguent édition électronique, numérique et en réseau comme suit : 
 
 - l'édition électronique est un premier temps qui concerne la numérisation de textes appartenant auparavant à d'autres supports, des supports analogiques ;
-- l'édition numérique concerne les textes nativement numérique ;
+- l'édition numérique concerne les textes nativement numériques ;
 - l'édition en réseau désigne un dernier temps de l'édition électronique et représente l'ensemble des pratiques de communication au sein d'Internet (partage de document, écriture collective et collaborative).
 
 {{< /hint >}}
