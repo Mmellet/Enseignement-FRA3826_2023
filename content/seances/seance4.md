@@ -5,7 +5,7 @@ date: 2023-10-02
 
 # Séance du 02 octobre : Structuration et Sémantique
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/FRA3826-2023/collections/2I3B983R)
+[Bibliographie liée](https://www.zotero.org/groups/5124082/fra3826-a2023/collections/P3ZC37LD)
 
 ## Édition, Versions et Média
 
