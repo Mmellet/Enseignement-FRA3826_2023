@@ -1,46 +1,36 @@
 --- 
 title: "Séance 5"
-date: 2024-12-07
+date: 2023-10-22
 ---
 
-# Séance du 7 Février : Écriture Web
+# Séance du 23 octobre : Format et Science ouverte
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/FRA3826-2023/collections/XKHHTI2W)
+[Bibliographie liée](https://www.zotero.org/groups/5124082/fra3826-a2023/collections/EM5VS3KI)
 
-## Retour sur l'Atelier Stylo
+## Que dit-on par le format ?
 
-[Atelier Stylo](https://mmellet.github.io/FRA3826_2023/seances/seance4/#atelier-2--stylo)
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Atelier-2-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-5-0.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Atelier-2-2.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-5-0.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
+## Science ouverte
 
-## Web & Hypertextes
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Seance-5-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Seance-5-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-## Édition & Littérature hypertextuelle
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Seance-5-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-5-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Seance-5-2.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-5-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
 
-## Atelier 3 : HTML & CSS
+## Que devient le livre ? 
 
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Atelier-3.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-5-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Atelier-3.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-5-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
+
