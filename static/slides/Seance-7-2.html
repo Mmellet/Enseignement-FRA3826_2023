@@ -1,0 +1,483 @@
+<head>
+	<meta charset="utf-8">
+
+	<title>FRA3826- Théories de l'édition - A2023</title>
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+	<style>
+		* {
+			box-sizing: border-box
+		}
+
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
+
+		/* Hide the images by default */
+		.mySlides {
+			display: none;
+		}
+
+		/* Next & previous buttons */
+		.prev,
+		.next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			margin-top: -22px;
+			padding: 16px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+			right: 0;
+			border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+
+		/* Caption text */
+		.text {
+			color: #f2f2f2;
+			font-size: 15px;
+			padding: 8px 12px;
+			position: absolute;
+			bottom: 8px;
+			width: 100%;
+			text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
+			color: #f2f2f2;
+			font-size: 12px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 0;
+		}
+
+		/* The dots/bullets/indicators */
+		.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+		}
+
+		.active,
+		.dot:hover {
+			background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 1.5s;
+			animation-name: fade;
+			animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		@keyframes fade {
+			from {
+				opacity: .4
+			}
+
+			to {
+				opacity: 1
+			}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+
+			.prev,
+			.next,
+			.text {
+				font-size: 11px
+			}
+		}
+	</style>
+
+
+	<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="reveal">
+
+		<div class="slides">
+			<div class="footer">FRA3826|EDN6001 - Automne 2023 - Margot Mellet</div>
+
+			<section data-background-image="media/hyper.webp" data-background-size="1600px" background-color="#21211c">
+				<div id="fondop2" class="fragment">
+
+					<h2>FRA3826|EDN6001 : Théories de l'édition numérique</h2>
+
+				</div>
+			</section>
+
+			<section data-background-image="media/hyper.webp" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+					<h3>6 novembre : Séance 7</h3>
+					<h4>Édition savante et statut de l’éditeur</h4>
+				</div>
+			</section>
+
+
+			<section data-background-image="media/edition.jpg" data-background-size="1700px"
+				data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+					<h5>Édition savante numérique</h5>
+
+
+				</div>
+			</section>
+
+			</section>
+			<section data-background-image="media/debouy.jpg" data-background-size="1000px"
+				data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+					<h5>Une forme et un modèle en mutation</h5>
+
+					<p style="font-size: 30px;">
+						« Les avantages d’une édition numérique ne sont plus à démontrer : non seulement le texte
+						lui-même peut être enrichi de commentaires, de traductions multiples, d’annotations
+						grammaticales, métriques, etc. mais, grâce à l’encodage XML-TEI, le texte et son apparat peuvent
+						être transformés en une base de données complète consultable par le lecteur en fonction de ses
+						besoins. »
+						<small></br>(Debouy, <a href="https://journals.openedition.org/revuehn/2509">2021</a>)</small>
+					</p>
+				</div>
+			</section>
+
+			<section data-background-image="media/xml.png" data-background-size="1600px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+					<h5>eXtensible Markup Language</h5>
+
+
+					<ul>
+						<li>Vocabulaire et grammaire du balisage extensible</li>
+						<li>Validation de la structure du document à partir d'un schéma</li>
+					</ul>
+				</div>
+			</section>
+
+			<section data-background-image="media/tei.png" data-background-size="1300px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+					<h5>Text Encoding Initiative</h5>
+
+
+					<ul>
+						<li><i>The Poughkeepsie Principles</i> 1987</li>
+						<li>Initiative internationale pour la recommandations et documentations de bonnes pratiques
+							d'encodage</li>
+					</ul>
+
+				</div>
+			</section>
+
+			<section data-background-image="media/lou.jpg" data-background-size="1400px"
+				data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+
+					<p style="font-size: 30px;">
+						« La plupart de ces logiciels trouveront facilement pour vous, parmi des centaines de pages de
+						texte, toutes les occurrences de la chaîne de caractères Paris. Mais pour une recherche
+						intelligente – pour laquelle Paris, nom d’une ville du Texas, est distingué de celui de la
+						capitale française, ou du prénom d’une starlette américaine – il faut plus que cela. »
+						<small></br>(Burnard, <a href="https://books.openedition.org/oep/1297">2015</a>)</small>
+					</p>
+				</div>
+			</section>
+
+
+			<section data-background-image="media/lou.jpg" data-background-size="1400px"
+				data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+
+					<p style="font-size: 30px;">
+						« XML-TEI s'intéresse au sens du texte plutôt qu'à son apparence ».</br>
+						« XML-TEI est indépendant de tout environnement logiciel particulier ».</br>
+						« XML-TEI a été conçu par la communauté scientifique qui est aussi en charge de son
+						développement continu »<small></br>(Burnard, <a
+								href="https://books.openedition.org/oep/1297">2015</a>)</small>
+					</p>
+				</div>
+			</section>
+
+			<section data-background-image="media/alessi.jpeg" data-background-size="800px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+					<h5><a href="http://www.ekdosis.org/fr/">Ekdosis</a></h5>
+
+
+					<ul>
+						<li>Robert Alessi, 2020</li>
+						<li>Extension LateX pour la version print d'éditions critiques et la conversion vers des schémas XML-TEI</li>
+					</ul>
+
+				</div>
+			</section>
+
+
+
+			<section data-background-image="media/ebalzac.png" data-background-size="1600px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+					<h5>Étude de cas : <a href="https://ebalzac.com/">eBalzac</a> (2015-2019)</h5>
+
+
+					<ul>
+						<li>Andrea Del,  Lungo, Pierre Glaudes et Jean-Gabriel Ganascia</li>
+						<li>édition électronique, génétique, hypertextuelle</li>
+					</ul>
+
+				</div>
+			</section>
+
+			<section data-background-image="media/bouvard2.jpg" data-background-size="1300px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+					<h5>Étude de cas : <a href="https://www.dossiers-flaubert.fr/">Les dossiers Bouvard et Pécuchet</a> (2007-2023)</h5>
+
+
+					<ul>
+						<li>Stéphanie Dord-Croulé, Lyon, 2007</li>
+						<li>Édition des archives du second volume inachevé de <i>Bouvard et Pécuchet</i> de Flaubert</li>
+						<li>Numérisation/Indexation d'un patrimoine encyclopédique</li>
+					</ul>
+	</div>
+			</section>
+
+			<section data-background-image="media/bouvard.jpg" data-background-size="1300px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+					<h5>Édition des seconds volumes</h5>
+
+
+					<ul>
+						<li>Format pivot : XML-TEI</li>
+						<li>Outil et Documents pour réaliser sa propre écition savante</li>
+						<li>Communauté de pratiques</li>
+					</ul>
+	</div>
+			</section>
+
+
+			<section data-background-image="media/edition-critique.jpg" data-background-size="600px"
+				data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+
+					<p style="font-size: 30px;">
+						« [L]’édition critique numérique rend lisibles les strates successives sur lesquelles s’est constituée la philologie autant qu’elle met en évidence les différentes possibilités d’interprétation du texte : le travail d’édition est un parcours singulier entre des données très diverses parmi lesquelles des choix doivent être assumés. On peut alors l’appréhender avec tous ses enjeux intellectuels et dans son historicité. »
+						<small></br>(Auvray-Assayas et Roux, <a href="http://parcoursnumeriques-pum.ca/12-editionscritiques/chapitre5.html">2023</a>)</small>
+					</p>
+				</div>
+			</section>
+
+			<section data-background-image="media/edition.jpg" data-background-size="1600px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+					<h5>La problématique gestion des versions</h5>
+
+
+			</div>
+			</section>
+
+			<section data-background="media/git.png" data-background-size="1400px">
+				<div id="fondop2" class="fragment">
+
+					<h5>GIT</h5>
+
+
+					<ul>
+						<li>Gestionnaire de Versions & Parallèles de versions</li>
+						<li>Arborescence et Structuration des états d'écriture</li>
+						<li>Organisation et Documentation du travail collectif</li>
+					</ul>
+					<p>Pour apprendre git : <a href="https://girliemac.com/blog/2017/12/26/git-purr/">Git Purr</a> & <a
+							href="https://learngitbranching.js.org/">Exercices de bases</a></p>
+								</div>
+			</section>
+
+			<section data-background-image="media/git1.png" data-background-size="1600px" data-background-color="#fff">
+				<div id="fondop2" class="fragment">
+
+					<h5>Exemple : Les coulisses de la collection <i>Parcours numériques</i></h5>
+
+
+					<ul>
+						<li>Regroupement des sources (md, yml, bib) sur un répertoire GitLab</li>
+						<li>Espace de collaboration des tâches et expertises</li>
+						<li>Disponibilité du modèle éditorial pour créer sa propre publication (option clone)</li>
+					</ul>
+
+				</div>
+			</section>
+
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+
+
+	</div>
+
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// Full list of configuration options available at:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+
+			transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+			// Optional reveal.js plugins
+			dependencies: [{
+					src: 'lib/js/classList.js',
+					condition: function () {
+						return !document.body.classList;
+					}
+				},
+				{
+					src: 'plugin/markdown/marked.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/markdown/markdown.js',
+					condition: function () {
+						return !!document.querySelector('[data-markdown]');
+					}
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					condition: function () {
+						return !!document.querySelector('pre code');
+					},
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				},
+				{
+					src: 'plugin/zoom-js/zoom.js',
+					async: true
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				}
+			]
+		});
+
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+	</script>
+
+</body>
+
+</html>
+  
