@@ -43,6 +43,38 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 
 -------------------------
 -------------------------
+
+## Outils/environnements présentés 
+
+*en plus des langages comme TEI, HTML, XML, etc. ou des protocoles comme git*
+
+- [Zotero](https://www.zotero.org/) : gestionnaire de références bibliographiques
+- [Hypothesis](https://hypothes.is/) : outil d'annotation en ligne
+
+- les solutions [HumaNum](https://www.huma-num.fr/#)
+    - [Stylo](https://stylo.huma-num.fr/) : éditeur de texte pour sciences humaines
+    - [Nakala](https://nakala.fr/) : entrepôt de données de recherches pour les sciences humaines
+- les solutions [KnightLab](https://knightlab.northwestern.edu/)
+    - [Juxtapose](http://juxtapose.knightlab.com/) pour la comparaison d'images
+    - [Scene](https://scene.knightlab.com/) pour des récits immersifs
+    - [Soundcite](http://soundcite.knightlab.com/) pour la co-édition de sons et de textes
+    - [Storyline](http://storyline.knightlab.com/) pour les récits chrolonogiques
+    - [StoryMap](http://storymap.knightlab.com/) pour les récits cartographiés
+
+<iframe src="https://mmellet.github.io/FRA3826_2023/slides/StoryMap.html" title="description" height="500" width="800" ></iframe>
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/FRA3826_2023/slides/StoryMap.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
+- les solutions [FramaSoft](https://framasoft.org/fr/)
+    - [Framindmap](https://framindmap.org/) pour fabriquer des cartes mentales
+    - [Framapad](https://framapad.org/) pour l'écriture collaborative avec suivi de versions
+
+- les solutions [Coko](https://coko.foundation/products.html)
+
+
+
 <!--
 ### Commandes Terminal 
 
@@ -459,13 +491,6 @@ Afin de suivre en simultané le rendu de votre édition vous pouvez choisir la d
 ---------------------
 
 
-### StoryMap KnightLab 
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/StoryMap.html" title="description" height="500" width="800" ></iframe>
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/StoryMap.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
 
 **Bug de CAPTCHA** : si vous ne parvenez pas à ouvrir l'article pour l'annoter, lisez-le [ici](https://www.cairn.info/revue-les-cahiers-de-mediologie-1998-2-page-137.htm) en prenant en note vos commentaires, remarques, questions. 
 
