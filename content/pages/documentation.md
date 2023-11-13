@@ -61,12 +61,6 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
     - [Storyline](http://storyline.knightlab.com/) pour les récits chrolonogiques
     - [StoryMap](http://storymap.knightlab.com/) pour les récits cartographiés
 
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/StoryMap.html" title="description" height="500" width="800" ></iframe>
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/StoryMap.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
 - les solutions [FramaSoft](https://framasoft.org/fr/)
     - [Framindmap](https://framindmap.org/) pour fabriquer des cartes mentales
     - [Framapad](https://framapad.org/) pour l'écriture collaborative avec suivi de versions
