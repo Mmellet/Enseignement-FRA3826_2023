@@ -1,34 +1,36 @@
 --- 
 title: "Séance 8"
-date: 2024-12-07
+date: 2023-11-13
 ---
 
-# Séance du 7 Mars : Interface Machine
+# Séance du 13 novembre : Autorité, auteur et auto-édition
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/FRA3826-2023/collections/HEBI953Z)
+[Bibliographie liée](https://www.zotero.org/groups/5124082/fra3826-a2023/collections/YH3XYQ4E)
 
-## Bonnes Pratiques dans Github
+## Auteur, concept, statut et droit
 
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Github.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-8-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Github.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-8-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
-## Interface Machine
+## Redéfinitions de l'auteur
 
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Seance-8-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-8-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Seance-8-1.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-8-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
-## Atelier 6 : *Export à soi* avec Pandoc (partie 1)
 
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Atelier-6.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+## Auto-édition
+
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-8-3.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Atelier-6.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-8-3.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
