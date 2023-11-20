@@ -67,6 +67,11 @@ Cette page référence les documentations utiles au cours dont des vidéos expli
 
 - les solutions [Coko](https://coko.foundation/products.html)
 
+## Wiki 
+
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Wiki.html" target="blank">Vidéo de démonstration</iframe>
+
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Wiki.html">ouvrir dans le navigateur</a>
 
 
 <!--
