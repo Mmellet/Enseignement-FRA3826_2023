@@ -1,34 +1,36 @@
 --- 
 title: "Séance 9"
-date: 2024-09-14
+date: 2023-11-20
 ---
 
+# Séance du 20 novembre : Collaboration, communauté, humanisme
 
-# Séance du 14 Mars : Auto-édition & Auto-publication
+[Bibliographie liée](https://www.zotero.org/groups/5124082/fra3826-a2023/collections/ALHVJBYZ)
 
-[Bibliographie liée](https://www.zotero.org/groups/4823133/FRA3826-2023/collections/ETAWUS4E)
+## Éditorialisation
 
-## Auto-édition & Auto-publication
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Seance-9-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
-<div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Seance-9-1.html" target="_blank">ouvrir dans mon navigateur</a>
-</div>
-
-## Atelier 6 : *Export à soi* avec Pandoc (partie 2)
-
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Atelier-6-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
-
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-9-1.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Atelier-6-2.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-9-1.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
 
-## La Chaîne d'édition du Carnet
+## Les Communs
 
-<iframe src="https://mmellet.github.io/FRA3826_2023/slides/Carnet-chaine.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-9-2.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
 
 <div style="text-align:center">
-<a href="https://mmellet.github.io/FRA3826_2023/slides/Carnet-chaine.html" target="_blank">ouvrir dans mon navigateur</a>
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-9-2.html" target="_blank">ouvrir dans mon navigateur</a>
 </div>
+
+
+## Humanités et humanismes numériques
+
+<iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-9-3.html" title="description"  height="500" width="800" allowfullscreen="allowfullscreen"></iframe>
+
+
+<div style="text-align:center">
+<a href="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Seance-9-3.html" target="_blank">ouvrir dans mon navigateur</a>
+</div>
+
