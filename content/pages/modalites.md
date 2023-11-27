@@ -17,7 +17,7 @@ title: Modalités d'évaluation
 
 ### Travail final 
 
-*présentation lors des séance 7, 8 et 9*
+[Page Wikiversité](https://fr.wikiversity.org/wiki/FRA3826/EDN6001_-_Th%C3%A9ories_de_l%27%C3%A9dition_num%C3%A9rique#%C3%89tudiant.e.s_du_cours_et_titre_des_projets)
 
 <iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/Examen-final.html" title="description" height="500" width="800" ></iframe>
 
