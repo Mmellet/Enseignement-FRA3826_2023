@@ -1,5 +1,5 @@
 
-Bienvenue sur le site du cours **FRA3826|Pratiques de l'édition numérique**. 
+Bienvenue sur le site du cours **FRA3826|Théories de l'édition numérique**. 
 
 <iframe src="https://mmellet.github.io/Enseignement-FRA3826_2023/slides/theories.html" title="description"  height="200" width="100" allowfullscreen="allowfullscreen"></iframe>
 
